@@ -1,0 +1,231 @@
+clear
+add achy
+print
+level 0: achy(1)
+add tuna
+print
+level 0: achy(2)
+level 1: tuna(1)
+add term
+print
+level 0: term(2)
+level 1: achy(1) tuna(1)
+add bill
+print
+level 0: term(3)
+level 1: achy(2) tuna(1)
+level 2: bill(1)
+add card
+print
+level 0: term(3)
+level 1: bill(2) tuna(1)
+level 2: achy(1) card(1)
+add cost
+print
+level 0: card(3)
+level 1: bill(2) term(2)
+level 2: achy(1) cost(1) tuna(1)
+add crud
+print
+level 0: card(4)
+level 1: bill(2) term(3)
+level 2: achy(1) cost(2) tuna(1)
+level 3: crud(1)
+add fair
+print
+level 0: card(4)
+level 1: bill(2) term(3)
+level 2: achy(1) crud(2) tuna(1)
+level 3: cost(1) fair(1)
+add talk
+print
+level 0: card(4)
+level 1: bill(2) fair(3)
+level 2: achy(1) crud(2) term(2)
+level 3: cost(1) talk(1) tuna(1)
+add flop
+print
+level 0: fair(4)
+level 1: card(3) term(3)
+level 2: bill(2) crud(2) talk(2) tuna(1)
+level 3: achy(1) cost(1) flop(1)
+add jury
+print
+level 0: fair(4)
+level 1: card(3) term(3)
+level 2: bill(2) crud(2) jury(2) tuna(1)
+level 3: achy(1) cost(1) flop(1) talk(1)
+add stir
+print
+level 0: fair(4)
+level 1: card(3) talk(3)
+level 2: bill(2) crud(2) jury(2) term(2)
+level 3: achy(1) cost(1) flop(1) stir(1) tuna(1)
+add soar
+print
+level 0: fair(5)
+level 1: card(3) talk(4)
+level 2: bill(2) crud(2) jury(3) term(2)
+level 3: achy(1) cost(1) flop(1) stir(2) tuna(1)
+level 4: soar(1)
+add rent
+print
+level 0: fair(5)
+level 1: card(3) talk(4)
+level 2: bill(2) crud(2) jury(3) term(2)
+level 3: achy(1) cost(1) flop(1) soar(2) tuna(1)
+level 4: rent(1) stir(1)
+add knee
+print
+level 0: fair(5)
+level 1: card(3) talk(4)
+level 2: bill(2) crud(2) rent(3) term(2)
+level 3: achy(1) cost(1) jury(2) soar(2) tuna(1)
+level 4: flop(1) knee(1) stir(1)
+add rang
+print
+level 0: fair(5)
+level 1: card(3) rent(4)
+level 2: bill(2) crud(2) jury(3) talk(3)
+level 3: achy(1) cost(1) flop(1) knee(2) soar(2) term(2)
+level 4: rang(1) stir(1) tuna(1)
+add push
+print
+level 0: fair(5)
+level 1: card(3) rent(4)
+level 2: bill(2) crud(2) jury(3) talk(3)
+level 3: achy(1) cost(1) flop(1) push(2) soar(2) term(2)
+level 4: knee(1) rang(1) stir(1) tuna(1)
+add oust
+print
+level 0: fair(5)
+level 1: card(3) rent(4)
+level 2: bill(2) crud(2) knee(3) talk(3)
+level 3: achy(1) cost(1) jury(2) push(2) soar(2) term(2)
+level 4: flop(1) oust(1) rang(1) stir(1) tuna(1)
+add mono
+print
+level 0: knee(5)
+level 1: fair(4) rent(4)
+level 2: card(3) jury(2) push(3) talk(3)
+level 3: bill(2) crud(2) flop(1) oust(2) rang(1) soar(2) term(2)
+level 4: achy(1) cost(1) mono(1) stir(1) tuna(1)
+add mask
+print
+level 0: knee(5)
+level 1: fair(4) rent(4)
+level 2: card(3) jury(2) push(3) talk(3)
+level 3: bill(2) crud(2) flop(1) mono(2) rang(1) soar(2) term(2)
+level 4: achy(1) cost(1) mask(1) oust(1) stir(1) tuna(1)
+remove achy
+print
+level 0: knee(5)
+level 1: fair(4) rent(4)
+level 2: card(3) jury(2) push(3) talk(3)
+level 3: bill(1) crud(2) flop(1) mono(2) rang(1) soar(2) term(2)
+level 4: cost(1) mask(1) oust(1) stir(1) tuna(1)
+remove bill
+print
+level 0: knee(5)
+level 1: fair(3) rent(4)
+level 2: cost(2) jury(2) push(3) talk(3)
+level 3: card(1) crud(1) flop(1) mono(2) rang(1) soar(2) term(2)
+level 4: mask(1) oust(1) stir(1) tuna(1)
+remove tuna
+print
+level 0: knee(5)
+level 1: fair(3) rent(4)
+level 2: cost(2) jury(2) push(3) talk(3)
+level 3: card(1) crud(1) flop(1) mono(2) rang(1) soar(2) term(1)
+level 4: mask(1) oust(1) stir(1)
+remove term
+print
+level 0: knee(5)
+level 1: fair(3) rent(4)
+level 2: cost(2) jury(2) push(3) stir(2)
+level 3: card(1) crud(1) flop(1) mono(2) rang(1) soar(1) talk(1)
+level 4: mask(1) oust(1)
+remove card
+print
+level 0: knee(5)
+level 1: fair(3) rent(4)
+level 2: cost(2) jury(2) push(3) stir(2)
+level 3: crud(1) flop(1) mono(2) rang(1) soar(1) talk(1)
+level 4: mask(1) oust(1)
+remove talk
+print
+level 0: knee(5)
+level 1: fair(3) rent(4)
+level 2: cost(2) jury(2) push(3) stir(2)
+level 3: crud(1) flop(1) mono(2) rang(1) soar(1)
+level 4: mask(1) oust(1)
+remove stir
+print
+level 0: knee(4)
+level 1: fair(3) push(3)
+level 2: cost(2) jury(2) mono(2) rent(2)
+level 3: crud(1) flop(1) mask(1) oust(1) rang(1) soar(1)
+remove soar
+print
+level 0: knee(4)
+level 1: fair(3) push(3)
+level 2: cost(2) jury(2) mono(2) rent(2)
+level 3: crud(1) flop(1) mask(1) oust(1) rang(1)
+remove rent
+print
+level 0: knee(4)
+level 1: fair(3) push(3)
+level 2: cost(2) jury(2) mono(2) rang(1)
+level 3: crud(1) flop(1) mask(1) oust(1)
+remove rang
+print
+level 0: knee(4)
+level 1: fair(3) mono(3)
+level 2: cost(2) jury(2) mask(1) push(2)
+level 3: crud(1) flop(1) oust(1)
+remove cost
+print
+level 0: knee(4)
+level 1: fair(3) mono(3)
+level 2: crud(1) jury(2) mask(1) push(2)
+level 3: flop(1) oust(1)
+remove crud
+print
+level 0: knee(4)
+level 1: flop(2) mono(3)
+level 2: fair(1) jury(1) mask(1) push(2)
+level 3: oust(1)
+remove fair
+print
+level 0: knee(4)
+level 1: flop(2) mono(3)
+level 2: jury(1) mask(1) push(2)
+level 3: oust(1)
+remove push
+print
+level 0: knee(3)
+level 1: flop(2) mono(2)
+level 2: jury(1) mask(1) oust(1)
+remove flop
+print
+level 0: knee(3)
+level 1: jury(1) mono(2)
+level 2: mask(1) oust(1)
+remove jury
+print
+level 0: mono(3)
+level 1: knee(2) oust(1)
+level 2: mask(1)
+remove knee
+print
+level 0: mono(2)
+level 1: mask(1) oust(1)
+remove oust
+print
+level 0: mono(2)
+level 1: mask(1)
+remove mono
+print
+level 0: mask(1)
+remove mask
+print

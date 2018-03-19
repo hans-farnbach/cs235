@@ -1,0 +1,670 @@
+clear
+add achy
+print
+hash 0: achy
+add tuna
+print
+hash 0:
+hash 1: achy
+hash 2: tuna
+add term
+print
+hash 0:
+hash 1: achy
+hash 2: tuna term
+add bill
+print
+hash 0:
+hash 1:
+hash 2: achy
+hash 3:
+hash 4:
+hash 5: term bill
+hash 6: tuna
+add card
+print
+hash 0:
+hash 1:
+hash 2: achy
+hash 3:
+hash 4:
+hash 5: term bill card
+hash 6: tuna
+add cost
+print
+hash 0:
+hash 1:
+hash 2: achy
+hash 3: cost
+hash 4:
+hash 5: term bill card
+hash 6: tuna
+add crud
+print
+hash 0:
+hash 1:
+hash 2: achy
+hash 3: cost
+hash 4:
+hash 5: term bill card
+hash 6: tuna crud
+add fair
+print
+hash 0:
+hash 1: achy
+hash 2:
+hash 3:
+hash 4:
+hash 5: term card tuna
+hash 6: cost
+hash 7:
+hash 8:
+hash 9:
+hash 10: crud
+hash 11:
+hash 12:
+hash 13: fair
+hash 14: bill
+add talk
+print
+hash 0:
+hash 1: achy
+hash 2:
+hash 3:
+hash 4:
+hash 5: term card tuna
+hash 6: cost
+hash 7:
+hash 8: talk
+hash 9:
+hash 10: crud
+hash 11:
+hash 12:
+hash 13: fair
+hash 14: bill
+add flop
+print
+hash 0:
+hash 1: achy
+hash 2:
+hash 3:
+hash 4:
+hash 5: term card tuna
+hash 6: cost
+hash 7:
+hash 8: talk
+hash 9:
+hash 10: crud
+hash 11:
+hash 12:
+hash 13: fair flop
+hash 14: bill
+add jury
+print
+hash 0:
+hash 1: achy
+hash 2:
+hash 3:
+hash 4:
+hash 5: term card tuna
+hash 6: cost
+hash 7:
+hash 8: talk jury
+hash 9:
+hash 10: crud
+hash 11:
+hash 12:
+hash 13: fair flop
+hash 14: bill
+add stir
+print
+hash 0: stir
+hash 1: achy
+hash 2:
+hash 3:
+hash 4:
+hash 5: term card tuna
+hash 6: cost
+hash 7:
+hash 8: talk jury
+hash 9:
+hash 10: crud
+hash 11:
+hash 12:
+hash 13: fair flop
+hash 14: bill
+add soar
+print
+hash 0: stir
+hash 1: achy
+hash 2: soar
+hash 3:
+hash 4:
+hash 5: term card tuna
+hash 6: cost
+hash 7:
+hash 8: talk jury
+hash 9:
+hash 10: crud
+hash 11:
+hash 12:
+hash 13: fair flop
+hash 14: bill
+add rent
+print
+hash 0: stir
+hash 1: achy
+hash 2: soar
+hash 3:
+hash 4:
+hash 5: term card tuna
+hash 6: cost rent
+hash 7:
+hash 8: talk jury
+hash 9:
+hash 10: crud
+hash 11:
+hash 12:
+hash 13: fair flop
+hash 14: bill
+add knee
+print
+hash 0: stir
+hash 1: achy
+hash 2: soar
+hash 3:
+hash 4:
+hash 5: term card tuna
+hash 6: cost rent
+hash 7:
+hash 8: talk jury
+hash 9:
+hash 10: crud
+hash 11:
+hash 12:
+hash 13: fair flop
+hash 14: bill knee
+add rang
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4: tuna
+hash 5:
+hash 6:
+hash 7: card crud
+hash 8: knee
+hash 9:
+hash 10: rang
+hash 11:
+hash 12:
+hash 13:
+hash 14: talk
+hash 15: bill
+hash 16: term
+hash 17:
+hash 18:
+hash 19: flop
+hash 20:
+hash 21: stir soar fair
+hash 22:
+hash 23: cost rent
+hash 24:
+hash 25:
+hash 26:
+hash 27:
+hash 28: achy jury
+hash 29:
+hash 30:
+add push
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4: tuna
+hash 5:
+hash 6:
+hash 7: card crud
+hash 8: knee
+hash 9:
+hash 10: rang
+hash 11: push
+hash 12:
+hash 13:
+hash 14: talk
+hash 15: bill
+hash 16: term
+hash 17:
+hash 18:
+hash 19: flop
+hash 20:
+hash 21: stir soar fair
+hash 22:
+hash 23: cost rent
+hash 24:
+hash 25:
+hash 26:
+hash 27:
+hash 28: achy jury
+hash 29:
+hash 30:
+add oust
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4: tuna
+hash 5:
+hash 6:
+hash 7: card crud
+hash 8: knee
+hash 9:
+hash 10: rang
+hash 11: push
+hash 12:
+hash 13:
+hash 14: talk
+hash 15: bill
+hash 16: term
+hash 17:
+hash 18:
+hash 19: flop
+hash 20:
+hash 21: stir soar fair
+hash 22:
+hash 23: cost rent oust
+hash 24:
+hash 25:
+hash 26:
+hash 27:
+hash 28: achy jury
+hash 29:
+hash 30:
+add mono
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4: tuna
+hash 5:
+hash 6:
+hash 7: card crud
+hash 8: knee
+hash 9:
+hash 10: rang
+hash 11: push
+hash 12:
+hash 13:
+hash 14: talk
+hash 15: bill
+hash 16: term
+hash 17:
+hash 18: mono
+hash 19: flop
+hash 20:
+hash 21: stir soar fair
+hash 22:
+hash 23: cost rent oust
+hash 24:
+hash 25:
+hash 26:
+hash 27:
+hash 28: achy jury
+hash 29:
+hash 30:
+add mask
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4: tuna
+hash 5:
+hash 6:
+hash 7: card crud
+hash 8: knee
+hash 9:
+hash 10: rang
+hash 11: push
+hash 12:
+hash 13:
+hash 14: talk mask
+hash 15: bill
+hash 16: term
+hash 17:
+hash 18: mono
+hash 19: flop
+hash 20:
+hash 21: stir soar fair
+hash 22:
+hash 23: cost rent oust
+hash 24:
+hash 25:
+hash 26:
+hash 27:
+hash 28: achy jury
+hash 29:
+hash 30:
+remove achy
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4: tuna
+hash 5:
+hash 6:
+hash 7: card crud
+hash 8: knee
+hash 9:
+hash 10: rang
+hash 11: push
+hash 12:
+hash 13:
+hash 14: talk mask
+hash 15: bill
+hash 16: term
+hash 17:
+hash 18: mono
+hash 19: flop
+hash 20:
+hash 21: stir soar fair
+hash 22:
+hash 23: cost rent oust
+hash 24:
+hash 25:
+hash 26:
+hash 27:
+hash 28: jury
+hash 29:
+hash 30:
+remove bill
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4: tuna
+hash 5:
+hash 6:
+hash 7: card crud
+hash 8: knee
+hash 9:
+hash 10: rang
+hash 11: push
+hash 12:
+hash 13:
+hash 14: talk mask
+hash 15:
+hash 16: term
+hash 17:
+hash 18: mono
+hash 19: flop
+hash 20:
+hash 21: stir soar fair
+hash 22:
+hash 23: cost rent oust
+hash 24:
+hash 25:
+hash 26:
+hash 27:
+hash 28: jury
+hash 29:
+hash 30:
+remove tuna
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: card crud
+hash 8: knee
+hash 9:
+hash 10: rang
+hash 11: push
+hash 12:
+hash 13:
+hash 14: talk mask
+hash 15:
+hash 16: term
+hash 17:
+hash 18: mono
+hash 19: flop
+hash 20:
+hash 21: stir soar fair
+hash 22:
+hash 23: cost rent oust
+hash 24:
+hash 25:
+hash 26:
+hash 27:
+hash 28: jury
+hash 29:
+hash 30:
+remove term
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: card crud
+hash 8: knee
+hash 9:
+hash 10: rang
+hash 11: push
+hash 12:
+hash 13:
+hash 14: talk mask
+hash 15:
+hash 16:
+hash 17:
+hash 18: mono
+hash 19: flop
+hash 20:
+hash 21: stir soar fair
+hash 22:
+hash 23: cost rent oust
+hash 24:
+hash 25:
+hash 26:
+hash 27:
+hash 28: jury
+hash 29:
+hash 30:
+remove card
+print
+hash 0: stir
+hash 1:
+hash 2: soar
+hash 3:
+hash 4: rang
+hash 5:
+hash 6: mono cost rent
+hash 7:
+hash 8: talk mask jury
+hash 9: oust
+hash 10: crud
+hash 11:
+hash 12:
+hash 13: push flop fair
+hash 14: knee
+remove talk
+print
+hash 0: stir
+hash 1:
+hash 2: soar
+hash 3:
+hash 4: rang
+hash 5:
+hash 6: mono cost rent
+hash 7:
+hash 8: mask jury
+hash 9: oust
+hash 10: crud
+hash 11:
+hash 12:
+hash 13: push flop fair
+hash 14: knee
+remove stir
+print
+hash 0:
+hash 1:
+hash 2: soar
+hash 3:
+hash 4: rang
+hash 5:
+hash 6: mono cost rent
+hash 7:
+hash 8: mask jury
+hash 9: oust
+hash 10: crud
+hash 11:
+hash 12:
+hash 13: push flop fair
+hash 14: knee
+remove soar
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4: rang
+hash 5:
+hash 6: mono cost rent
+hash 7:
+hash 8: mask jury
+hash 9: oust
+hash 10: crud
+hash 11:
+hash 12:
+hash 13: push flop fair
+hash 14: knee
+remove rent
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4: rang
+hash 5:
+hash 6: mono cost
+hash 7:
+hash 8: mask jury
+hash 9: oust
+hash 10: crud
+hash 11:
+hash 12:
+hash 13: push flop fair
+hash 14: knee
+remove rang
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6: mono cost
+hash 7:
+hash 8: mask jury
+hash 9: oust
+hash 10: crud
+hash 11:
+hash 12:
+hash 13: push flop fair
+hash 14: knee
+remove cost
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6: mono
+hash 7:
+hash 8: mask jury
+hash 9: oust
+hash 10: crud
+hash 11:
+hash 12:
+hash 13: push flop fair
+hash 14: knee
+remove crud
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6: mono
+hash 7:
+hash 8: mask jury
+hash 9: oust
+hash 10:
+hash 11:
+hash 12:
+hash 13: push flop fair
+hash 14: knee
+remove fair
+print
+hash 0:
+hash 1: mono
+hash 2:
+hash 3: jury oust
+hash 4: push
+hash 5: mask
+hash 6: flop knee
+remove push
+print
+hash 0:
+hash 1: mono
+hash 2:
+hash 3: jury oust
+hash 4:
+hash 5: mask
+hash 6: flop knee
+remove flop
+print
+hash 0:
+hash 1: mono
+hash 2:
+hash 3: jury oust
+hash 4:
+hash 5: mask
+hash 6: knee
+remove jury
+print
+hash 0:
+hash 1: mono
+hash 2:
+hash 3: oust
+hash 4:
+hash 5: mask
+hash 6: knee
+remove knee
+print
+hash 0: mono oust
+hash 1:
+hash 2: mask
+remove oust
+print
+hash 0: mono
+hash 1:
+hash 2: mask
+remove mono
+print
+hash 0: mask
+remove mask
+print

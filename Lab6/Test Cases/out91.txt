@@ -1,0 +1,171 @@
+clear
+add mush
+print
+level 0: mush(1)
+find mush true
+find mush true
+add raid
+print
+level 0: mush(2)
+level 1: raid(1)
+add pact
+print
+level 0: pact(2)
+level 1: mush(1) raid(1)
+find pact true
+add yelp
+print
+level 0: pact(3)
+level 1: mush(1) raid(2)
+level 2: yelp(1)
+remove yelp
+print
+level 0: pact(2)
+level 1: mush(1) raid(1)
+add liar
+print
+level 0: pact(3)
+level 1: mush(2) raid(1)
+level 2: liar(1)
+remove pact
+print
+level 0: mush(2)
+level 1: liar(1) raid(1)
+find raid true
+remove liar
+print
+level 0: mush(2)
+level 1: raid(1)
+add wary
+print
+level 0: raid(2)
+level 1: mush(1) wary(1)
+remove wary
+print
+level 0: raid(2)
+level 1: mush(1)
+find mush true
+add lacy
+print
+level 0: mush(2)
+level 1: lacy(1) raid(1)
+remove mush
+print
+level 0: raid(2)
+level 1: lacy(1)
+add wise
+print
+level 0: raid(2)
+level 1: lacy(1) wise(1)
+add lite
+print
+level 0: raid(3)
+level 1: lacy(2) wise(1)
+level 2: lite(1)
+add fogy
+print
+level 0: raid(3)
+level 1: lacy(2) wise(1)
+level 2: fogy(1) lite(1)
+add raid
+print
+level 0: raid(3)
+level 1: lacy(2) wise(1)
+level 2: fogy(1) lite(1)
+add sort
+print
+level 0: raid(3)
+level 1: lacy(2) wise(2)
+level 2: fogy(1) lite(1) sort(1)
+add wisp
+print
+level 0: raid(3)
+level 1: lacy(2) wise(2)
+level 2: fogy(1) lite(1) sort(1) wisp(1)
+add glee
+print
+level 0: raid(4)
+level 1: lacy(3) wise(2)
+level 2: fogy(2) lite(1) sort(1) wisp(1)
+level 3: glee(1)
+add roll
+print
+level 0: raid(4)
+level 1: lacy(3) wise(3)
+level 2: fogy(2) lite(1) sort(2) wisp(1)
+level 3: glee(1) roll(1)
+add baby
+print
+level 0: raid(4)
+level 1: lacy(3) wise(3)
+level 2: fogy(2) lite(1) sort(2) wisp(1)
+level 3: baby(1) glee(1) roll(1)
+add brim
+print
+level 0: raid(4)
+level 1: fogy(3) wise(3)
+level 2: baby(2) lacy(2) sort(2) wisp(1)
+level 3: brim(1) glee(1) lite(1) roll(1)
+add also
+print
+level 0: raid(4)
+level 1: fogy(3) wise(3)
+level 2: baby(2) lacy(2) sort(2) wisp(1)
+level 3: also(1) brim(1) glee(1) lite(1) roll(1)
+find brim true
+find raid true
+find brim true
+remove lacy
+print
+level 0: raid(4)
+level 1: fogy(3) wise(3)
+level 2: baby(2) lite(2) sort(2) wisp(1)
+level 3: also(1) brim(1) glee(1) roll(1)
+remove sort
+print
+level 0: raid(4)
+level 1: fogy(3) wise(2)
+level 2: baby(2) lite(2) roll(1) wisp(1)
+level 3: also(1) brim(1) glee(1)
+add trim
+print
+level 0: raid(4)
+level 1: fogy(3) wise(3)
+level 2: baby(2) lite(2) roll(2) wisp(1)
+level 3: also(1) brim(1) glee(1) trim(1)
+remove fogy
+print
+level 0: raid(4)
+level 1: glee(3) wise(3)
+level 2: baby(2) lite(1) roll(2) wisp(1)
+level 3: also(1) brim(1) trim(1)
+add tofu
+print
+level 0: raid(4)
+level 1: glee(3) wise(3)
+level 2: baby(2) lite(1) tofu(2) wisp(1)
+level 3: also(1) brim(1) roll(1) trim(1)
+add hive
+print
+level 0: raid(4)
+level 1: glee(3) wise(3)
+level 2: baby(2) lite(2) tofu(2) wisp(1)
+level 3: also(1) brim(1) hive(1) roll(1) trim(1)
+remove baby
+print
+level 0: raid(4)
+level 1: glee(3) wise(3)
+level 2: brim(2) lite(2) tofu(2) wisp(1)
+level 3: also(1) hive(1) roll(1) trim(1)
+add noun
+print
+level 0: raid(4)
+level 1: glee(3) wise(3)
+level 2: brim(2) lite(2) tofu(2) wisp(1)
+level 3: also(1) hive(1) noun(1) roll(1) trim(1)
+add fail
+print
+level 0: raid(4)
+level 1: glee(3) wise(3)
+level 2: brim(2) lite(2) tofu(2) wisp(1)
+level 3: also(1) fail(1) hive(1) noun(1) roll(1) trim(1)

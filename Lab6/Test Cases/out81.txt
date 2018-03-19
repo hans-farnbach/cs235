@@ -1,0 +1,96 @@
+clear
+add bale
+print
+level 0: bale(1)
+add tuft
+print
+level 0: bale(2)
+level 1: tuft(1)
+add done
+print
+level 0: done(2)
+level 1: bale(1) tuft(1)
+add toga
+print
+level 0: done(3)
+level 1: bale(1) tuft(2)
+level 2: toga(1)
+add toad
+print
+level 0: done(3)
+level 1: bale(1) toga(2)
+level 2: toad(1) tuft(1)
+add slot
+print
+level 0: toad(3)
+level 1: done(2) toga(2)
+level 2: bale(1) slot(1) tuft(1)
+add road
+print
+level 0: toad(4)
+level 1: done(3) toga(2)
+level 2: bale(1) slot(2) tuft(1)
+level 3: road(1)
+add lush
+print
+level 0: toad(4)
+level 1: done(3) toga(2)
+level 2: bale(1) road(2) tuft(1)
+level 3: lush(1) slot(1)
+add gate
+print
+level 0: toad(4)
+level 1: lush(3) toga(2)
+level 2: done(2) road(2) tuft(1)
+level 3: bale(1) gate(1) slot(1)
+add feud
+print
+level 0: lush(4)
+level 1: done(3) toad(3)
+level 2: bale(1) gate(2) road(2) toga(2)
+level 3: feud(1) slot(1) tuft(1)
+remove tuft
+print
+level 0: lush(4)
+level 1: done(3) toad(3)
+level 2: bale(1) gate(2) road(2) toga(1)
+level 3: feud(1) slot(1)
+remove bale
+print
+level 0: lush(4)
+level 1: feud(2) toad(3)
+level 2: done(1) gate(1) road(2) toga(1)
+level 3: slot(1)
+remove toga
+print
+level 0: lush(3)
+level 1: feud(2) slot(2)
+level 2: done(1) gate(1) road(1) toad(1)
+remove toad
+print
+level 0: lush(3)
+level 1: feud(2) slot(2)
+level 2: done(1) gate(1) road(1)
+remove done
+print
+level 0: lush(3)
+level 1: feud(2) slot(2)
+level 2: gate(1) road(1)
+remove feud
+print
+level 0: lush(3)
+level 1: gate(1) slot(2)
+level 2: road(1)
+remove gate
+print
+level 0: road(2)
+level 1: lush(1) slot(1)
+remove slot
+print
+level 0: road(2)
+level 1: lush(1)
+remove lush
+print
+level 0: road(1)
+remove road
+print

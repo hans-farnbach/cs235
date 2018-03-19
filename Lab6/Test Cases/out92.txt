@@ -1,0 +1,442 @@
+clear
+print
+add edge
+print
+level 0: edge(1)
+remove edge
+print
+add sham
+print
+level 0: sham(1)
+remove sham
+print
+add stew
+print
+level 0: stew(1)
+find stew true
+find stew true
+find stew true
+find stew true
+add bird
+print
+level 0: stew(2)
+level 1: bird(1)
+add note
+print
+level 0: note(2)
+level 1: bird(1) stew(1)
+find bird true
+add raze
+print
+level 0: note(3)
+level 1: bird(1) stew(2)
+level 2: raze(1)
+add fret
+print
+level 0: note(3)
+level 1: bird(2) stew(2)
+level 2: fret(1) raze(1)
+add iron
+print
+level 0: note(3)
+level 1: fret(2) stew(2)
+level 2: bird(1) iron(1) raze(1)
+add pile
+print
+level 0: note(3)
+level 1: fret(2) raze(2)
+level 2: bird(1) iron(1) pile(1) stew(1)
+remove iron
+print
+level 0: note(3)
+level 1: fret(2) raze(2)
+level 2: bird(1) pile(1) stew(1)
+add stew
+print
+level 0: note(3)
+level 1: fret(2) raze(2)
+level 2: bird(1) pile(1) stew(1)
+add abet
+print
+level 0: note(3)
+level 1: bird(2) raze(2)
+level 2: abet(1) fret(1) pile(1) stew(1)
+remove bird
+print
+level 0: note(3)
+level 1: fret(2) raze(2)
+level 2: abet(1) pile(1) stew(1)
+find abet true
+remove raze
+print
+level 0: note(3)
+level 1: fret(2) stew(2)
+level 2: abet(1) pile(1)
+add vial
+print
+level 0: note(3)
+level 1: fret(2) stew(2)
+level 2: abet(1) pile(1) vial(1)
+find vial true
+add aide
+print
+level 0: note(3)
+level 1: aide(2) stew(2)
+level 2: abet(1) fret(1) pile(1) vial(1)
+add hiss
+print
+level 0: note(4)
+level 1: aide(3) stew(2)
+level 2: abet(1) fret(2) pile(1) vial(1)
+level 3: hiss(1)
+add deep
+print
+level 0: note(4)
+level 1: aide(3) stew(2)
+level 2: abet(1) fret(2) pile(1) vial(1)
+level 3: deep(1) hiss(1)
+add pall
+print
+level 0: note(4)
+level 1: aide(3) stew(3)
+level 2: abet(1) fret(2) pile(2) vial(1)
+level 3: deep(1) hiss(1) pall(1)
+add tend
+print
+level 0: note(4)
+level 1: aide(3) stew(3)
+level 2: abet(1) fret(2) pile(2) vial(2)
+level 3: deep(1) hiss(1) pall(1) tend(1)
+add funk
+print
+level 0: note(4)
+level 1: fret(3) stew(3)
+level 2: aide(2) hiss(2) pile(2) vial(2)
+level 3: abet(1) deep(1) funk(1) pall(1) tend(1)
+add duty
+print
+level 0: note(5)
+level 1: fret(4) stew(3)
+level 2: aide(3) hiss(2) pile(2) vial(2)
+level 3: abet(1) deep(2) funk(1) pall(1) tend(1)
+level 4: duty(1)
+add jerk
+print
+level 0: note(5)
+level 1: fret(4) stew(3)
+level 2: aide(3) hiss(2) pile(2) vial(2)
+level 3: abet(1) deep(2) funk(1) jerk(1) pall(1) tend(1)
+level 4: duty(1)
+remove fret
+print
+level 0: note(5)
+level 1: funk(4) stew(3)
+level 2: aide(3) hiss(2) pile(2) vial(2)
+level 3: abet(1) deep(2) jerk(1) pall(1) tend(1)
+level 4: duty(1)
+add till
+print
+level 0: note(5)
+level 1: funk(4) stew(3)
+level 2: aide(3) hiss(2) pile(2) till(2)
+level 3: abet(1) deep(2) jerk(1) pall(1) tend(1) vial(1)
+level 4: duty(1)
+remove stew
+print
+level 0: note(5)
+level 1: funk(4) tend(3)
+level 2: aide(3) hiss(2) pile(2) till(2)
+level 3: abet(1) deep(2) jerk(1) pall(1) vial(1)
+level 4: duty(1)
+add meow
+print
+level 0: note(5)
+level 1: funk(4) tend(3)
+level 2: aide(3) jerk(2) pile(2) till(2)
+level 3: abet(1) deep(2) hiss(1) meow(1) pall(1) vial(1)
+level 4: duty(1)
+find vial true
+add chef
+print
+level 0: note(5)
+level 1: funk(4) tend(3)
+level 2: aide(3) jerk(2) pile(2) till(2)
+level 3: abet(1) deep(2) hiss(1) meow(1) pall(1) vial(1)
+level 4: chef(1) duty(1)
+add numb
+print
+level 0: note(5)
+level 1: funk(4) tend(3)
+level 2: aide(3) jerk(2) pall(2) till(2)
+level 3: abet(1) deep(2) hiss(1) meow(1) numb(1) pile(1) vial(1)
+level 4: chef(1) duty(1)
+add back
+print
+level 0: note(5)
+level 1: funk(4) tend(3)
+level 2: chef(3) jerk(2) pall(2) till(2)
+level 3: aide(2) deep(2) hiss(1) meow(1) numb(1) pile(1) vial(1)
+level 4: abet(1) back(1) duty(1)
+add till
+print
+level 0: note(5)
+level 1: funk(4) tend(3)
+level 2: chef(3) jerk(2) pall(2) till(2)
+level 3: aide(2) deep(2) hiss(1) meow(1) numb(1) pile(1) vial(1)
+level 4: abet(1) back(1) duty(1)
+find hiss true
+add mull
+print
+level 0: note(5)
+level 1: funk(4) tend(3)
+level 2: chef(3) jerk(3) pall(2) till(2)
+level 3: aide(2) deep(2) hiss(1) meow(2) numb(1) pile(1) vial(1)
+level 4: abet(1) back(1) duty(1) mull(1)
+add herd
+print
+level 0: note(5)
+level 1: funk(4) tend(3)
+level 2: chef(3) jerk(3) pall(2) till(2)
+level 3: aide(2) deep(2) hiss(2) meow(2) numb(1) pile(1) vial(1)
+level 4: abet(1) back(1) duty(1) herd(1) mull(1)
+remove jerk
+print
+level 0: note(5)
+level 1: funk(4) tend(3)
+level 2: chef(3) meow(3) pall(2) till(2)
+level 3: aide(2) deep(2) hiss(2) mull(1) numb(1) pile(1) vial(1)
+level 4: abet(1) back(1) duty(1) herd(1)
+add ford
+print
+level 0: note(5)
+level 1: funk(4) tend(3)
+level 2: chef(3) meow(3) pall(2) till(2)
+level 3: aide(2) duty(2) hiss(2) mull(1) numb(1) pile(1) vial(1)
+level 4: abet(1) back(1) deep(1) ford(1) herd(1)
+add rest
+print
+level 0: note(5)
+level 1: funk(4) tend(4)
+level 2: chef(3) meow(3) pall(3) till(2)
+level 3: aide(2) duty(2) hiss(2) mull(1) numb(1) pile(2) vial(1)
+level 4: abet(1) back(1) deep(1) ford(1) herd(1) rest(1)
+find rest true
+add role
+print
+level 0: note(5)
+level 1: funk(4) tend(4)
+level 2: chef(3) meow(3) pall(3) till(2)
+level 3: aide(2) duty(2) hiss(2) mull(1) numb(1) rest(2) vial(1)
+level 4: abet(1) back(1) deep(1) ford(1) herd(1) pile(1) role(1)
+add sale
+print
+level 0: note(5)
+level 1: funk(4) tend(4)
+level 2: chef(3) meow(3) rest(3) till(2)
+level 3: aide(2) duty(2) hiss(2) mull(1) pall(2) role(2) vial(1)
+level 4: abet(1) back(1) deep(1) ford(1) herd(1) numb(1) pile(1) sale(1)
+add past
+print
+level 0: note(5)
+level 1: funk(4) rest(4)
+level 2: chef(3) meow(3) pall(3) tend(3)
+level 3: aide(2) duty(2) hiss(2) mull(1) numb(1) pile(2) role(2) till(2)
+level 4: abet(1) back(1) deep(1) ford(1) herd(1) past(1) sale(1) vial(1)
+add hole
+print
+level 0: note(5)
+level 1: funk(4) rest(4)
+level 2: chef(3) meow(3) pall(3) tend(3)
+level 3: aide(2) duty(2) hiss(2) mull(1) numb(1) pile(2) role(2) till(2)
+level 4: abet(1) back(1) deep(1) ford(1) herd(1) hole(1) past(1) sale(1)
+level 4: vial(1)
+find abet true
+add aria
+print
+level 0: note(6)
+level 1: funk(5) rest(4)
+level 2: chef(4) meow(3) pall(3) tend(3)
+level 3: aide(3) duty(2) hiss(2) mull(1) numb(1) pile(2) role(2) till(2)
+level 4: abet(1) back(2) deep(1) ford(1) herd(1) hole(1) past(1) sale(1)
+level 4: vial(1)
+level 5: aria(1)
+find hiss true
+remove deep
+print
+level 0: note(6)
+level 1: funk(5) rest(4)
+level 2: chef(4) meow(3) pall(3) tend(3)
+level 3: aide(3) duty(2) hiss(2) mull(1) numb(1) pile(2) role(2) till(2)
+level 4: abet(1) back(2) ford(1) herd(1) hole(1) past(1) sale(1) vial(1)
+level 5: aria(1)
+remove till
+print
+level 0: note(6)
+level 1: funk(5) rest(4)
+level 2: chef(4) meow(3) pall(3) tend(3)
+level 3: aide(3) duty(2) hiss(2) mull(1) numb(1) pile(2) role(2) vial(1)
+level 4: abet(1) back(2) ford(1) herd(1) hole(1) past(1) sale(1)
+level 5: aria(1)
+add clot
+print
+level 0: note(6)
+level 1: funk(5) rest(4)
+level 2: chef(4) meow(3) pall(3) tend(3)
+level 3: aide(3) duty(2) hiss(2) mull(1) numb(1) pile(2) role(2) vial(1)
+level 4: abet(1) back(2) clot(1) ford(1) herd(1) hole(1) past(1) sale(1)
+level 5: aria(1)
+find rest true
+add ford
+print
+level 0: note(6)
+level 1: funk(5) rest(4)
+level 2: chef(4) meow(3) pall(3) tend(3)
+level 3: aide(3) duty(2) hiss(2) mull(1) numb(1) pile(2) role(2) vial(1)
+level 4: abet(1) back(2) clot(1) ford(1) herd(1) hole(1) past(1) sale(1)
+level 5: aria(1)
+add anew
+print
+level 0: note(6)
+level 1: funk(5) rest(4)
+level 2: chef(4) meow(3) pall(3) tend(3)
+level 3: aide(3) duty(2) hiss(2) mull(1) numb(1) pile(2) role(2) vial(1)
+level 4: abet(1) aria(2) clot(1) ford(1) herd(1) hole(1) past(1) sale(1)
+level 5: anew(1) back(1)
+remove puny
+print
+level 0: note(6)
+level 1: funk(5) rest(4)
+level 2: chef(4) meow(3) pall(3) tend(3)
+level 3: aide(3) duty(2) hiss(2) mull(1) numb(1) pile(2) role(2) vial(1)
+level 4: abet(1) aria(2) clot(1) ford(1) herd(1) hole(1) past(1) sale(1)
+level 5: anew(1) back(1)
+add fill
+print
+level 0: note(6)
+level 1: funk(5) rest(4)
+level 2: chef(4) meow(3) pall(3) tend(3)
+level 3: aide(3) duty(3) hiss(2) mull(1) numb(1) pile(2) role(2) vial(1)
+level 4: abet(1) aria(2) clot(1) ford(2) herd(1) hole(1) past(1) sale(1)
+level 5: anew(1) back(1) fill(1)
+find numb true
+add quip
+print
+level 0: note(6)
+level 1: funk(5) rest(4)
+level 2: chef(4) meow(3) pall(3) tend(3)
+level 3: aide(3) duty(3) hiss(2) mull(1) numb(1) pile(2) role(2) vial(1)
+level 4: abet(1) aria(2) clot(1) ford(2) herd(1) hole(1) past(1) quip(1)
+level 4: sale(1)
+level 5: anew(1) back(1) fill(1)
+add hiss
+print
+level 0: note(6)
+level 1: funk(5) rest(4)
+level 2: chef(4) meow(3) pall(3) tend(3)
+level 3: aide(3) duty(3) hiss(2) mull(1) numb(1) pile(2) role(2) vial(1)
+level 4: abet(1) aria(2) clot(1) ford(2) herd(1) hole(1) past(1) quip(1)
+level 4: sale(1)
+level 5: anew(1) back(1) fill(1)
+remove fill
+print
+level 0: note(6)
+level 1: funk(5) rest(4)
+level 2: chef(4) meow(3) pall(3) tend(3)
+level 3: aide(3) duty(2) hiss(2) mull(1) numb(1) pile(2) role(2) vial(1)
+level 4: abet(1) aria(2) clot(1) ford(1) herd(1) hole(1) past(1) quip(1)
+level 4: sale(1)
+level 5: anew(1) back(1)
+add arms
+print
+level 0: note(6)
+level 1: funk(5) rest(4)
+level 2: chef(4) meow(3) pall(3) tend(3)
+level 3: aria(3) duty(2) hiss(2) mull(1) numb(1) pile(2) role(2) vial(1)
+level 4: aide(2) back(2) clot(1) ford(1) herd(1) hole(1) past(1) quip(1)
+level 4: sale(1)
+level 5: abet(1) anew(1) arms(1)
+remove clot
+print
+level 0: note(6)
+level 1: funk(5) rest(4)
+level 2: chef(4) meow(3) pall(3) tend(3)
+level 3: aria(3) duty(2) hiss(2) mull(1) numb(1) pile(2) role(2) vial(1)
+level 4: aide(2) back(2) ford(1) herd(1) hole(1) past(1) quip(1) sale(1)
+level 5: abet(1) anew(1) arms(1)
+add ford
+print
+level 0: note(6)
+level 1: funk(5) rest(4)
+level 2: chef(4) meow(3) pall(3) tend(3)
+level 3: aria(3) duty(2) hiss(2) mull(1) numb(1) pile(2) role(2) vial(1)
+level 4: aide(2) back(2) ford(1) herd(1) hole(1) past(1) quip(1) sale(1)
+level 5: abet(1) anew(1) arms(1)
+remove aria
+print
+level 0: note(6)
+level 1: funk(5) rest(4)
+level 2: chef(4) meow(3) pall(3) tend(3)
+level 3: arms(3) duty(2) hiss(2) mull(1) numb(1) pile(2) role(2) vial(1)
+level 4: aide(2) back(1) ford(1) herd(1) hole(1) past(1) quip(1) sale(1)
+level 5: abet(1) anew(1)
+find hole true
+find melt false
+remove rind
+print
+level 0: note(6)
+level 1: funk(5) rest(4)
+level 2: chef(4) meow(3) pall(3) tend(3)
+level 3: arms(3) duty(2) hiss(2) mull(1) numb(1) pile(2) role(2) vial(1)
+level 4: aide(2) back(1) ford(1) herd(1) hole(1) past(1) quip(1) sale(1)
+level 5: abet(1) anew(1)
+add silk
+print
+level 0: note(6)
+level 1: funk(5) rest(4)
+level 2: chef(4) meow(3) pall(3) tend(3)
+level 3: arms(3) duty(2) hiss(2) mull(1) numb(1) pile(2) sale(2) vial(1)
+level 4: aide(2) back(1) ford(1) herd(1) hole(1) past(1) quip(1) role(1)
+level 4: silk(1)
+level 5: abet(1) anew(1)
+remove arms
+print
+level 0: note(6)
+level 1: funk(5) rest(4)
+level 2: chef(4) meow(3) pall(3) tend(3)
+level 3: aide(3) duty(2) hiss(2) mull(1) numb(1) pile(2) sale(2) vial(1)
+level 4: abet(1) back(2) ford(1) herd(1) hole(1) past(1) quip(1) role(1)
+level 4: silk(1)
+level 5: anew(1)
+add prom
+print
+level 0: note(6)
+level 1: funk(5) rest(4)
+level 2: chef(4) meow(3) pile(3) tend(3)
+level 3: aide(3) duty(2) hiss(2) mull(1) pall(2) quip(2) sale(2) vial(1)
+level 4: abet(1) back(2) ford(1) herd(1) hole(1) numb(1) past(1) prom(1)
+level 4: role(1) silk(1)
+level 5: anew(1)
+remove ford
+print
+level 0: note(5)
+level 1: funk(4) rest(4)
+level 2: back(3) meow(3) pile(3) tend(3)
+level 3: aide(2) chef(2) hiss(2) mull(1) pall(2) quip(2) sale(2) vial(1)
+level 4: abet(1) anew(1) duty(1) herd(1) hole(1) numb(1) past(1) prom(1)
+level 4: role(1) silk(1)
+add this
+print
+level 0: note(5)
+level 1: funk(4) rest(4)
+level 2: back(3) meow(3) pile(3) tend(3)
+level 3: aide(2) chef(2) hiss(2) mull(1) pall(2) quip(2) sale(2) vial(2)
+level 4: abet(1) anew(1) duty(1) herd(1) hole(1) numb(1) past(1) prom(1)
+level 4: role(1) silk(1) this(1)
+add bump
+print
+level 0: note(5)
+level 1: funk(4) rest(4)
+level 2: back(3) meow(3) pile(3) tend(3)
+level 3: aide(2) chef(2) hiss(2) mull(1) pall(2) quip(2) sale(2) vial(2)
+level 4: abet(1) anew(1) bump(1) duty(1) herd(1) hole(1) numb(1) past(1)
+level 4: prom(1) role(1) silk(1) this(1)

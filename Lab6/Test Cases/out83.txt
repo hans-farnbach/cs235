@@ -1,0 +1,576 @@
+clear
+add avid
+print
+level 0: avid(1)
+add wrap
+print
+level 0: avid(2)
+level 1: wrap(1)
+add worm
+print
+level 0: worm(2)
+level 1: avid(1) wrap(1)
+add born
+print
+level 0: worm(3)
+level 1: avid(2) wrap(1)
+level 2: born(1)
+add burn
+print
+level 0: worm(3)
+level 1: born(2) wrap(1)
+level 2: avid(1) burn(1)
+add woof
+print
+level 0: burn(3)
+level 1: born(2) worm(2)
+level 2: avid(1) woof(1) wrap(1)
+add wood
+print
+level 0: burn(4)
+level 1: born(2) worm(3)
+level 2: avid(1) woof(2) wrap(1)
+level 3: wood(1)
+add upon
+print
+level 0: burn(4)
+level 1: born(2) worm(3)
+level 2: avid(1) wood(2) wrap(1)
+level 3: upon(1) woof(1)
+add calm
+print
+level 0: burn(4)
+level 1: born(2) wood(3)
+level 2: avid(1) upon(2) worm(2)
+level 3: calm(1) woof(1) wrap(1)
+add tile
+print
+level 0: burn(4)
+level 1: born(2) wood(3)
+level 2: avid(1) tile(2) worm(2)
+level 3: calm(1) upon(1) woof(1) wrap(1)
+add claw
+print
+level 0: tile(4)
+level 1: burn(3) wood(3)
+level 2: born(2) calm(2) upon(1) worm(2)
+level 3: avid(1) claw(1) woof(1) wrap(1)
+add that
+print
+level 0: tile(4)
+level 1: burn(3) wood(3)
+level 2: born(2) claw(2) upon(1) worm(2)
+level 3: avid(1) calm(1) that(1) woof(1) wrap(1)
+add slow
+print
+level 0: tile(5)
+level 1: burn(4) wood(3)
+level 2: born(2) claw(3) upon(1) worm(2)
+level 3: avid(1) calm(1) that(2) woof(1) wrap(1)
+level 4: slow(1)
+add cull
+print
+level 0: tile(5)
+level 1: burn(4) wood(3)
+level 2: born(2) claw(3) upon(1) worm(2)
+level 3: avid(1) calm(1) slow(2) woof(1) wrap(1)
+level 4: cull(1) that(1)
+add deep
+print
+level 0: tile(5)
+level 1: burn(4) wood(3)
+level 2: born(2) cull(3) upon(1) worm(2)
+level 3: avid(1) claw(2) slow(2) woof(1) wrap(1)
+level 4: calm(1) deep(1) that(1)
+add seek
+print
+level 0: tile(5)
+level 1: cull(4) wood(3)
+level 2: burn(3) slow(3) upon(1) worm(2)
+level 3: born(2) claw(2) deep(2) that(1) woof(1) wrap(1)
+level 4: avid(1) calm(1) seek(1)
+add roar
+print
+level 0: tile(5)
+level 1: cull(4) wood(3)
+level 2: burn(3) slow(3) upon(1) worm(2)
+level 3: born(2) claw(2) roar(2) that(1) woof(1) wrap(1)
+level 4: avid(1) calm(1) deep(1) seek(1)
+add rink
+print
+level 0: tile(5)
+level 1: cull(4) wood(3)
+level 2: burn(3) roar(3) upon(1) worm(2)
+level 3: born(2) claw(2) deep(2) slow(2) woof(1) wrap(1)
+level 4: avid(1) calm(1) rink(1) seek(1) that(1)
+add pack
+print
+level 0: tile(5)
+level 1: cull(4) wood(3)
+level 2: burn(3) roar(3) upon(1) worm(2)
+level 3: born(2) claw(2) pack(2) slow(2) woof(1) wrap(1)
+level 4: avid(1) calm(1) deep(1) rink(1) seek(1) that(1)
+add drop
+print
+level 0: roar(5)
+level 1: cull(4) tile(4)
+level 2: burn(3) pack(3) slow(2) wood(3)
+level 3: born(2) claw(2) deep(2) rink(1) seek(1) that(1) upon(1) worm(2)
+level 4: avid(1) calm(1) drop(1) woof(1) wrap(1)
+add edgy
+print
+level 0: roar(5)
+level 1: cull(4) tile(4)
+level 2: burn(3) pack(3) slow(2) wood(3)
+level 3: born(2) claw(2) drop(2) rink(1) seek(1) that(1) upon(1) worm(2)
+level 4: avid(1) calm(1) deep(1) edgy(1) woof(1) wrap(1)
+add nine
+print
+level 0: roar(5)
+level 1: cull(4) tile(4)
+level 2: burn(3) edgy(3) slow(2) wood(3)
+level 3: born(2) claw(2) drop(2) pack(2) seek(1) that(1) upon(1) worm(2)
+level 4: avid(1) calm(1) deep(1) nine(1) rink(1) woof(1) wrap(1)
+add muss
+print
+level 0: roar(6)
+level 1: cull(5) tile(4)
+level 2: burn(3) edgy(4) slow(2) wood(3)
+level 3: born(2) claw(2) drop(2) pack(3) seek(1) that(1) upon(1) worm(2)
+level 4: avid(1) calm(1) deep(1) nine(2) rink(1) woof(1) wrap(1)
+level 5: muss(1)
+add meow
+print
+level 0: roar(6)
+level 1: cull(5) tile(4)
+level 2: burn(3) edgy(4) slow(2) wood(3)
+level 3: born(2) claw(2) drop(2) pack(3) seek(1) that(1) upon(1) worm(2)
+level 4: avid(1) calm(1) deep(1) muss(2) rink(1) woof(1) wrap(1)
+level 5: meow(1) nine(1)
+add fame
+print
+level 0: roar(6)
+level 1: cull(5) tile(4)
+level 2: burn(3) edgy(4) slow(2) wood(3)
+level 3: born(2) claw(2) drop(2) muss(3) seek(1) that(1) upon(1) worm(2)
+level 4: avid(1) calm(1) deep(1) meow(2) pack(2) woof(1) wrap(1)
+level 5: fame(1) nine(1) rink(1)
+add fled
+print
+level 0: roar(6)
+level 1: cull(5) tile(4)
+level 2: burn(3) edgy(4) slow(2) wood(3)
+level 3: born(2) claw(2) drop(2) muss(3) seek(1) that(1) upon(1) worm(2)
+level 4: avid(1) calm(1) deep(1) fled(2) pack(2) woof(1) wrap(1)
+level 5: fame(1) meow(1) nine(1) rink(1)
+add math
+print
+level 0: roar(6)
+level 1: cull(5) tile(4)
+level 2: burn(3) fled(4) slow(2) wood(3)
+level 3: born(2) claw(2) edgy(3) muss(3) seek(1) that(1) upon(1) worm(2)
+level 4: avid(1) calm(1) drop(2) fame(1) meow(2) pack(2) woof(1) wrap(1)
+level 5: deep(1) math(1) nine(1) rink(1)
+add mane
+print
+level 0: roar(6)
+level 1: cull(5) tile(4)
+level 2: burn(3) fled(4) slow(2) wood(3)
+level 3: born(2) claw(2) edgy(3) muss(3) seek(1) that(1) upon(1) worm(2)
+level 4: avid(1) calm(1) drop(2) fame(1) math(2) pack(2) woof(1) wrap(1)
+level 5: deep(1) mane(1) meow(1) nine(1) rink(1)
+add lull
+print
+level 0: roar(6)
+level 1: fled(5) tile(4)
+level 2: cull(4) muss(4) slow(2) wood(3)
+level 3: burn(3) edgy(3) math(3) pack(2) seek(1) that(1) upon(1) worm(2)
+level 4: born(2) claw(2) drop(2) fame(1) mane(2) meow(1) nine(1) rink(1)
+level 4: woof(1) wrap(1)
+level 5: avid(1) calm(1) deep(1) lull(1)
+add fold
+print
+level 0: roar(6)
+level 1: fled(5) tile(4)
+level 2: cull(4) muss(4) slow(2) wood(3)
+level 3: burn(3) edgy(3) math(3) pack(2) seek(1) that(1) upon(1) worm(2)
+level 4: born(2) claw(2) drop(2) fame(1) lull(2) meow(1) nine(1) rink(1)
+level 4: woof(1) wrap(1)
+level 5: avid(1) calm(1) deep(1) fold(1) mane(1)
+add lent
+print
+level 0: roar(6)
+level 1: fled(5) tile(4)
+level 2: cull(4) muss(4) slow(2) wood(3)
+level 3: burn(3) edgy(3) lull(3) pack(2) seek(1) that(1) upon(1) worm(2)
+level 4: born(2) claw(2) drop(2) fame(1) fold(2) math(2) nine(1) rink(1)
+level 4: woof(1) wrap(1)
+level 5: avid(1) calm(1) deep(1) lent(1) mane(1) meow(1)
+add food
+print
+level 0: roar(6)
+level 1: fled(5) tile(4)
+level 2: cull(4) muss(4) slow(2) wood(3)
+level 3: burn(3) edgy(3) lull(3) pack(2) seek(1) that(1) upon(1) worm(2)
+level 4: born(2) claw(2) drop(2) fame(1) food(2) math(2) nine(1) rink(1)
+level 4: woof(1) wrap(1)
+level 5: avid(1) calm(1) deep(1) fold(1) lent(1) mane(1) meow(1)
+add kite
+print
+level 0: roar(6)
+level 1: fled(5) tile(4)
+level 2: cull(4) lull(4) slow(2) wood(3)
+level 3: burn(3) edgy(3) food(3) muss(3) seek(1) that(1) upon(1) worm(2)
+level 4: born(2) claw(2) drop(2) fame(1) fold(1) lent(2) math(2) pack(2)
+level 4: woof(1) wrap(1)
+level 5: avid(1) calm(1) deep(1) kite(1) mane(1) meow(1) nine(1) rink(1)
+add gait
+print
+level 0: roar(6)
+level 1: fled(5) tile(4)
+level 2: cull(4) lull(4) slow(2) wood(3)
+level 3: burn(3) edgy(3) food(3) muss(3) seek(1) that(1) upon(1) worm(2)
+level 4: born(2) claw(2) drop(2) fame(1) fold(1) kite(2) math(2) pack(2)
+level 4: woof(1) wrap(1)
+level 5: avid(1) calm(1) deep(1) gait(1) lent(1) mane(1) meow(1) nine(1)
+level 5: rink(1)
+add gash
+print
+level 0: roar(6)
+level 1: fled(5) tile(4)
+level 2: cull(4) lull(4) slow(2) wood(3)
+level 3: burn(3) edgy(3) gait(3) muss(3) seek(1) that(1) upon(1) worm(2)
+level 4: born(2) claw(2) drop(2) fame(1) food(2) kite(2) math(2) pack(2)
+level 4: woof(1) wrap(1)
+level 5: avid(1) calm(1) deep(1) fold(1) gash(1) lent(1) mane(1) meow(1)
+level 5: nine(1) rink(1)
+add kind
+print
+level 0: lull(6)
+level 1: fled(5) roar(5)
+level 2: cull(4) gait(4) muss(3) tile(4)
+level 3: burn(3) edgy(3) food(2) kite(3) math(2) pack(2) slow(2) wood(3)
+level 4: born(2) claw(2) drop(2) fame(1) fold(1) gash(2) lent(1) mane(1)
+level 4: meow(1) nine(1) rink(1) seek(1) that(1) upon(1) worm(2)
+level 5: avid(1) calm(1) deep(1) kind(1) woof(1) wrap(1)
+add jolt
+print
+level 0: lull(6)
+level 1: fled(5) roar(5)
+level 2: cull(4) gait(4) muss(3) tile(4)
+level 3: burn(3) edgy(3) food(2) kite(3) math(2) pack(2) slow(2) wood(3)
+level 4: born(2) claw(2) drop(2) fame(1) fold(1) jolt(2) lent(1) mane(1)
+level 4: meow(1) nine(1) rink(1) seek(1) that(1) upon(1) worm(2)
+level 5: avid(1) calm(1) deep(1) gash(1) kind(1) woof(1) wrap(1)
+add goon
+print
+level 0: lull(6)
+level 1: fled(5) roar(5)
+level 2: cull(4) gait(4) muss(3) tile(4)
+level 3: burn(3) edgy(3) food(2) jolt(3) math(2) pack(2) slow(2) wood(3)
+level 4: born(2) claw(2) drop(2) fame(1) fold(1) gash(2) kite(2) mane(1)
+level 4: meow(1) nine(1) rink(1) seek(1) that(1) upon(1) worm(2)
+level 5: avid(1) calm(1) deep(1) goon(1) kind(1) lent(1) woof(1) wrap(1)
+add gulf
+print
+level 0: lull(6)
+level 1: fled(5) roar(5)
+level 2: cull(4) gait(4) muss(3) tile(4)
+level 3: burn(3) edgy(3) food(2) jolt(3) math(2) pack(2) slow(2) wood(3)
+level 4: born(2) claw(2) drop(2) fame(1) fold(1) goon(2) kite(2) mane(1)
+level 4: meow(1) nine(1) rink(1) seek(1) that(1) upon(1) worm(2)
+level 5: avid(1) calm(1) deep(1) gash(1) gulf(1) kind(1) lent(1) woof(1)
+level 5: wrap(1)
+add gull
+print
+level 0: lull(6)
+level 1: fled(5) roar(5)
+level 2: cull(4) goon(4) muss(3) tile(4)
+level 3: burn(3) edgy(3) gait(3) jolt(3) math(2) pack(2) slow(2) wood(3)
+level 4: born(2) claw(2) drop(2) fame(1) food(2) gash(1) gulf(2) kite(2)
+level 4: mane(1) meow(1) nine(1) rink(1) seek(1) that(1) upon(1) worm(2)
+level 5: avid(1) calm(1) deep(1) fold(1) gull(1) kind(1) lent(1) woof(1)
+level 5: wrap(1)
+remove avid
+print
+level 0: lull(6)
+level 1: fled(5) roar(5)
+level 2: cull(4) goon(4) muss(3) tile(4)
+level 3: burn(3) edgy(3) gait(3) jolt(3) math(2) pack(2) slow(2) wood(3)
+level 4: born(1) claw(2) drop(2) fame(1) food(2) gash(1) gulf(2) kite(2)
+level 4: mane(1) meow(1) nine(1) rink(1) seek(1) that(1) upon(1) worm(2)
+level 5: calm(1) deep(1) fold(1) gull(1) kind(1) lent(1) woof(1) wrap(1)
+remove born
+print
+level 0: lull(6)
+level 1: fled(5) roar(5)
+level 2: cull(4) goon(4) muss(3) tile(4)
+level 3: calm(2) edgy(3) gait(3) jolt(3) math(2) pack(2) slow(2) wood(3)
+level 4: burn(1) claw(1) drop(2) fame(1) food(2) gash(1) gulf(2) kite(2)
+level 4: mane(1) meow(1) nine(1) rink(1) seek(1) that(1) upon(1) worm(2)
+level 5: deep(1) fold(1) gull(1) kind(1) lent(1) woof(1) wrap(1)
+remove burn
+print
+level 0: lull(6)
+level 1: fled(5) roar(5)
+level 2: cull(4) goon(4) muss(3) tile(4)
+level 3: calm(2) edgy(3) gait(3) jolt(3) math(2) pack(2) slow(2) wood(3)
+level 4: claw(1) drop(2) fame(1) food(2) gash(1) gulf(2) kite(2) mane(1)
+level 4: meow(1) nine(1) rink(1) seek(1) that(1) upon(1) worm(2)
+level 5: deep(1) fold(1) gull(1) kind(1) lent(1) woof(1) wrap(1)
+remove wrap
+print
+level 0: lull(6)
+level 1: fled(5) roar(5)
+level 2: cull(4) goon(4) muss(3) tile(4)
+level 3: calm(2) edgy(3) gait(3) jolt(3) math(2) pack(2) slow(2) wood(3)
+level 4: claw(1) drop(2) fame(1) food(2) gash(1) gulf(2) kite(2) mane(1)
+level 4: meow(1) nine(1) rink(1) seek(1) that(1) upon(1) worm(2)
+level 5: deep(1) fold(1) gull(1) kind(1) lent(1) woof(1)
+remove calm
+print
+level 0: lull(6)
+level 1: fled(5) roar(5)
+level 2: drop(3) goon(4) muss(3) tile(4)
+level 3: cull(2) edgy(2) gait(3) jolt(3) math(2) pack(2) slow(2) wood(3)
+level 4: claw(1) deep(1) fame(1) food(2) gash(1) gulf(2) kite(2) mane(1)
+level 4: meow(1) nine(1) rink(1) seek(1) that(1) upon(1) worm(2)
+level 5: fold(1) gull(1) kind(1) lent(1) woof(1)
+remove worm
+print
+level 0: lull(6)
+level 1: fled(5) roar(4)
+level 2: drop(3) goon(4) muss(3) tile(3)
+level 3: cull(2) edgy(2) gait(3) jolt(3) math(2) pack(2) slow(2) wood(2)
+level 4: claw(1) deep(1) fame(1) food(2) gash(1) gulf(2) kite(2) mane(1)
+level 4: meow(1) nine(1) rink(1) seek(1) that(1) upon(1) woof(1)
+level 5: fold(1) gull(1) kind(1) lent(1)
+remove woof
+print
+level 0: lull(6)
+level 1: fled(5) roar(4)
+level 2: drop(3) goon(4) muss(3) tile(3)
+level 3: cull(2) edgy(2) gait(3) jolt(3) math(2) pack(2) slow(2) wood(2)
+level 4: claw(1) deep(1) fame(1) food(2) gash(1) gulf(2) kite(2) mane(1)
+level 4: meow(1) nine(1) rink(1) seek(1) that(1) upon(1)
+level 5: fold(1) gull(1) kind(1) lent(1)
+remove wood
+print
+level 0: lull(6)
+level 1: fled(5) roar(4)
+level 2: drop(3) goon(4) muss(3) tile(3)
+level 3: cull(2) edgy(2) gait(3) jolt(3) math(2) pack(2) slow(2) upon(1)
+level 4: claw(1) deep(1) fame(1) food(2) gash(1) gulf(2) kite(2) mane(1)
+level 4: meow(1) nine(1) rink(1) seek(1) that(1)
+level 5: fold(1) gull(1) kind(1) lent(1)
+remove claw
+print
+level 0: lull(6)
+level 1: fled(5) roar(4)
+level 2: drop(3) goon(4) muss(3) tile(3)
+level 3: cull(2) edgy(2) gait(3) jolt(3) math(2) pack(2) slow(2) upon(1)
+level 4: deep(1) fame(1) food(2) gash(1) gulf(2) kite(2) mane(1) meow(1)
+level 4: nine(1) rink(1) seek(1) that(1)
+level 5: fold(1) gull(1) kind(1) lent(1)
+remove cull
+print
+level 0: lull(6)
+level 1: fled(5) roar(4)
+level 2: drop(3) goon(4) muss(3) tile(3)
+level 3: deep(1) edgy(2) gait(3) jolt(3) math(2) pack(2) slow(2) upon(1)
+level 4: fame(1) food(2) gash(1) gulf(2) kite(2) mane(1) meow(1) nine(1)
+level 4: rink(1) seek(1) that(1)
+level 5: fold(1) gull(1) kind(1) lent(1)
+remove deep
+print
+level 0: lull(6)
+level 1: goon(5) roar(4)
+level 2: fled(4) jolt(3) muss(3) tile(3)
+level 3: edgy(2) gait(3) gulf(2) kite(2) math(2) pack(2) slow(2) upon(1)
+level 4: drop(1) fame(1) food(2) gash(1) gull(1) kind(1) lent(1) mane(1)
+level 4: meow(1) nine(1) rink(1) seek(1) that(1)
+level 5: fold(1)
+remove upon
+print
+level 0: lull(6)
+level 1: goon(5) roar(4)
+level 2: fled(4) jolt(3) muss(3) slow(3)
+level 3: edgy(2) gait(3) gulf(2) kite(2) math(2) pack(2) seek(1) tile(2)
+level 4: drop(1) fame(1) food(2) gash(1) gull(1) kind(1) lent(1) mane(1)
+level 4: meow(1) nine(1) rink(1) that(1)
+level 5: fold(1)
+remove tile
+print
+level 0: lull(6)
+level 1: goon(5) roar(4)
+level 2: fled(4) jolt(3) muss(3) slow(2)
+level 3: edgy(2) gait(3) gulf(2) kite(2) math(2) pack(2) seek(1) that(1)
+level 4: drop(1) fame(1) food(2) gash(1) gull(1) kind(1) lent(1) mane(1)
+level 4: meow(1) nine(1) rink(1)
+level 5: fold(1)
+remove that
+print
+level 0: lull(6)
+level 1: goon(5) roar(4)
+level 2: fled(4) jolt(3) muss(3) slow(2)
+level 3: edgy(2) gait(3) gulf(2) kite(2) math(2) pack(2) seek(1)
+level 4: drop(1) fame(1) food(2) gash(1) gull(1) kind(1) lent(1) mane(1)
+level 4: meow(1) nine(1) rink(1)
+level 5: fold(1)
+remove slow
+print
+level 0: lull(6)
+level 1: goon(5) muss(4)
+level 2: fled(4) jolt(3) math(2) roar(3)
+level 3: edgy(2) gait(3) gulf(2) kite(2) mane(1) meow(1) pack(2) seek(1)
+level 4: drop(1) fame(1) food(2) gash(1) gull(1) kind(1) lent(1) nine(1)
+level 4: rink(1)
+level 5: fold(1)
+remove drop
+print
+level 0: lull(6)
+level 1: goon(5) muss(4)
+level 2: fled(4) jolt(3) math(2) roar(3)
+level 3: edgy(2) gait(3) gulf(2) kite(2) mane(1) meow(1) pack(2) seek(1)
+level 4: fame(1) food(2) gash(1) gull(1) kind(1) lent(1) nine(1) rink(1)
+level 5: fold(1)
+remove edgy
+print
+level 0: lull(5)
+level 1: goon(4) muss(4)
+level 2: food(3) jolt(3) math(2) roar(3)
+level 3: fled(2) gait(2) gulf(2) kite(2) mane(1) meow(1) pack(2) seek(1)
+level 4: fame(1) fold(1) gash(1) gull(1) kind(1) lent(1) nine(1) rink(1)
+remove seek
+print
+level 0: lull(5)
+level 1: goon(4) muss(4)
+level 2: food(3) jolt(3) math(2) pack(3)
+level 3: fled(2) gait(2) gulf(2) kite(2) mane(1) meow(1) nine(1) roar(2)
+level 4: fame(1) fold(1) gash(1) gull(1) kind(1) lent(1) rink(1)
+remove roar
+print
+level 0: lull(5)
+level 1: goon(4) muss(3)
+level 2: food(3) jolt(3) math(2) pack(2)
+level 3: fled(2) gait(2) gulf(2) kite(2) mane(1) meow(1) nine(1) rink(1)
+level 4: fame(1) fold(1) gash(1) gull(1) kind(1) lent(1)
+remove fame
+print
+level 0: lull(5)
+level 1: goon(4) muss(3)
+level 2: food(3) jolt(3) math(2) pack(2)
+level 3: fled(2) gait(2) gulf(2) kite(2) mane(1) meow(1) nine(1) rink(1)
+level 4: fold(1) gash(1) gull(1) kind(1) lent(1)
+remove rink
+print
+level 0: lull(5)
+level 1: goon(4) muss(3)
+level 2: food(3) jolt(3) math(2) pack(2)
+level 3: fled(2) gait(2) gulf(2) kite(2) mane(1) meow(1) nine(1)
+level 4: fold(1) gash(1) gull(1) kind(1) lent(1)
+remove fled
+print
+level 0: lull(5)
+level 1: goon(4) muss(3)
+level 2: food(3) jolt(3) math(2) pack(2)
+level 3: fold(1) gait(2) gulf(2) kite(2) mane(1) meow(1) nine(1)
+level 4: gash(1) gull(1) kind(1) lent(1)
+remove fold
+print
+level 0: lull(5)
+level 1: goon(4) muss(3)
+level 2: gait(2) jolt(3) math(2) pack(2)
+level 3: food(1) gash(1) gulf(2) kite(2) mane(1) meow(1) nine(1)
+level 4: gull(1) kind(1) lent(1)
+remove pack
+print
+level 0: lull(5)
+level 1: goon(4) muss(3)
+level 2: gait(2) jolt(3) math(2) nine(1)
+level 3: food(1) gash(1) gulf(2) kite(2) mane(1) meow(1)
+level 4: gull(1) kind(1) lent(1)
+remove food
+print
+level 0: lull(5)
+level 1: goon(4) muss(3)
+level 2: gait(2) jolt(3) math(2) nine(1)
+level 3: gash(1) gulf(2) kite(2) mane(1) meow(1)
+level 4: gull(1) kind(1) lent(1)
+remove nine
+print
+level 0: lull(5)
+level 1: goon(4) math(3)
+level 2: gait(2) jolt(3) mane(1) muss(2)
+level 3: gash(1) gulf(2) kite(2) meow(1)
+level 4: gull(1) kind(1) lent(1)
+remove muss
+print
+level 0: jolt(4)
+level 1: goon(3) lull(3)
+level 2: gait(2) gulf(2) kite(2) math(2)
+level 3: gash(1) gull(1) kind(1) lent(1) mane(1) meow(1)
+remove gait
+print
+level 0: jolt(4)
+level 1: goon(3) lull(3)
+level 2: gash(1) gulf(2) kite(2) math(2)
+level 3: gull(1) kind(1) lent(1) mane(1) meow(1)
+remove meow
+print
+level 0: jolt(4)
+level 1: goon(3) lull(3)
+level 2: gash(1) gulf(2) kite(2) math(2)
+level 3: gull(1) kind(1) lent(1) mane(1)
+remove gash
+print
+level 0: jolt(4)
+level 1: gulf(2) lull(3)
+level 2: goon(1) gull(1) kite(2) math(2)
+level 3: kind(1) lent(1) mane(1)
+remove math
+print
+level 0: jolt(4)
+level 1: gulf(2) lull(3)
+level 2: goon(1) gull(1) kite(2) mane(1)
+level 3: kind(1) lent(1)
+remove goon
+print
+level 0: jolt(4)
+level 1: gulf(2) lull(3)
+level 2: gull(1) kite(2) mane(1)
+level 3: kind(1) lent(1)
+remove mane
+print
+level 0: jolt(4)
+level 1: gulf(2) kite(3)
+level 2: gull(1) kind(1) lull(2)
+level 3: lent(1)
+remove gulf
+print
+level 0: kite(3)
+level 1: jolt(2) lull(2)
+level 2: gull(1) kind(1) lent(1)
+remove gull
+print
+level 0: kite(3)
+level 1: jolt(2) lull(2)
+level 2: kind(1) lent(1)
+remove jolt
+print
+level 0: kite(3)
+level 1: kind(1) lull(2)
+level 2: lent(1)
+remove kind
+print
+level 0: lent(2)
+level 1: kite(1) lull(1)
+remove kite
+print
+level 0: lent(2)
+level 1: lull(1)
+remove lent
+print
+level 0: lull(1)
+remove lull
+print

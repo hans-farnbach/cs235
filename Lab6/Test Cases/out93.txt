@@ -1,0 +1,1157 @@
+clear
+print
+find lite false
+add site
+print
+level 0: site(1)
+add twin
+print
+level 0: site(2)
+level 1: twin(1)
+find work false
+find twin true
+remove twin
+print
+level 0: site(1)
+add iron
+print
+level 0: site(2)
+level 1: iron(1)
+remove iron
+print
+level 0: site(1)
+add cone
+print
+level 0: site(2)
+level 1: cone(1)
+add dove
+print
+level 0: dove(2)
+level 1: cone(1) site(1)
+find dove true
+add romp
+print
+level 0: dove(3)
+level 1: cone(1) site(2)
+level 2: romp(1)
+add colt
+print
+level 0: dove(3)
+level 1: cone(2) site(2)
+level 2: colt(1) romp(1)
+add worm
+print
+level 0: dove(3)
+level 1: cone(2) site(2)
+level 2: colt(1) romp(1) worm(1)
+add sour
+print
+level 0: dove(4)
+level 1: cone(2) site(3)
+level 2: colt(1) romp(1) worm(2)
+level 3: sour(1)
+add musk
+print
+level 0: dove(4)
+level 1: cone(2) site(3)
+level 2: colt(1) romp(2) worm(2)
+level 3: musk(1) sour(1)
+add wild
+print
+level 0: dove(4)
+level 1: cone(2) site(3)
+level 2: colt(1) romp(2) wild(2)
+level 3: musk(1) sour(1) worm(1)
+remove romp
+print
+level 0: dove(4)
+level 1: cone(2) site(3)
+level 2: colt(1) musk(1) wild(2)
+level 3: sour(1) worm(1)
+find wild true
+find sour true
+remove cone
+print
+level 0: site(3)
+level 1: dove(2) wild(2)
+level 2: colt(1) musk(1) sour(1) worm(1)
+remove site
+print
+level 0: sour(3)
+level 1: dove(2) wild(2)
+level 2: colt(1) musk(1) worm(1)
+add flit
+print
+level 0: sour(4)
+level 1: dove(3) wild(2)
+level 2: colt(1) musk(2) worm(1)
+level 3: flit(1)
+add blot
+print
+level 0: sour(4)
+level 1: dove(3) wild(2)
+level 2: colt(2) musk(2) worm(1)
+level 3: blot(1) flit(1)
+remove musk
+print
+level 0: sour(4)
+level 1: dove(3) wild(2)
+level 2: colt(2) flit(1) worm(1)
+level 3: blot(1)
+add cute
+print
+level 0: sour(4)
+level 1: dove(3) wild(2)
+level 2: colt(2) flit(1) worm(1)
+level 3: blot(1) cute(1)
+add hint
+print
+level 0: sour(4)
+level 1: dove(3) wild(2)
+level 2: colt(2) flit(2) worm(1)
+level 3: blot(1) cute(1) hint(1)
+find blot true
+add yard
+print
+level 0: sour(4)
+level 1: dove(3) worm(2)
+level 2: colt(2) flit(2) wild(1) yard(1)
+level 3: blot(1) cute(1) hint(1)
+add gall
+print
+level 0: sour(4)
+level 1: dove(3) worm(2)
+level 2: colt(2) gall(2) wild(1) yard(1)
+level 3: blot(1) cute(1) flit(1) hint(1)
+find wild true
+remove cute
+print
+level 0: sour(4)
+level 1: dove(3) worm(2)
+level 2: colt(2) gall(2) wild(1) yard(1)
+level 3: blot(1) flit(1) hint(1)
+add thus
+print
+level 0: sour(4)
+level 1: dove(3) worm(3)
+level 2: colt(2) gall(2) wild(2) yard(1)
+level 3: blot(1) flit(1) hint(1) thus(1)
+remove dove
+print
+level 0: sour(4)
+level 1: flit(3) worm(3)
+level 2: colt(2) gall(2) wild(2) yard(1)
+level 3: blot(1) hint(1) thus(1)
+add pick
+print
+level 0: sour(4)
+level 1: flit(3) worm(3)
+level 2: colt(2) hint(2) wild(2) yard(1)
+level 3: blot(1) gall(1) pick(1) thus(1)
+add coed
+print
+level 0: sour(4)
+level 1: flit(3) worm(3)
+level 2: coed(2) hint(2) wild(2) yard(1)
+level 3: blot(1) colt(1) gall(1) pick(1) thus(1)
+find foam false
+find hint true
+add east
+print
+level 0: sour(5)
+level 1: flit(4) worm(3)
+level 2: coed(3) hint(2) wild(2) yard(1)
+level 3: blot(1) colt(2) gall(1) pick(1) thus(1)
+level 4: east(1)
+add veil
+print
+level 0: sour(5)
+level 1: flit(4) worm(3)
+level 2: coed(3) hint(2) veil(2) yard(1)
+level 3: blot(1) colt(2) gall(1) pick(1) thus(1) wild(1)
+level 4: east(1)
+add ugly
+print
+level 0: sour(5)
+level 1: flit(4) veil(3)
+level 2: coed(3) hint(2) thus(2) worm(2)
+level 3: blot(1) colt(2) gall(1) pick(1) ugly(1) wild(1) yard(1)
+level 4: east(1)
+add sour
+print
+level 0: sour(5)
+level 1: flit(4) veil(3)
+level 2: coed(3) hint(2) thus(2) worm(2)
+level 3: blot(1) colt(2) gall(1) pick(1) ugly(1) wild(1) yard(1)
+level 4: east(1)
+add vice
+print
+level 0: sour(5)
+level 1: flit(4) veil(4)
+level 2: coed(3) hint(2) thus(2) worm(3)
+level 3: blot(1) colt(2) gall(1) pick(1) ugly(1) wild(2) yard(1)
+level 4: east(1) vice(1)
+add spit
+print
+level 0: sour(5)
+level 1: flit(4) veil(4)
+level 2: coed(3) hint(2) thus(2) worm(3)
+level 3: blot(1) colt(2) gall(1) pick(1) spit(1) ugly(1) wild(2) yard(1)
+level 4: east(1) vice(1)
+find thus true
+add grad
+print
+level 0: sour(5)
+level 1: flit(4) veil(4)
+level 2: coed(3) hint(3) thus(2) worm(3)
+level 3: blot(1) colt(2) gall(2) pick(1) spit(1) ugly(1) wild(2) yard(1)
+level 4: east(1) grad(1) vice(1)
+add tiny
+print
+level 0: sour(5)
+level 1: flit(4) veil(4)
+level 2: coed(3) hint(3) thus(3) worm(3)
+level 3: blot(1) colt(2) gall(2) pick(1) spit(1) ugly(2) wild(2) yard(1)
+level 4: east(1) grad(1) tiny(1) vice(1)
+add hack
+print
+level 0: sour(5)
+level 1: flit(4) veil(4)
+level 2: coed(3) hint(3) thus(3) worm(3)
+level 3: blot(1) colt(2) grad(2) pick(1) spit(1) ugly(2) wild(2) yard(1)
+level 4: east(1) gall(1) hack(1) tiny(1) vice(1)
+add byte
+print
+level 0: sour(5)
+level 1: flit(4) veil(4)
+level 2: coed(3) hint(3) thus(3) worm(3)
+level 3: blot(2) colt(2) grad(2) pick(1) spit(1) ugly(2) wild(2) yard(1)
+level 4: byte(1) east(1) gall(1) hack(1) tiny(1) vice(1)
+add moth
+print
+level 0: sour(5)
+level 1: flit(4) veil(4)
+level 2: coed(3) hint(3) thus(3) worm(3)
+level 3: blot(2) colt(2) grad(2) pick(2) spit(1) ugly(2) wild(2) yard(1)
+level 4: byte(1) east(1) gall(1) hack(1) moth(1) tiny(1) vice(1)
+remove colt
+print
+level 0: sour(5)
+level 1: flit(4) veil(4)
+level 2: coed(3) hint(3) thus(3) worm(3)
+level 3: blot(2) east(1) grad(2) pick(2) spit(1) ugly(2) wild(2) yard(1)
+level 4: byte(1) gall(1) hack(1) moth(1) tiny(1) vice(1)
+add airy
+print
+level 0: sour(5)
+level 1: flit(4) veil(4)
+level 2: coed(3) hint(3) thus(3) worm(3)
+level 3: blot(2) east(1) grad(2) pick(2) spit(1) ugly(2) wild(2) yard(1)
+level 4: airy(1) byte(1) gall(1) hack(1) moth(1) tiny(1) vice(1)
+add idle
+print
+level 0: sour(5)
+level 1: flit(4) veil(4)
+level 2: coed(3) hint(3) thus(3) worm(3)
+level 3: blot(2) east(1) grad(2) moth(2) spit(1) ugly(2) wild(2) yard(1)
+level 4: airy(1) byte(1) gall(1) hack(1) idle(1) pick(1) tiny(1) vice(1)
+find ugly true
+remove east
+print
+level 0: sour(5)
+level 1: flit(4) veil(4)
+level 2: blot(3) hint(3) thus(3) worm(3)
+level 3: airy(1) coed(2) grad(2) moth(2) spit(1) ugly(2) wild(2) yard(1)
+level 4: byte(1) gall(1) hack(1) idle(1) pick(1) tiny(1) vice(1)
+find joke false
+find grad true
+add unit
+print
+level 0: sour(5)
+level 1: flit(4) veil(4)
+level 2: blot(3) hint(3) thus(3) worm(3)
+level 3: airy(1) coed(2) grad(2) moth(2) spit(1) ugly(2) wild(2) yard(1)
+level 4: byte(1) gall(1) hack(1) idle(1) pick(1) tiny(1) unit(1) vice(1)
+add tidy
+print
+level 0: sour(5)
+level 1: flit(4) veil(4)
+level 2: blot(3) hint(3) tiny(3) worm(3)
+level 3: airy(1) coed(2) grad(2) moth(2) thus(2) ugly(2) wild(2) yard(1)
+level 4: byte(1) gall(1) hack(1) idle(1) pick(1) spit(1) tidy(1) unit(1)
+level 4: vice(1)
+find moth true
+remove flit
+print
+level 0: sour(5)
+level 1: gall(4) veil(4)
+level 2: blot(3) hint(3) tiny(3) worm(3)
+level 3: airy(1) coed(2) grad(2) moth(2) thus(2) ugly(2) wild(2) yard(1)
+level 4: byte(1) hack(1) idle(1) pick(1) spit(1) tidy(1) unit(1) vice(1)
+add pack
+print
+level 0: sour(6)
+level 1: gall(5) veil(4)
+level 2: blot(3) hint(4) tiny(3) worm(3)
+level 3: airy(1) coed(2) grad(2) moth(3) thus(2) ugly(2) wild(2) yard(1)
+level 4: byte(1) hack(1) idle(1) pick(2) spit(1) tidy(1) unit(1) vice(1)
+level 5: pack(1)
+add away
+print
+level 0: sour(6)
+level 1: gall(5) veil(4)
+level 2: blot(3) hint(4) tiny(3) worm(3)
+level 3: airy(2) coed(2) grad(2) moth(3) thus(2) ugly(2) wild(2) yard(1)
+level 4: away(1) byte(1) hack(1) idle(1) pick(2) spit(1) tidy(1) unit(1)
+level 4: vice(1)
+level 5: pack(1)
+add mono
+print
+level 0: sour(6)
+level 1: gall(5) veil(4)
+level 2: blot(3) hint(4) tiny(3) worm(3)
+level 3: airy(2) coed(2) grad(2) moth(3) thus(2) ugly(2) wild(2) yard(1)
+level 4: away(1) byte(1) hack(1) idle(2) pick(2) spit(1) tidy(1) unit(1)
+level 4: vice(1)
+level 5: mono(1) pack(1)
+add tube
+print
+level 0: sour(6)
+level 1: gall(5) veil(4)
+level 2: blot(3) hint(4) tiny(3) worm(3)
+level 3: airy(2) coed(2) grad(2) moth(3) thus(2) ugly(2) wild(2) yard(1)
+level 4: away(1) byte(1) hack(1) idle(2) pick(2) spit(1) tidy(1) tube(1)
+level 4: unit(1) vice(1)
+level 5: mono(1) pack(1)
+add thus
+print
+level 0: sour(6)
+level 1: gall(5) veil(4)
+level 2: blot(3) hint(4) tiny(3) worm(3)
+level 3: airy(2) coed(2) grad(2) moth(3) thus(2) ugly(2) wild(2) yard(1)
+level 4: away(1) byte(1) hack(1) idle(2) pick(2) spit(1) tidy(1) tube(1)
+level 4: unit(1) vice(1)
+level 5: mono(1) pack(1)
+add plan
+print
+level 0: sour(6)
+level 1: gall(5) veil(4)
+level 2: blot(3) hint(4) tiny(3) worm(3)
+level 3: airy(2) coed(2) grad(2) moth(3) thus(2) ugly(2) wild(2) yard(1)
+level 4: away(1) byte(1) hack(1) idle(2) pick(2) spit(1) tidy(1) tube(1)
+level 4: unit(1) vice(1)
+level 5: mono(1) pack(1) plan(1)
+remove tidy
+print
+level 0: sour(6)
+level 1: gall(5) veil(4)
+level 2: blot(3) hint(4) tiny(3) worm(3)
+level 3: airy(2) coed(2) grad(2) moth(3) thus(2) ugly(2) wild(2) yard(1)
+level 4: away(1) byte(1) hack(1) idle(2) pick(2) spit(1) tube(1) unit(1)
+level 4: vice(1)
+level 5: mono(1) pack(1) plan(1)
+add pate
+print
+level 0: sour(6)
+level 1: gall(5) veil(4)
+level 2: blot(3) moth(4) tiny(3) worm(3)
+level 3: airy(2) coed(2) hint(3) pick(3) thus(2) ugly(2) wild(2) yard(1)
+level 4: away(1) byte(1) grad(2) idle(2) pack(2) plan(1) spit(1) tube(1)
+level 4: unit(1) vice(1)
+level 5: hack(1) mono(1) pate(1)
+add each
+print
+level 0: sour(6)
+level 1: gall(5) veil(4)
+level 2: blot(3) moth(4) tiny(3) worm(3)
+level 3: airy(2) coed(2) hint(3) pick(3) thus(2) ugly(2) wild(2) yard(1)
+level 4: away(1) byte(1) each(1) grad(2) idle(2) pack(2) plan(1) spit(1)
+level 4: tube(1) unit(1) vice(1)
+level 5: hack(1) mono(1) pate(1)
+add turf
+print
+level 0: sour(6)
+level 1: gall(5) veil(5)
+level 2: blot(3) moth(4) tiny(4) worm(3)
+level 3: airy(2) coed(2) hint(3) pick(3) thus(2) ugly(3) wild(2) yard(1)
+level 4: away(1) byte(1) each(1) grad(2) idle(2) pack(2) plan(1) spit(1)
+level 4: tube(2) unit(1) vice(1)
+level 5: hack(1) mono(1) pate(1) turf(1)
+add hood
+print
+level 0: sour(6)
+level 1: gall(5) veil(5)
+level 2: blot(3) moth(4) tiny(4) worm(3)
+level 3: airy(2) coed(2) hint(3) pick(3) thus(2) ugly(3) wild(2) yard(1)
+level 4: away(1) byte(1) each(1) grad(2) idle(2) pack(2) plan(1) spit(1)
+level 4: tube(2) unit(1) vice(1)
+level 5: hack(1) hood(1) mono(1) pate(1) turf(1)
+add coed
+print
+level 0: sour(6)
+level 1: gall(5) veil(5)
+level 2: blot(3) moth(4) tiny(4) worm(3)
+level 3: airy(2) coed(2) hint(3) pick(3) thus(2) ugly(3) wild(2) yard(1)
+level 4: away(1) byte(1) each(1) grad(2) idle(2) pack(2) plan(1) spit(1)
+level 4: tube(2) unit(1) vice(1)
+level 5: hack(1) hood(1) mono(1) pate(1) turf(1)
+remove grad
+print
+level 0: sour(6)
+level 1: gall(5) veil(5)
+level 2: blot(3) moth(4) tiny(4) worm(3)
+level 3: airy(2) coed(2) hint(3) pick(3) thus(2) ugly(3) wild(2) yard(1)
+level 4: away(1) byte(1) each(1) hack(1) idle(2) pack(2) plan(1) spit(1)
+level 4: tube(2) unit(1) vice(1)
+level 5: hood(1) mono(1) pate(1) turf(1)
+find tiny true
+add jamb
+print
+level 0: sour(6)
+level 1: gall(5) veil(5)
+level 2: blot(3) moth(4) tiny(4) worm(3)
+level 3: airy(2) coed(2) idle(3) pick(3) thus(2) ugly(3) wild(2) yard(1)
+level 4: away(1) byte(1) each(1) hint(2) mono(2) pack(2) plan(1) spit(1)
+level 4: tube(2) unit(1) vice(1)
+level 5: hack(1) hood(1) jamb(1) pate(1) turf(1)
+find veil true
+add bird
+print
+level 0: sour(6)
+level 1: gall(5) veil(5)
+level 2: blot(3) moth(4) tiny(4) worm(3)
+level 3: away(2) coed(2) idle(3) pick(3) thus(2) ugly(3) wild(2) yard(1)
+level 4: airy(1) bird(1) byte(1) each(1) hint(2) mono(2) pack(2) plan(1)
+level 4: spit(1) tube(2) unit(1) vice(1)
+level 5: hack(1) hood(1) jamb(1) pate(1) turf(1)
+add quad
+print
+level 0: sour(6)
+level 1: gall(5) veil(5)
+level 2: blot(3) moth(4) tiny(4) worm(3)
+level 3: away(2) coed(2) idle(3) pick(3) thus(2) ugly(3) wild(2) yard(1)
+level 4: airy(1) bird(1) byte(1) each(1) hint(2) mono(2) pack(2) plan(2)
+level 4: spit(1) tube(2) unit(1) vice(1)
+level 5: hack(1) hood(1) jamb(1) pate(1) quad(1) turf(1)
+add boar
+print
+level 0: sour(6)
+level 1: gall(5) veil(5)
+level 2: blot(4) moth(4) tiny(4) worm(3)
+level 3: away(2) coed(3) idle(3) pick(3) thus(2) ugly(3) wild(2) yard(1)
+level 4: airy(1) bird(1) byte(2) each(1) hint(2) mono(2) pack(2) plan(2)
+level 4: spit(1) tube(2) unit(1) vice(1)
+level 5: boar(1) hack(1) hood(1) jamb(1) pate(1) quad(1) turf(1)
+remove cord
+print
+level 0: sour(6)
+level 1: gall(5) veil(5)
+level 2: blot(4) moth(4) tiny(4) worm(3)
+level 3: away(2) coed(3) idle(3) pick(3) thus(2) ugly(3) wild(2) yard(1)
+level 4: airy(1) bird(1) byte(2) each(1) hint(2) mono(2) pack(2) plan(2)
+level 4: spit(1) tube(2) unit(1) vice(1)
+level 5: boar(1) hack(1) hood(1) jamb(1) pate(1) quad(1) turf(1)
+add news
+print
+level 0: sour(6)
+level 1: gall(5) veil(5)
+level 2: blot(4) moth(4) tiny(4) worm(3)
+level 3: away(2) coed(3) idle(3) pick(3) thus(2) ugly(3) wild(2) yard(1)
+level 4: airy(1) bird(1) byte(2) each(1) hint(2) mono(2) pack(2) plan(2)
+level 4: spit(1) tube(2) unit(1) vice(1)
+level 5: boar(1) hack(1) hood(1) jamb(1) news(1) pate(1) quad(1) turf(1)
+add news
+print
+level 0: sour(6)
+level 1: gall(5) veil(5)
+level 2: blot(4) moth(4) tiny(4) worm(3)
+level 3: away(2) coed(3) idle(3) pick(3) thus(2) ugly(3) wild(2) yard(1)
+level 4: airy(1) bird(1) byte(2) each(1) hint(2) mono(2) pack(2) plan(2)
+level 4: spit(1) tube(2) unit(1) vice(1)
+level 5: boar(1) hack(1) hood(1) jamb(1) news(1) pate(1) quad(1) turf(1)
+add redo
+print
+level 0: sour(6)
+level 1: gall(5) veil(5)
+level 2: blot(4) moth(4) tiny(4) worm(3)
+level 3: away(2) coed(3) idle(3) pick(3) thus(2) ugly(3) wild(2) yard(1)
+level 4: airy(1) bird(1) byte(2) each(1) hint(2) mono(2) pack(2) quad(2)
+level 4: spit(1) tube(2) unit(1) vice(1)
+level 5: boar(1) hack(1) hood(1) jamb(1) news(1) pate(1) plan(1) redo(1)
+level 5: turf(1)
+find sour true
+remove pick
+print
+level 0: sour(6)
+level 1: gall(5) veil(5)
+level 2: blot(4) moth(4) tiny(4) worm(3)
+level 3: away(2) coed(3) idle(3) plan(3) thus(2) ugly(3) wild(2) yard(1)
+level 4: airy(1) bird(1) byte(2) each(1) hint(2) mono(2) pack(2) quad(2)
+level 4: spit(1) tube(2) unit(1) vice(1)
+level 5: boar(1) hack(1) hood(1) jamb(1) news(1) pate(1) redo(1) turf(1)
+remove worm
+print
+level 0: sour(6)
+level 1: gall(5) ugly(4)
+level 2: blot(4) moth(4) tiny(3) veil(3)
+level 3: away(2) coed(3) idle(3) plan(3) thus(2) tube(2) unit(1) wild(2)
+level 4: airy(1) bird(1) byte(2) each(1) hint(2) mono(2) pack(2) quad(2)
+level 4: spit(1) turf(1) vice(1) yard(1)
+level 5: boar(1) hack(1) hood(1) jamb(1) news(1) pate(1) redo(1)
+find tiny true
+add park
+print
+level 0: moth(6)
+level 1: gall(5) sour(5)
+level 2: blot(4) idle(3) plan(4) ugly(4)
+level 3: away(2) coed(3) hint(2) mono(2) pack(3) quad(2) tiny(3) veil(3)
+level 4: airy(1) bird(1) byte(2) each(1) hack(1) hood(1) jamb(1) news(1)
+level 4: pate(2) redo(1) thus(2) tube(2) unit(1) wild(2)
+level 5: boar(1) park(1) spit(1) turf(1) vice(1) yard(1)
+find tube true
+add czar
+print
+level 0: moth(6)
+level 1: gall(5) sour(5)
+level 2: blot(4) idle(3) plan(4) ugly(4)
+level 3: away(2) coed(3) hint(2) mono(2) pack(3) quad(2) tiny(3) veil(3)
+level 4: airy(1) bird(1) byte(2) each(2) hack(1) hood(1) jamb(1) news(1)
+level 4: pate(2) redo(1) thus(2) tube(2) unit(1) wild(2)
+level 5: boar(1) czar(1) park(1) spit(1) turf(1) vice(1) yard(1)
+add lone
+print
+level 0: moth(6)
+level 1: gall(5) sour(5)
+level 2: blot(4) idle(3) plan(4) ugly(4)
+level 3: away(2) coed(3) hint(2) lone(2) pack(3) quad(2) tiny(3) veil(3)
+level 4: airy(1) bird(1) byte(2) each(2) hack(1) hood(1) jamb(1) mono(1)
+level 4: news(1) pate(2) redo(1) thus(2) tube(2) unit(1) wild(2)
+level 5: boar(1) czar(1) park(1) spit(1) turf(1) vice(1) yard(1)
+find wild true
+remove thus
+print
+level 0: moth(6)
+level 1: gall(5) sour(5)
+level 2: blot(4) idle(3) plan(4) ugly(4)
+level 3: away(2) coed(3) hint(2) lone(2) pack(3) quad(2) tiny(3) veil(3)
+level 4: airy(1) bird(1) byte(2) each(2) hack(1) hood(1) jamb(1) mono(1)
+level 4: news(1) pate(2) redo(1) spit(1) tube(2) unit(1) wild(2)
+level 5: boar(1) czar(1) park(1) turf(1) vice(1) yard(1)
+add odor
+print
+level 0: moth(6)
+level 1: gall(5) sour(5)
+level 2: blot(4) idle(3) plan(4) ugly(4)
+level 3: away(2) coed(3) hint(2) lone(2) pack(3) quad(2) tiny(3) veil(3)
+level 4: airy(1) bird(1) byte(2) each(2) hack(1) hood(1) jamb(1) mono(1)
+level 4: news(2) pate(2) redo(1) spit(1) tube(2) unit(1) wild(2)
+level 5: boar(1) czar(1) odor(1) park(1) turf(1) vice(1) yard(1)
+remove unit
+print
+level 0: moth(6)
+level 1: gall(5) sour(5)
+level 2: blot(4) idle(3) plan(4) ugly(4)
+level 3: away(2) coed(3) hint(2) lone(2) pack(3) quad(2) tiny(3) wild(3)
+level 4: airy(1) bird(1) byte(2) each(2) hack(1) hood(1) jamb(1) mono(1)
+level 4: news(2) pate(2) redo(1) spit(1) tube(2) veil(2) yard(1)
+level 5: boar(1) czar(1) odor(1) park(1) turf(1) vice(1)
+add able
+print
+level 0: moth(6)
+level 1: gall(5) sour(5)
+level 2: blot(4) idle(3) plan(4) ugly(4)
+level 3: away(3) coed(3) hint(2) lone(2) pack(3) quad(2) tiny(3) wild(3)
+level 4: airy(2) bird(1) byte(2) each(2) hack(1) hood(1) jamb(1) mono(1)
+level 4: news(2) pate(2) redo(1) spit(1) tube(2) veil(2) yard(1)
+level 5: able(1) boar(1) czar(1) odor(1) park(1) turf(1) vice(1)
+add kick
+print
+level 0: moth(6)
+level 1: gall(5) sour(5)
+level 2: blot(4) idle(4) plan(4) ugly(4)
+level 3: away(3) coed(3) hint(2) lone(3) pack(3) quad(2) tiny(3) wild(3)
+level 4: airy(2) bird(1) byte(2) each(2) hack(1) hood(1) jamb(2) mono(1)
+level 4: news(2) pate(2) redo(1) spit(1) tube(2) veil(2) yard(1)
+level 5: able(1) boar(1) czar(1) kick(1) odor(1) park(1) turf(1) vice(1)
+add grid
+print
+level 0: moth(6)
+level 1: gall(5) sour(5)
+level 2: blot(4) idle(4) plan(4) ugly(4)
+level 3: away(3) coed(3) hint(3) lone(3) pack(3) quad(2) tiny(3) wild(3)
+level 4: airy(2) bird(1) byte(2) each(2) hack(2) hood(1) jamb(2) mono(1)
+level 4: news(2) pate(2) redo(1) spit(1) tube(2) veil(2) yard(1)
+level 5: able(1) boar(1) czar(1) grid(1) kick(1) odor(1) park(1) turf(1)
+level 5: vice(1)
+add ugly
+print
+level 0: moth(6)
+level 1: gall(5) sour(5)
+level 2: blot(4) idle(4) plan(4) ugly(4)
+level 3: away(3) coed(3) hint(3) lone(3) pack(3) quad(2) tiny(3) wild(3)
+level 4: airy(2) bird(1) byte(2) each(2) hack(2) hood(1) jamb(2) mono(1)
+level 4: news(2) pate(2) redo(1) spit(1) tube(2) veil(2) yard(1)
+level 5: able(1) boar(1) czar(1) grid(1) kick(1) odor(1) park(1) turf(1)
+level 5: vice(1)
+find easy false
+add fake
+print
+level 0: moth(6)
+level 1: gall(5) sour(5)
+level 2: blot(4) idle(4) plan(4) ugly(4)
+level 3: away(3) coed(3) hint(3) lone(3) pack(3) quad(2) tiny(3) wild(3)
+level 4: airy(2) bird(1) byte(2) each(2) hack(2) hood(1) jamb(2) mono(1)
+level 4: news(2) pate(2) redo(1) spit(1) tube(2) veil(2) yard(1)
+level 5: able(1) boar(1) czar(1) fake(1) grid(1) kick(1) odor(1) park(1)
+level 5: turf(1) vice(1)
+add mild
+print
+level 0: moth(6)
+level 1: gall(5) sour(5)
+level 2: blot(4) idle(4) plan(4) ugly(4)
+level 3: away(3) coed(3) hint(3) lone(3) pack(3) quad(2) tiny(3) wild(3)
+level 4: airy(2) bird(1) byte(2) each(2) hack(2) hood(1) jamb(2) mono(2)
+level 4: news(2) pate(2) redo(1) spit(1) tube(2) veil(2) yard(1)
+level 5: able(1) boar(1) czar(1) fake(1) grid(1) kick(1) mild(1) odor(1)
+level 5: park(1) turf(1) vice(1)
+remove veil
+print
+level 0: moth(6)
+level 1: gall(5) sour(5)
+level 2: blot(4) idle(4) plan(4) ugly(4)
+level 3: away(3) coed(3) hint(3) lone(3) pack(3) quad(2) tiny(3) wild(2)
+level 4: airy(2) bird(1) byte(2) each(2) hack(2) hood(1) jamb(2) mono(2)
+level 4: news(2) pate(2) redo(1) spit(1) tube(2) vice(1) yard(1)
+level 5: able(1) boar(1) czar(1) fake(1) grid(1) kick(1) mild(1) odor(1)
+level 5: park(1) turf(1)
+find plan true
+find news true
+remove pate
+print
+level 0: moth(6)
+level 1: gall(5) sour(5)
+level 2: blot(4) idle(4) plan(4) ugly(4)
+level 3: away(3) coed(3) hint(3) lone(3) pack(3) quad(2) tiny(3) wild(2)
+level 4: airy(2) bird(1) byte(2) each(2) hack(2) hood(1) jamb(2) mono(2)
+level 4: news(2) park(1) redo(1) spit(1) tube(2) vice(1) yard(1)
+level 5: able(1) boar(1) czar(1) fake(1) grid(1) kick(1) mild(1) odor(1)
+level 5: turf(1)
+add evil
+print
+level 0: moth(7)
+level 1: gall(6) sour(5)
+level 2: blot(5) idle(4) plan(4) ugly(4)
+level 3: away(3) coed(4) hint(3) lone(3) pack(3) quad(2) tiny(3) wild(2)
+level 4: airy(2) bird(1) byte(2) each(3) hack(2) hood(1) jamb(2) mono(2)
+level 4: news(2) park(1) redo(1) spit(1) tube(2) vice(1) yard(1)
+level 5: able(1) boar(1) czar(1) fake(2) grid(1) kick(1) mild(1) odor(1)
+level 5: turf(1)
+level 6: evil(1)
+add jive
+print
+level 0: moth(7)
+level 1: gall(6) sour(5)
+level 2: blot(5) idle(4) plan(4) ugly(4)
+level 3: away(3) coed(4) hint(3) lone(3) pack(3) quad(2) tiny(3) wild(2)
+level 4: airy(2) bird(1) byte(2) each(3) hack(2) hood(1) jive(2) mono(2)
+level 4: news(2) park(1) redo(1) spit(1) tube(2) vice(1) yard(1)
+level 5: able(1) boar(1) czar(1) fake(2) grid(1) jamb(1) kick(1) mild(1)
+level 5: odor(1) turf(1)
+level 6: evil(1)
+add lace
+print
+level 0: moth(7)
+level 1: gall(6) sour(5)
+level 2: blot(5) idle(5) plan(4) ugly(4)
+level 3: away(3) coed(4) hint(3) lone(4) pack(3) quad(2) tiny(3) wild(2)
+level 4: airy(2) bird(1) byte(2) each(3) hack(2) hood(1) jive(3) mono(2)
+level 4: news(2) park(1) redo(1) spit(1) tube(2) vice(1) yard(1)
+level 5: able(1) boar(1) czar(1) fake(2) grid(1) jamb(1) kick(2) mild(1)
+level 5: odor(1) turf(1)
+level 6: evil(1) lace(1)
+find yard true
+add keel
+print
+level 0: moth(7)
+level 1: gall(6) sour(5)
+level 2: blot(5) idle(5) plan(4) ugly(4)
+level 3: away(3) coed(4) hint(3) lone(4) pack(3) quad(2) tiny(3) wild(2)
+level 4: airy(2) bird(1) byte(2) each(3) hack(2) hood(1) jive(3) mono(2)
+level 4: news(2) park(1) redo(1) spit(1) tube(2) vice(1) yard(1)
+level 5: able(1) boar(1) czar(1) fake(2) grid(1) jamb(1) kick(2) mild(1)
+level 5: odor(1) turf(1)
+level 6: evil(1) keel(1) lace(1)
+add waxy
+print
+level 0: moth(7)
+level 1: gall(6) sour(5)
+level 2: blot(5) idle(5) plan(4) ugly(4)
+level 3: away(3) coed(4) hint(3) lone(4) pack(3) quad(2) tiny(3) wild(3)
+level 4: airy(2) bird(1) byte(2) each(3) hack(2) hood(1) jive(3) mono(2)
+level 4: news(2) park(1) redo(1) spit(1) tube(2) vice(2) yard(1)
+level 5: able(1) boar(1) czar(1) fake(2) grid(1) jamb(1) kick(2) mild(1)
+level 5: odor(1) turf(1) waxy(1)
+level 6: evil(1) keel(1) lace(1)
+add poet
+print
+level 0: moth(7)
+level 1: gall(6) sour(5)
+level 2: blot(5) idle(5) plan(4) ugly(4)
+level 3: away(3) coed(4) hint(3) lone(4) pack(3) quad(2) tiny(3) wild(3)
+level 4: airy(2) bird(1) byte(2) each(3) hack(2) hood(1) jive(3) mono(2)
+level 4: news(2) park(1) poet(1) redo(1) spit(1) tube(2) vice(2) yard(1)
+level 5: able(1) boar(1) czar(1) fake(2) grid(1) jamb(1) kick(2) mild(1)
+level 5: odor(1) turf(1) waxy(1)
+level 6: evil(1) keel(1) lace(1)
+add peep
+print
+level 0: moth(7)
+level 1: gall(6) sour(5)
+level 2: blot(5) idle(5) plan(4) ugly(4)
+level 3: away(3) coed(4) hint(3) lone(4) pack(3) quad(2) tiny(3) wild(3)
+level 4: airy(2) bird(1) byte(2) each(3) hack(2) hood(1) jive(3) mono(2)
+level 4: news(2) park(2) poet(1) redo(1) spit(1) tube(2) vice(2) yard(1)
+level 5: able(1) boar(1) czar(1) fake(2) grid(1) jamb(1) kick(2) mild(1)
+level 5: odor(1) peep(1) turf(1) waxy(1)
+level 6: evil(1) keel(1) lace(1)
+find ugly true
+add tuna
+print
+level 0: moth(7)
+level 1: gall(6) sour(5)
+level 2: blot(5) idle(5) plan(4) ugly(4)
+level 3: away(3) coed(4) hint(3) lone(4) pack(3) quad(2) tiny(3) wild(3)
+level 4: airy(2) bird(1) byte(2) each(3) hack(2) hood(1) jive(3) mono(2)
+level 4: news(2) park(2) poet(1) redo(1) spit(1) tuna(2) vice(2) yard(1)
+level 5: able(1) boar(1) czar(1) fake(2) grid(1) jamb(1) kick(2) mild(1)
+level 5: odor(1) peep(1) tube(1) turf(1) waxy(1)
+level 6: evil(1) keel(1) lace(1)
+remove blot
+print
+level 0: moth(7)
+level 1: gall(6) sour(5)
+level 2: boar(4) idle(5) plan(4) ugly(4)
+level 3: away(3) each(3) hint(3) lone(4) pack(3) quad(2) tiny(3) wild(3)
+level 4: airy(2) bird(1) coed(2) fake(2) hack(2) hood(1) jive(3) mono(2)
+level 4: news(2) park(2) poet(1) redo(1) spit(1) tuna(2) vice(2) yard(1)
+level 5: able(1) byte(1) czar(1) evil(1) grid(1) jamb(1) kick(2) mild(1)
+level 5: odor(1) peep(1) tube(1) turf(1) waxy(1)
+level 6: keel(1) lace(1)
+add pick
+print
+level 0: moth(7)
+level 1: gall(6) sour(5)
+level 2: boar(4) idle(5) plan(4) ugly(4)
+level 3: away(3) each(3) hint(3) lone(4) pack(3) quad(2) tiny(3) wild(3)
+level 4: airy(2) bird(1) coed(2) fake(2) hack(2) hood(1) jive(3) mono(2)
+level 4: news(2) peep(2) poet(1) redo(1) spit(1) tuna(2) vice(2) yard(1)
+level 5: able(1) byte(1) czar(1) evil(1) grid(1) jamb(1) kick(2) mild(1)
+level 5: odor(1) park(1) pick(1) tube(1) turf(1) waxy(1)
+level 6: keel(1) lace(1)
+add grin
+print
+level 0: moth(7)
+level 1: gall(6) sour(5)
+level 2: boar(4) idle(5) plan(4) ugly(4)
+level 3: away(3) each(3) hint(3) lone(4) pack(3) quad(2) tiny(3) wild(3)
+level 4: airy(2) bird(1) coed(2) fake(2) grin(2) hood(1) jive(3) mono(2)
+level 4: news(2) peep(2) poet(1) redo(1) spit(1) tuna(2) vice(2) yard(1)
+level 5: able(1) byte(1) czar(1) evil(1) grid(1) hack(1) jamb(1) kick(2)
+level 5: mild(1) odor(1) park(1) pick(1) tube(1) turf(1) waxy(1)
+level 6: keel(1) lace(1)
+add hark
+print
+level 0: moth(7)
+level 1: gall(6) sour(5)
+level 2: boar(4) idle(5) plan(4) ugly(4)
+level 3: away(3) each(3) hack(3) lone(4) pack(3) quad(2) tiny(3) wild(3)
+level 4: airy(2) bird(1) coed(2) fake(2) grin(2) hint(2) jive(3) mono(2)
+level 4: news(2) peep(2) poet(1) redo(1) spit(1) tuna(2) vice(2) yard(1)
+level 5: able(1) byte(1) czar(1) evil(1) grid(1) hark(1) hood(1) jamb(1)
+level 5: kick(2) mild(1) odor(1) park(1) pick(1) tube(1) turf(1) waxy(1)
+level 6: keel(1) lace(1)
+add gall
+print
+level 0: moth(7)
+level 1: gall(6) sour(5)
+level 2: boar(4) idle(5) plan(4) ugly(4)
+level 3: away(3) each(3) hack(3) lone(4) pack(3) quad(2) tiny(3) wild(3)
+level 4: airy(2) bird(1) coed(2) fake(2) grin(2) hint(2) jive(3) mono(2)
+level 4: news(2) peep(2) poet(1) redo(1) spit(1) tuna(2) vice(2) yard(1)
+level 5: able(1) byte(1) czar(1) evil(1) grid(1) hark(1) hood(1) jamb(1)
+level 5: kick(2) mild(1) odor(1) park(1) pick(1) tube(1) turf(1) waxy(1)
+level 6: keel(1) lace(1)
+add grow
+print
+level 0: moth(7)
+level 1: gall(6) sour(5)
+level 2: boar(4) idle(5) plan(4) ugly(4)
+level 3: away(3) each(3) hack(3) lone(4) pack(3) quad(2) tiny(3) wild(3)
+level 4: airy(2) bird(1) coed(2) fake(2) grin(2) hint(2) jive(3) mono(2)
+level 4: news(2) peep(2) poet(1) redo(1) spit(1) tuna(2) vice(2) yard(1)
+level 5: able(1) byte(1) czar(1) evil(1) grid(1) grow(1) hark(1) hood(1)
+level 5: jamb(1) kick(2) mild(1) odor(1) park(1) pick(1) tube(1) turf(1)
+level 5: waxy(1)
+level 6: keel(1) lace(1)
+remove grow
+print
+level 0: moth(7)
+level 1: gall(6) sour(5)
+level 2: boar(4) idle(5) plan(4) ugly(4)
+level 3: away(3) each(3) hack(3) lone(4) pack(3) quad(2) tiny(3) wild(3)
+level 4: airy(2) bird(1) coed(2) fake(2) grin(2) hint(2) jive(3) mono(2)
+level 4: news(2) peep(2) poet(1) redo(1) spit(1) tuna(2) vice(2) yard(1)
+level 5: able(1) byte(1) czar(1) evil(1) grid(1) hark(1) hood(1) jamb(1)
+level 5: kick(2) mild(1) odor(1) park(1) pick(1) tube(1) turf(1) waxy(1)
+level 6: keel(1) lace(1)
+add know
+print
+level 0: moth(7)
+level 1: gall(6) sour(5)
+level 2: boar(4) idle(5) plan(4) ugly(4)
+level 3: away(3) each(3) hack(3) lone(4) pack(3) quad(2) tiny(3) wild(3)
+level 4: airy(2) bird(1) coed(2) fake(2) grin(2) hint(2) kick(3) mono(2)
+level 4: news(2) peep(2) poet(1) redo(1) spit(1) tuna(2) vice(2) yard(1)
+level 5: able(1) byte(1) czar(1) evil(1) grid(1) hark(1) hood(1) jive(2)
+level 5: lace(2) mild(1) odor(1) park(1) pick(1) tube(1) turf(1) waxy(1)
+level 6: jamb(1) keel(1) know(1)
+remove idle
+print
+level 0: moth(7)
+level 1: gall(6) sour(5)
+level 2: boar(4) jamb(5) plan(4) ugly(4)
+level 3: away(3) each(3) hack(3) lone(4) pack(3) quad(2) tiny(3) wild(3)
+level 4: airy(2) bird(1) coed(2) fake(2) grin(2) hint(2) kick(3) mono(2)
+level 4: news(2) peep(2) poet(1) redo(1) spit(1) tuna(2) vice(2) yard(1)
+level 5: able(1) byte(1) czar(1) evil(1) grid(1) hark(1) hood(1) jive(2)
+level 5: lace(2) mild(1) odor(1) park(1) pick(1) tube(1) turf(1) waxy(1)
+level 6: keel(1) know(1)
+remove mild
+print
+level 0: moth(7)
+level 1: gall(6) sour(5)
+level 2: boar(4) jamb(5) plan(4) ugly(4)
+level 3: away(3) each(3) hack(3) kick(4) pack(3) quad(2) tiny(3) wild(3)
+level 4: airy(2) bird(1) coed(2) fake(2) grin(2) hint(2) jive(2) lone(3)
+level 4: news(2) peep(2) poet(1) redo(1) spit(1) tuna(2) vice(2) yard(1)
+level 5: able(1) byte(1) czar(1) evil(1) grid(1) hark(1) hood(1) keel(1)
+level 5: lace(2) mono(1) odor(1) park(1) pick(1) tube(1) turf(1) waxy(1)
+level 6: know(1)
+add deft
+print
+level 0: moth(7)
+level 1: gall(6) sour(5)
+level 2: boar(5) jamb(5) plan(4) ugly(4)
+level 3: away(3) each(4) hack(3) kick(4) pack(3) quad(2) tiny(3) wild(3)
+level 4: airy(2) bird(1) coed(3) fake(2) grin(2) hint(2) jive(2) lone(3)
+level 4: news(2) peep(2) poet(1) redo(1) spit(1) tuna(2) vice(2) yard(1)
+level 5: able(1) byte(1) czar(2) evil(1) grid(1) hark(1) hood(1) keel(1)
+level 5: lace(2) mono(1) odor(1) park(1) pick(1) tube(1) turf(1) waxy(1)
+level 6: deft(1) know(1)
+find tuna true
+add pail
+print
+level 0: moth(7)
+level 1: gall(6) sour(5)
+level 2: boar(5) jamb(5) peep(4) ugly(4)
+level 3: away(3) each(4) hack(3) kick(4) pack(3) plan(3) tiny(3) wild(3)
+level 4: airy(2) bird(1) coed(3) fake(2) grin(2) hint(2) jive(2) lone(3)
+level 4: news(2) park(2) pick(1) quad(2) spit(1) tuna(2) vice(2) yard(1)
+level 5: able(1) byte(1) czar(2) evil(1) grid(1) hark(1) hood(1) keel(1)
+level 5: lace(2) mono(1) odor(1) pail(1) poet(1) redo(1) tube(1) turf(1)
+level 5: waxy(1)
+level 6: deft(1) know(1)
+add perm
+print
+level 0: moth(7)
+level 1: gall(6) sour(5)
+level 2: boar(5) jamb(5) peep(4) ugly(4)
+level 3: away(3) each(4) hack(3) kick(4) pack(3) plan(3) tiny(3) wild(3)
+level 4: airy(2) bird(1) coed(3) fake(2) grin(2) hint(2) jive(2) lone(3)
+level 4: news(2) park(2) pick(2) quad(2) spit(1) tuna(2) vice(2) yard(1)
+level 5: able(1) byte(1) czar(2) evil(1) grid(1) hark(1) hood(1) keel(1)
+level 5: lace(2) mono(1) odor(1) pail(1) perm(1) poet(1) redo(1) tube(1)
+level 5: turf(1) waxy(1)
+level 6: deft(1) know(1)
+add reek
+print
+level 0: moth(7)
+level 1: gall(6) sour(6)
+level 2: boar(5) jamb(5) peep(5) ugly(4)
+level 3: away(3) each(4) hack(3) kick(4) pack(3) plan(4) tiny(3) wild(3)
+level 4: airy(2) bird(1) coed(3) fake(2) grin(2) hint(2) jive(2) lone(3)
+level 4: news(2) park(2) pick(2) quad(3) spit(1) tuna(2) vice(2) yard(1)
+level 5: able(1) byte(1) czar(2) evil(1) grid(1) hark(1) hood(1) keel(1)
+level 5: lace(2) mono(1) odor(1) pail(1) perm(1) poet(1) redo(2) tube(1)
+level 5: turf(1) waxy(1)
+level 6: deft(1) know(1) reek(1)
+add lame
+print
+level 0: moth(7)
+level 1: gall(6) sour(6)
+level 2: boar(5) jamb(5) peep(5) ugly(4)
+level 3: away(3) each(4) hack(3) kick(4) pack(3) plan(4) tiny(3) wild(3)
+level 4: airy(2) bird(1) coed(3) fake(2) grin(2) hint(2) jive(2) lone(3)
+level 4: news(2) park(2) pick(2) quad(3) spit(1) tuna(2) vice(2) yard(1)
+level 5: able(1) byte(1) czar(2) evil(1) grid(1) hark(1) hood(1) keel(1)
+level 5: lace(2) mono(1) odor(1) pail(1) perm(1) poet(1) redo(2) tube(1)
+level 5: turf(1) waxy(1)
+level 6: deft(1) know(1) lame(1) reek(1)
+add lazy
+print
+level 0: moth(7)
+level 1: gall(6) sour(6)
+level 2: boar(5) jamb(5) peep(5) ugly(4)
+level 3: away(3) each(4) hack(3) kick(4) pack(3) plan(4) tiny(3) wild(3)
+level 4: airy(2) bird(1) coed(3) fake(2) grin(2) hint(2) jive(2) lame(3)
+level 4: news(2) park(2) pick(2) quad(3) spit(1) tuna(2) vice(2) yard(1)
+level 5: able(1) byte(1) czar(2) evil(1) grid(1) hark(1) hood(1) keel(1)
+level 5: lace(2) lone(2) odor(1) pail(1) perm(1) poet(1) redo(2) tube(1)
+level 5: turf(1) waxy(1)
+level 6: deft(1) know(1) lazy(1) mono(1) reek(1)
+add vial
+print
+level 0: moth(7)
+level 1: gall(6) sour(6)
+level 2: boar(5) jamb(5) peep(5) ugly(4)
+level 3: away(3) each(4) hack(3) kick(4) pack(3) plan(4) tiny(3) wild(3)
+level 4: airy(2) bird(1) coed(3) fake(2) grin(2) hint(2) jive(2) lame(3)
+level 4: news(2) park(2) pick(2) quad(3) spit(1) tuna(2) vice(2) yard(1)
+level 5: able(1) byte(1) czar(2) evil(1) grid(1) hark(1) hood(1) keel(1)
+level 5: lace(2) lone(2) odor(1) pail(1) perm(1) poet(1) redo(2) tube(1)
+level 5: turf(1) vial(1) waxy(1)
+level 6: deft(1) know(1) lazy(1) mono(1) reek(1)
+add dime
+print
+level 0: moth(7)
+level 1: gall(6) sour(6)
+level 2: boar(5) jamb(5) peep(5) ugly(4)
+level 3: away(3) each(4) hack(3) kick(4) pack(3) plan(4) tiny(3) wild(3)
+level 4: airy(2) bird(1) coed(3) fake(2) grin(2) hint(2) jive(2) lame(3)
+level 4: news(2) park(2) pick(2) quad(3) spit(1) tuna(2) vice(2) yard(1)
+level 5: able(1) byte(1) deft(2) evil(1) grid(1) hark(1) hood(1) keel(1)
+level 5: lace(2) lone(2) odor(1) pail(1) perm(1) poet(1) redo(2) tube(1)
+level 5: turf(1) vial(1) waxy(1)
+level 6: czar(1) dime(1) know(1) lazy(1) mono(1) reek(1)
+add nick
+print
+level 0: moth(7)
+level 1: gall(6) sour(6)
+level 2: boar(5) jamb(5) peep(5) ugly(4)
+level 3: away(3) each(4) hack(3) kick(4) pack(3) plan(4) tiny(3) wild(3)
+level 4: airy(2) bird(1) coed(3) fake(2) grin(2) hint(2) jive(2) lame(3)
+level 4: nick(2) park(2) pick(2) quad(3) spit(1) tuna(2) vice(2) yard(1)
+level 5: able(1) byte(1) deft(2) evil(1) grid(1) hark(1) hood(1) keel(1)
+level 5: lace(2) lone(2) news(1) odor(1) pail(1) perm(1) poet(1) redo(2)
+level 5: tube(1) turf(1) vial(1) waxy(1)
+level 6: czar(1) dime(1) know(1) lazy(1) mono(1) reek(1)
+find keel true
+add whew
+print
+level 0: moth(7)
+level 1: gall(6) sour(6)
+level 2: boar(5) jamb(5) peep(5) ugly(4)
+level 3: away(3) each(4) hack(3) kick(4) pack(3) plan(4) tiny(3) waxy(3)
+level 4: airy(2) bird(1) coed(3) fake(2) grin(2) hint(2) jive(2) lame(3)
+level 4: nick(2) park(2) pick(2) quad(3) spit(1) tuna(2) vice(2) wild(2)
+level 5: able(1) byte(1) deft(2) evil(1) grid(1) hark(1) hood(1) keel(1)
+level 5: lace(2) lone(2) news(1) odor(1) pail(1) perm(1) poet(1) redo(2)
+level 5: tube(1) turf(1) vial(1) whew(1) yard(1)
+level 6: czar(1) dime(1) know(1) lazy(1) mono(1) reek(1)
+add flex
+print
+level 0: moth(7)
+level 1: gall(6) sour(6)
+level 2: boar(5) jamb(5) peep(5) ugly(4)
+level 3: away(3) each(4) hack(3) kick(4) pack(3) plan(4) tiny(3) waxy(3)
+level 4: airy(2) bird(1) coed(3) fake(2) grin(2) hint(2) jive(2) lame(3)
+level 4: nick(2) park(2) pick(2) quad(3) spit(1) tuna(2) vice(2) wild(2)
+level 5: able(1) byte(1) deft(2) evil(1) flex(1) grid(1) hark(1) hood(1)
+level 5: keel(1) lace(2) lone(2) news(1) odor(1) pail(1) perm(1) poet(1)
+level 5: redo(2) tube(1) turf(1) vial(1) whew(1) yard(1)
+level 6: czar(1) dime(1) know(1) lazy(1) mono(1) reek(1)
+add want
+print
+level 0: moth(7)
+level 1: gall(6) sour(6)
+level 2: boar(5) jamb(5) peep(5) ugly(4)
+level 3: away(3) each(4) hack(3) kick(4) pack(3) plan(4) tiny(3) waxy(3)
+level 4: airy(2) bird(1) coed(3) fake(2) grin(2) hint(2) jive(2) lame(3)
+level 4: nick(2) park(2) pick(2) quad(3) spit(1) tuna(2) vice(2) wild(2)
+level 5: able(1) byte(1) deft(2) evil(1) flex(1) grid(1) hark(1) hood(1)
+level 5: keel(1) lace(2) lone(2) news(1) odor(1) pail(1) perm(1) poet(1)
+level 5: redo(2) tube(1) turf(1) vial(1) want(1) whew(1) yard(1)
+level 6: czar(1) dime(1) know(1) lazy(1) mono(1) reek(1)
+remove plan
+print
+level 0: moth(7)
+level 1: gall(6) sour(5)
+level 2: boar(5) jamb(5) peep(4) ugly(4)
+level 3: away(3) each(4) hack(3) kick(4) pack(3) poet(3) tiny(3) waxy(3)
+level 4: airy(2) bird(1) coed(3) fake(2) grin(2) hint(2) jive(2) lame(3)
+level 4: nick(2) park(2) pick(2) redo(2) spit(1) tuna(2) vice(2) wild(2)
+level 5: able(1) byte(1) deft(2) evil(1) flex(1) grid(1) hark(1) hood(1)
+level 5: keel(1) lace(2) lone(2) news(1) odor(1) pail(1) perm(1) quad(1)
+level 5: reek(1) tube(1) turf(1) vial(1) want(1) whew(1) yard(1)
+level 6: czar(1) dime(1) know(1) lazy(1) mono(1)
+remove pack
+print
+level 0: moth(7)
+level 1: gall(6) sour(5)
+level 2: boar(5) jamb(5) peep(4) ugly(4)
+level 3: away(3) each(4) hack(3) kick(4) pail(3) poet(3) tiny(3) waxy(3)
+level 4: airy(2) bird(1) coed(3) fake(2) grin(2) hint(2) jive(2) lame(3)
+level 4: nick(2) park(1) pick(2) redo(2) spit(1) tuna(2) vice(2) wild(2)
+level 5: able(1) byte(1) deft(2) evil(1) flex(1) grid(1) hark(1) hood(1)
+level 5: keel(1) lace(2) lone(2) news(1) odor(1) perm(1) quad(1) reek(1)
+level 5: tube(1) turf(1) vial(1) want(1) whew(1) yard(1)
+level 6: czar(1) dime(1) know(1) lazy(1) mono(1)
+add came
+print
+level 0: moth(7)
+level 1: gall(6) sour(5)
+level 2: boar(5) jamb(5) peep(4) ugly(4)
+level 3: away(3) each(4) hack(3) kick(4) pail(3) poet(3) tiny(3) waxy(3)
+level 4: airy(2) bird(1) coed(3) fake(2) grin(2) hint(2) jive(2) lame(3)
+level 4: nick(2) park(1) pick(2) redo(2) spit(1) tuna(2) vice(2) wild(2)
+level 5: able(1) byte(2) deft(2) evil(1) flex(1) grid(1) hark(1) hood(1)
+level 5: keel(1) lace(2) lone(2) news(1) odor(1) perm(1) quad(1) reek(1)
+level 5: tube(1) turf(1) vial(1) want(1) whew(1) yard(1)
+level 6: came(1) czar(1) dime(1) know(1) lazy(1) mono(1)
+add oats
+print
+level 0: moth(7)
+level 1: gall(6) sour(5)
+level 2: boar(5) jamb(5) peep(4) ugly(4)
+level 3: away(3) each(4) hack(3) kick(4) odor(3) poet(3) tiny(3) waxy(3)
+level 4: airy(2) bird(1) coed(3) fake(2) grin(2) hint(2) jive(2) lame(3)
+level 4: nick(2) pail(2) pick(2) redo(2) spit(1) tuna(2) vice(2) wild(2)
+level 5: able(1) byte(2) deft(2) evil(1) flex(1) grid(1) hark(1) hood(1)
+level 5: keel(1) lace(2) lone(2) news(1) oats(1) park(1) perm(1) quad(1)
+level 5: reek(1) tube(1) turf(1) vial(1) want(1) whew(1) yard(1)
+level 6: came(1) czar(1) dime(1) know(1) lazy(1) mono(1)
+add lace
+print
+level 0: moth(7)
+level 1: gall(6) sour(5)
+level 2: boar(5) jamb(5) peep(4) ugly(4)
+level 3: away(3) each(4) hack(3) kick(4) odor(3) poet(3) tiny(3) waxy(3)
+level 4: airy(2) bird(1) coed(3) fake(2) grin(2) hint(2) jive(2) lame(3)
+level 4: nick(2) pail(2) pick(2) redo(2) spit(1) tuna(2) vice(2) wild(2)
+level 5: able(1) byte(2) deft(2) evil(1) flex(1) grid(1) hark(1) hood(1)
+level 5: keel(1) lace(2) lone(2) news(1) oats(1) park(1) perm(1) quad(1)
+level 5: reek(1) tube(1) turf(1) vial(1) want(1) whew(1) yard(1)
+level 6: came(1) czar(1) dime(1) know(1) lazy(1) mono(1)
+remove evil
+print
+level 0: moth(7)
+level 1: gall(6) sour(5)
+level 2: boar(5) jamb(5) peep(4) ugly(4)
+level 3: away(3) each(4) hack(3) kick(4) odor(3) poet(3) tiny(3) waxy(3)
+level 4: airy(2) bird(1) coed(3) fake(2) grin(2) hint(2) jive(2) lame(3)
+level 4: nick(2) pail(2) pick(2) redo(2) spit(1) tuna(2) vice(2) wild(2)
+level 5: able(1) byte(2) deft(2) flex(1) grid(1) hark(1) hood(1) keel(1)
+level 5: lace(2) lone(2) news(1) oats(1) park(1) perm(1) quad(1) reek(1)
+level 5: tube(1) turf(1) vial(1) want(1) whew(1) yard(1)
+level 6: came(1) czar(1) dime(1) know(1) lazy(1) mono(1)
+remove park
+print
+level 0: moth(7)
+level 1: gall(6) sour(5)
+level 2: boar(5) jamb(5) peep(4) ugly(4)
+level 3: away(3) each(4) hack(3) kick(4) odor(3) poet(3) tiny(3) waxy(3)
+level 4: airy(2) bird(1) coed(3) fake(2) grin(2) hint(2) jive(2) lame(3)
+level 4: nick(2) pail(1) pick(2) redo(2) spit(1) tuna(2) vice(2) wild(2)
+level 5: able(1) byte(2) deft(2) flex(1) grid(1) hark(1) hood(1) keel(1)
+level 5: lace(2) lone(2) news(1) oats(1) perm(1) quad(1) reek(1) tube(1)
+level 5: turf(1) vial(1) want(1) whew(1) yard(1)
+level 6: came(1) czar(1) dime(1) know(1) lazy(1) mono(1)
+add waxy
+print
+level 0: moth(7)
+level 1: gall(6) sour(5)
+level 2: boar(5) jamb(5) peep(4) ugly(4)
+level 3: away(3) each(4) hack(3) kick(4) odor(3) poet(3) tiny(3) waxy(3)
+level 4: airy(2) bird(1) coed(3) fake(2) grin(2) hint(2) jive(2) lame(3)
+level 4: nick(2) pail(1) pick(2) redo(2) spit(1) tuna(2) vice(2) wild(2)
+level 5: able(1) byte(2) deft(2) flex(1) grid(1) hark(1) hood(1) keel(1)
+level 5: lace(2) lone(2) news(1) oats(1) perm(1) quad(1) reek(1) tube(1)
+level 5: turf(1) vial(1) want(1) whew(1) yard(1)
+level 6: came(1) czar(1) dime(1) know(1) lazy(1) mono(1)
+find flex true
+add slit
+print
+level 0: moth(7)
+level 1: gall(6) sour(6)
+level 2: boar(5) jamb(5) peep(5) ugly(4)
+level 3: away(3) each(4) hack(3) kick(4) odor(3) poet(4) tiny(3) waxy(3)
+level 4: airy(2) bird(1) coed(3) fake(2) grin(2) hint(2) jive(2) lame(3)
+level 4: nick(2) pail(1) pick(2) redo(3) spit(1) tuna(2) vice(2) wild(2)
+level 5: able(1) byte(2) deft(2) flex(1) grid(1) hark(1) hood(1) keel(1)
+level 5: lace(2) lone(2) news(1) oats(1) perm(1) quad(1) reek(2) tube(1)
+level 5: turf(1) vial(1) want(1) whew(1) yard(1)
+level 6: came(1) czar(1) dime(1) know(1) lazy(1) mono(1) slit(1)
+add must
+print
+level 0: moth(7)
+level 1: gall(6) sour(6)
+level 2: boar(5) jamb(5) peep(5) ugly(4)
+level 3: away(3) each(4) hack(3) kick(4) nick(3) poet(4) tiny(3) waxy(3)
+level 4: airy(2) bird(1) coed(3) fake(2) grin(2) hint(2) jive(2) lame(3)
+level 4: news(2) odor(2) pick(2) redo(3) spit(1) tuna(2) vice(2) wild(2)
+level 5: able(1) byte(2) deft(2) flex(1) grid(1) hark(1) hood(1) keel(1)
+level 5: lace(2) lone(2) must(1) oats(1) pail(1) perm(1) quad(1) reek(2)
+level 5: tube(1) turf(1) vial(1) want(1) whew(1) yard(1)
+level 6: came(1) czar(1) dime(1) know(1) lazy(1) mono(1) slit(1)
+add mart
+print
+level 0: moth(7)
+level 1: gall(6) sour(6)
+level 2: boar(5) jamb(5) peep(5) ugly(4)
+level 3: away(3) each(4) hack(3) lame(4) nick(3) poet(4) tiny(3) waxy(3)
+level 4: airy(2) bird(1) coed(3) fake(2) grin(2) hint(2) kick(3) lone(3)
+level 4: news(2) odor(2) pick(2) redo(3) spit(1) tuna(2) vice(2) wild(2)
+level 5: able(1) byte(2) deft(2) flex(1) grid(1) hark(1) hood(1) jive(2)
+level 5: lace(2) lazy(1) mono(2) must(1) oats(1) pail(1) perm(1) quad(1)
+level 5: reek(2) tube(1) turf(1) vial(1) want(1) whew(1) yard(1)
+level 6: came(1) czar(1) dime(1) keel(1) know(1) mart(1) slit(1)
+remove oats
+print
+level 0: moth(7)
+level 1: gall(6) sour(6)
+level 2: boar(5) jamb(5) peep(5) ugly(4)
+level 3: away(3) each(4) hack(3) lame(4) nick(3) poet(4) tiny(3) waxy(3)
+level 4: airy(2) bird(1) coed(3) fake(2) grin(2) hint(2) kick(3) lone(3)
+level 4: news(2) odor(2) pick(2) redo(3) spit(1) tuna(2) vice(2) wild(2)
+level 5: able(1) byte(2) deft(2) flex(1) grid(1) hark(1) hood(1) jive(2)
+level 5: lace(2) lazy(1) mono(2) must(1) pail(1) perm(1) quad(1) reek(2)
+level 5: tube(1) turf(1) vial(1) want(1) whew(1) yard(1)
+level 6: came(1) czar(1) dime(1) keel(1) know(1) mart(1) slit(1)
+find whew true
+find boar true
+add muff
+print
+level 0: moth(7)
+level 1: gall(6) sour(6)
+level 2: boar(5) jamb(5) peep(5) ugly(4)
+level 3: away(3) each(4) hack(3) lame(4) nick(3) poet(4) tiny(3) waxy(3)
+level 4: airy(2) bird(1) coed(3) fake(2) grin(2) hint(2) kick(3) lone(3)
+level 4: must(2) odor(2) pick(2) redo(3) spit(1) tuna(2) vice(2) wild(2)
+level 5: able(1) byte(2) deft(2) flex(1) grid(1) hark(1) hood(1) jive(2)
+level 5: lace(2) lazy(1) mono(2) muff(1) news(1) pail(1) perm(1) quad(1)
+level 5: reek(2) tube(1) turf(1) vial(1) want(1) whew(1) yard(1)
+level 6: came(1) czar(1) dime(1) keel(1) know(1) mart(1) slit(1)
+find lame true
+add gait
+print
+level 0: moth(7)
+level 1: gall(6) sour(6)
+level 2: boar(5) jamb(5) peep(5) ugly(4)
+level 3: away(3) each(4) hack(3) lame(4) nick(3) poet(4) tiny(3) waxy(3)
+level 4: airy(2) bird(1) coed(3) flex(2) grin(2) hint(2) kick(3) lone(3)
+level 4: must(2) odor(2) pick(2) redo(3) spit(1) tuna(2) vice(2) wild(2)
+level 5: able(1) byte(2) deft(2) fake(1) gait(1) grid(1) hark(1) hood(1)
+level 5: jive(2) lace(2) lazy(1) mono(2) muff(1) news(1) pail(1) perm(1)
+level 5: quad(1) reek(2) tube(1) turf(1) vial(1) want(1) whew(1) yard(1)
+level 6: came(1) czar(1) dime(1) keel(1) know(1) mart(1) slit(1)
+find sour true

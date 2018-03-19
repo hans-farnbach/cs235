@@ -1,0 +1,2534 @@
+clear
+add avid
+print
+hash 0: avid
+add wrap
+print
+hash 0: avid
+hash 1: wrap
+hash 2:
+add worm
+print
+hash 0: avid worm
+hash 1: wrap
+hash 2:
+add born
+print
+hash 0:
+hash 1: avid worm wrap
+hash 2: born
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+add burn
+print
+hash 0: burn
+hash 1: avid worm wrap
+hash 2: born
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+add woof
+print
+hash 0: burn
+hash 1: avid worm wrap
+hash 2: born
+hash 3:
+hash 4:
+hash 5:
+hash 6: woof
+add wood
+print
+hash 0: burn
+hash 1: avid worm wrap
+hash 2: born
+hash 3:
+hash 4: wood
+hash 5:
+hash 6: woof
+add upon
+print
+hash 0: avid upon
+hash 1:
+hash 2:
+hash 3: worm
+hash 4: burn
+hash 5:
+hash 6: wood
+hash 7: wrap
+hash 8: woof
+hash 9:
+hash 10:
+hash 11:
+hash 12:
+hash 13: born
+hash 14:
+add calm
+print
+hash 0: avid upon
+hash 1:
+hash 2:
+hash 3: worm
+hash 4: burn
+hash 5:
+hash 6: wood
+hash 7: wrap
+hash 8: woof calm
+hash 9:
+hash 10:
+hash 11:
+hash 12:
+hash 13: born
+hash 14:
+add tile
+print
+hash 0: avid upon
+hash 1:
+hash 2:
+hash 3: worm
+hash 4: burn
+hash 5:
+hash 6: wood
+hash 7: wrap
+hash 8: woof calm
+hash 9:
+hash 10: tile
+hash 11:
+hash 12:
+hash 13: born
+hash 14:
+add claw
+print
+hash 0: avid upon
+hash 1:
+hash 2:
+hash 3: worm claw
+hash 4: burn
+hash 5:
+hash 6: wood
+hash 7: wrap
+hash 8: woof calm
+hash 9:
+hash 10: tile
+hash 11:
+hash 12:
+hash 13: born
+hash 14:
+add that
+print
+hash 0: avid upon
+hash 1:
+hash 2:
+hash 3: worm claw
+hash 4: burn
+hash 5:
+hash 6: wood
+hash 7: wrap
+hash 8: woof calm
+hash 9:
+hash 10: tile
+hash 11:
+hash 12:
+hash 13: born that
+hash 14:
+add slow
+print
+hash 0: avid upon
+hash 1:
+hash 2:
+hash 3: worm claw slow
+hash 4: burn
+hash 5:
+hash 6: wood
+hash 7: wrap
+hash 8: woof calm
+hash 9:
+hash 10: tile
+hash 11:
+hash 12:
+hash 13: born that
+hash 14:
+add cull
+print
+hash 0: avid upon
+hash 1:
+hash 2:
+hash 3: worm claw slow
+hash 4: burn
+hash 5:
+hash 6: wood
+hash 7: wrap
+hash 8: woof calm
+hash 9:
+hash 10: tile
+hash 11:
+hash 12: cull
+hash 13: born that
+hash 14:
+add deep
+print
+hash 0: avid upon
+hash 1:
+hash 2:
+hash 3: worm claw slow
+hash 4: burn
+hash 5:
+hash 6: wood
+hash 7: wrap
+hash 8: woof calm
+hash 9: deep
+hash 10: tile
+hash 11:
+hash 12: cull
+hash 13: born that
+hash 14:
+add seek
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: avid wood
+hash 8: tile
+hash 9: woof
+hash 10:
+hash 11:
+hash 12:
+hash 13:
+hash 14: seek
+hash 15: cull
+hash 16: worm calm
+hash 17: upon burn born
+hash 18:
+hash 19: wrap deep
+hash 20:
+hash 21:
+hash 22:
+hash 23: that
+hash 24:
+hash 25:
+hash 26: claw slow
+hash 27:
+hash 28:
+hash 29:
+hash 30:
+add roar
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: avid wood
+hash 8: tile
+hash 9: woof
+hash 10:
+hash 11:
+hash 12:
+hash 13:
+hash 14: seek
+hash 15: cull
+hash 16: worm calm
+hash 17: upon burn born
+hash 18:
+hash 19: wrap deep
+hash 20:
+hash 21: roar
+hash 22:
+hash 23: that
+hash 24:
+hash 25:
+hash 26: claw slow
+hash 27:
+hash 28:
+hash 29:
+hash 30:
+add rink
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: avid wood
+hash 8: tile
+hash 9: woof
+hash 10:
+hash 11:
+hash 12:
+hash 13:
+hash 14: seek rink
+hash 15: cull
+hash 16: worm calm
+hash 17: upon burn born
+hash 18:
+hash 19: wrap deep
+hash 20:
+hash 21: roar
+hash 22:
+hash 23: that
+hash 24:
+hash 25:
+hash 26: claw slow
+hash 27:
+hash 28:
+hash 29:
+hash 30:
+add pack
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: avid wood
+hash 8: tile
+hash 9: woof
+hash 10:
+hash 11:
+hash 12:
+hash 13:
+hash 14: seek rink pack
+hash 15: cull
+hash 16: worm calm
+hash 17: upon burn born
+hash 18:
+hash 19: wrap deep
+hash 20:
+hash 21: roar
+hash 22:
+hash 23: that
+hash 24:
+hash 25:
+hash 26: claw slow
+hash 27:
+hash 28:
+hash 29:
+hash 30:
+add drop
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: avid wood
+hash 8: tile
+hash 9: woof
+hash 10:
+hash 11:
+hash 12:
+hash 13:
+hash 14: seek rink pack
+hash 15: cull
+hash 16: worm calm
+hash 17: upon burn born
+hash 18:
+hash 19: wrap deep drop
+hash 20:
+hash 21: roar
+hash 22:
+hash 23: that
+hash 24:
+hash 25:
+hash 26: claw slow
+hash 27:
+hash 28:
+hash 29:
+hash 30:
+add edgy
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: avid wood
+hash 8: tile
+hash 9: woof
+hash 10:
+hash 11:
+hash 12:
+hash 13:
+hash 14: seek rink pack
+hash 15: cull
+hash 16: worm calm
+hash 17: upon burn born
+hash 18:
+hash 19: wrap deep drop
+hash 20:
+hash 21: roar
+hash 22:
+hash 23: that
+hash 24:
+hash 25:
+hash 26: claw slow
+hash 27:
+hash 28: edgy
+hash 29:
+hash 30:
+add nine
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: avid wood
+hash 8: tile nine
+hash 9: woof
+hash 10:
+hash 11:
+hash 12:
+hash 13:
+hash 14: seek rink pack
+hash 15: cull
+hash 16: worm calm
+hash 17: upon burn born
+hash 18:
+hash 19: wrap deep drop
+hash 20:
+hash 21: roar
+hash 22:
+hash 23: that
+hash 24:
+hash 25:
+hash 26: claw slow
+hash 27:
+hash 28: edgy
+hash 29:
+hash 30:
+add muss
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: avid wood
+hash 8: tile nine
+hash 9: woof
+hash 10:
+hash 11:
+hash 12:
+hash 13:
+hash 14: seek rink pack
+hash 15: cull
+hash 16: worm calm
+hash 17: upon burn born
+hash 18:
+hash 19: wrap deep drop
+hash 20:
+hash 21: roar
+hash 22: muss
+hash 23: that
+hash 24:
+hash 25:
+hash 26: claw slow
+hash 27:
+hash 28: edgy
+hash 29:
+hash 30:
+add meow
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: avid wood
+hash 8: tile nine
+hash 9: woof
+hash 10:
+hash 11:
+hash 12:
+hash 13:
+hash 14: seek rink pack
+hash 15: cull
+hash 16: worm calm
+hash 17: upon burn born
+hash 18:
+hash 19: wrap deep drop
+hash 20:
+hash 21: roar
+hash 22: muss
+hash 23: that
+hash 24:
+hash 25:
+hash 26: claw slow meow
+hash 27:
+hash 28: edgy
+hash 29:
+hash 30:
+add fame
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: avid wood
+hash 8: tile nine fame
+hash 9: woof
+hash 10:
+hash 11:
+hash 12:
+hash 13:
+hash 14: seek rink pack
+hash 15: cull
+hash 16: worm calm
+hash 17: upon burn born
+hash 18:
+hash 19: wrap deep drop
+hash 20:
+hash 21: roar
+hash 22: muss
+hash 23: that
+hash 24:
+hash 25:
+hash 26: claw slow meow
+hash 27:
+hash 28: edgy
+hash 29:
+hash 30:
+add fled
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: avid wood fled
+hash 8: tile nine fame
+hash 9: woof
+hash 10:
+hash 11:
+hash 12:
+hash 13:
+hash 14: seek rink pack
+hash 15: cull
+hash 16: worm calm
+hash 17: upon burn born
+hash 18:
+hash 19: wrap deep drop
+hash 20:
+hash 21: roar
+hash 22: muss
+hash 23: that
+hash 24:
+hash 25:
+hash 26: claw slow meow
+hash 27:
+hash 28: edgy
+hash 29:
+hash 30:
+add math
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: avid wood fled
+hash 8: tile nine fame
+hash 9: woof
+hash 10:
+hash 11: math
+hash 12:
+hash 13:
+hash 14: seek rink pack
+hash 15: cull
+hash 16: worm calm
+hash 17: upon burn born
+hash 18:
+hash 19: wrap deep drop
+hash 20:
+hash 21: roar
+hash 22: muss
+hash 23: that
+hash 24:
+hash 25:
+hash 26: claw slow meow
+hash 27:
+hash 28: edgy
+hash 29:
+hash 30:
+add mane
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: avid wood fled
+hash 8: tile nine fame mane
+hash 9: woof
+hash 10:
+hash 11: math
+hash 12:
+hash 13:
+hash 14: seek rink pack
+hash 15: cull
+hash 16: worm calm
+hash 17: upon burn born
+hash 18:
+hash 19: wrap deep drop
+hash 20:
+hash 21: roar
+hash 22: muss
+hash 23: that
+hash 24:
+hash 25:
+hash 26: claw slow meow
+hash 27:
+hash 28: edgy
+hash 29:
+hash 30:
+add lull
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: avid wood fled
+hash 8: tile nine fame mane
+hash 9: woof
+hash 10:
+hash 11: math
+hash 12:
+hash 13:
+hash 14: seek rink pack
+hash 15: cull lull
+hash 16: worm calm
+hash 17: upon burn born
+hash 18:
+hash 19: wrap deep drop
+hash 20:
+hash 21: roar
+hash 22: muss
+hash 23: that
+hash 24:
+hash 25:
+hash 26: claw slow meow
+hash 27:
+hash 28: edgy
+hash 29:
+hash 30:
+add fold
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: avid wood fled fold
+hash 8: tile nine fame mane
+hash 9: woof
+hash 10:
+hash 11: math
+hash 12:
+hash 13:
+hash 14: seek rink pack
+hash 15: cull lull
+hash 16: worm calm
+hash 17: upon burn born
+hash 18:
+hash 19: wrap deep drop
+hash 20:
+hash 21: roar
+hash 22: muss
+hash 23: that
+hash 24:
+hash 25:
+hash 26: claw slow meow
+hash 27:
+hash 28: edgy
+hash 29:
+hash 30:
+add lent
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: avid wood fled fold
+hash 8: tile nine fame mane
+hash 9: woof
+hash 10:
+hash 11: math
+hash 12:
+hash 13:
+hash 14: seek rink pack
+hash 15: cull lull
+hash 16: worm calm
+hash 17: upon burn born
+hash 18:
+hash 19: wrap deep drop
+hash 20:
+hash 21: roar
+hash 22: muss
+hash 23: that lent
+hash 24:
+hash 25:
+hash 26: claw slow meow
+hash 27:
+hash 28: edgy
+hash 29:
+hash 30:
+add food
+print
+hash 0: cull
+hash 1: rink
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: burn
+hash 8:
+hash 9:
+hash 10:
+hash 11: edgy
+hash 12:
+hash 13:
+hash 14:
+hash 15:
+hash 16: roar that
+hash 17:
+hash 18: wood muss
+hash 19:
+hash 20: woof meow
+hash 21: slow
+hash 22: wrap
+hash 23:
+hash 24:
+hash 25:
+hash 26:
+hash 27: nine deep
+hash 28: seek food
+hash 29:
+hash 30: claw
+hash 31:
+hash 32:
+hash 33: mane math
+hash 34:
+hash 35:
+hash 36:
+hash 37: born
+hash 38:
+hash 39:
+hash 40:
+hash 41: drop
+hash 42:
+hash 43: tile
+hash 44:
+hash 45:
+hash 46:
+hash 47:
+hash 48: fled
+hash 49:
+hash 50:
+hash 51:
+hash 52: pack
+hash 53:
+hash 54: lull
+hash 55:
+hash 56:
+hash 57: avid worm lent
+hash 58: fame
+hash 59: calm
+hash 60: upon
+hash 61: fold
+hash 62:
+add kite
+print
+hash 0: cull
+hash 1: rink
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: burn
+hash 8:
+hash 9:
+hash 10:
+hash 11: edgy
+hash 12:
+hash 13:
+hash 14:
+hash 15:
+hash 16: roar that
+hash 17:
+hash 18: wood muss
+hash 19:
+hash 20: woof meow
+hash 21: slow
+hash 22: wrap
+hash 23:
+hash 24:
+hash 25:
+hash 26:
+hash 27: nine deep
+hash 28: seek food
+hash 29:
+hash 30: claw
+hash 31:
+hash 32:
+hash 33: mane math
+hash 34:
+hash 35:
+hash 36:
+hash 37: born
+hash 38:
+hash 39:
+hash 40:
+hash 41: drop
+hash 42:
+hash 43: tile
+hash 44:
+hash 45:
+hash 46:
+hash 47:
+hash 48: fled kite
+hash 49:
+hash 50:
+hash 51:
+hash 52: pack
+hash 53:
+hash 54: lull
+hash 55:
+hash 56:
+hash 57: avid worm lent
+hash 58: fame
+hash 59: calm
+hash 60: upon
+hash 61: fold
+hash 62:
+add gait
+print
+hash 0: cull
+hash 1: rink
+hash 2:
+hash 3:
+hash 4: gait
+hash 5:
+hash 6:
+hash 7: burn
+hash 8:
+hash 9:
+hash 10:
+hash 11: edgy
+hash 12:
+hash 13:
+hash 14:
+hash 15:
+hash 16: roar that
+hash 17:
+hash 18: wood muss
+hash 19:
+hash 20: woof meow
+hash 21: slow
+hash 22: wrap
+hash 23:
+hash 24:
+hash 25:
+hash 26:
+hash 27: nine deep
+hash 28: seek food
+hash 29:
+hash 30: claw
+hash 31:
+hash 32:
+hash 33: mane math
+hash 34:
+hash 35:
+hash 36:
+hash 37: born
+hash 38:
+hash 39:
+hash 40:
+hash 41: drop
+hash 42:
+hash 43: tile
+hash 44:
+hash 45:
+hash 46:
+hash 47:
+hash 48: fled kite
+hash 49:
+hash 50:
+hash 51:
+hash 52: pack
+hash 53:
+hash 54: lull
+hash 55:
+hash 56:
+hash 57: avid worm lent
+hash 58: fame
+hash 59: calm
+hash 60: upon
+hash 61: fold
+hash 62:
+add gash
+print
+hash 0: cull
+hash 1: rink
+hash 2:
+hash 3:
+hash 4: gait
+hash 5:
+hash 6:
+hash 7: burn
+hash 8:
+hash 9:
+hash 10:
+hash 11: edgy
+hash 12:
+hash 13:
+hash 14:
+hash 15:
+hash 16: roar that
+hash 17:
+hash 18: wood muss
+hash 19:
+hash 20: woof meow
+hash 21: slow
+hash 22: wrap
+hash 23:
+hash 24:
+hash 25:
+hash 26:
+hash 27: nine deep
+hash 28: seek food
+hash 29:
+hash 30: claw
+hash 31:
+hash 32:
+hash 33: mane math
+hash 34:
+hash 35:
+hash 36:
+hash 37: born
+hash 38:
+hash 39:
+hash 40:
+hash 41: drop
+hash 42:
+hash 43: tile
+hash 44:
+hash 45:
+hash 46:
+hash 47:
+hash 48: fled kite
+hash 49:
+hash 50: gash
+hash 51:
+hash 52: pack
+hash 53:
+hash 54: lull
+hash 55:
+hash 56:
+hash 57: avid worm lent
+hash 58: fame
+hash 59: calm
+hash 60: upon
+hash 61: fold
+hash 62:
+add kind
+print
+hash 0: cull
+hash 1: rink
+hash 2:
+hash 3:
+hash 4: gait
+hash 5:
+hash 6:
+hash 7: burn
+hash 8:
+hash 9:
+hash 10:
+hash 11: edgy
+hash 12:
+hash 13:
+hash 14:
+hash 15:
+hash 16: roar that
+hash 17:
+hash 18: wood muss
+hash 19:
+hash 20: woof meow
+hash 21: slow
+hash 22: wrap
+hash 23:
+hash 24:
+hash 25:
+hash 26:
+hash 27: nine deep
+hash 28: seek food
+hash 29:
+hash 30: claw
+hash 31:
+hash 32:
+hash 33: mane math
+hash 34:
+hash 35:
+hash 36:
+hash 37: born
+hash 38:
+hash 39:
+hash 40:
+hash 41: drop
+hash 42:
+hash 43: tile
+hash 44:
+hash 45:
+hash 46:
+hash 47:
+hash 48: fled kite
+hash 49:
+hash 50: gash kind
+hash 51:
+hash 52: pack
+hash 53:
+hash 54: lull
+hash 55:
+hash 56:
+hash 57: avid worm lent
+hash 58: fame
+hash 59: calm
+hash 60: upon
+hash 61: fold
+hash 62:
+add jolt
+print
+hash 0: cull
+hash 1: rink
+hash 2:
+hash 3:
+hash 4: gait
+hash 5:
+hash 6:
+hash 7: burn
+hash 8:
+hash 9:
+hash 10:
+hash 11: edgy
+hash 12:
+hash 13:
+hash 14:
+hash 15:
+hash 16: roar that
+hash 17:
+hash 18: wood muss
+hash 19:
+hash 20: woof meow
+hash 21: slow
+hash 22: wrap
+hash 23:
+hash 24:
+hash 25:
+hash 26:
+hash 27: nine deep
+hash 28: seek food
+hash 29:
+hash 30: claw
+hash 31:
+hash 32:
+hash 33: mane math
+hash 34:
+hash 35:
+hash 36:
+hash 37: born
+hash 38:
+hash 39:
+hash 40:
+hash 41: drop
+hash 42:
+hash 43: tile
+hash 44:
+hash 45: jolt
+hash 46:
+hash 47:
+hash 48: fled kite
+hash 49:
+hash 50: gash kind
+hash 51:
+hash 52: pack
+hash 53:
+hash 54: lull
+hash 55:
+hash 56:
+hash 57: avid worm lent
+hash 58: fame
+hash 59: calm
+hash 60: upon
+hash 61: fold
+hash 62:
+add goon
+print
+hash 0: cull
+hash 1: rink
+hash 2:
+hash 3:
+hash 4: gait
+hash 5:
+hash 6:
+hash 7: burn
+hash 8:
+hash 9:
+hash 10:
+hash 11: edgy
+hash 12:
+hash 13:
+hash 14:
+hash 15:
+hash 16: roar that
+hash 17:
+hash 18: wood muss
+hash 19:
+hash 20: woof meow
+hash 21: slow
+hash 22: wrap
+hash 23:
+hash 24:
+hash 25:
+hash 26:
+hash 27: nine deep
+hash 28: seek food
+hash 29:
+hash 30: claw goon
+hash 31:
+hash 32:
+hash 33: mane math
+hash 34:
+hash 35:
+hash 36:
+hash 37: born
+hash 38:
+hash 39:
+hash 40:
+hash 41: drop
+hash 42:
+hash 43: tile
+hash 44:
+hash 45: jolt
+hash 46:
+hash 47:
+hash 48: fled kite
+hash 49:
+hash 50: gash kind
+hash 51:
+hash 52: pack
+hash 53:
+hash 54: lull
+hash 55:
+hash 56:
+hash 57: avid worm lent
+hash 58: fame
+hash 59: calm
+hash 60: upon
+hash 61: fold
+hash 62:
+add gulf
+print
+hash 0: cull
+hash 1: rink
+hash 2:
+hash 3:
+hash 4: gait
+hash 5:
+hash 6:
+hash 7: burn
+hash 8:
+hash 9:
+hash 10:
+hash 11: edgy
+hash 12:
+hash 13:
+hash 14:
+hash 15:
+hash 16: roar that
+hash 17:
+hash 18: wood muss
+hash 19:
+hash 20: woof meow
+hash 21: slow
+hash 22: wrap
+hash 23:
+hash 24:
+hash 25: gulf
+hash 26:
+hash 27: nine deep
+hash 28: seek food
+hash 29:
+hash 30: claw goon
+hash 31:
+hash 32:
+hash 33: mane math
+hash 34:
+hash 35:
+hash 36:
+hash 37: born
+hash 38:
+hash 39:
+hash 40:
+hash 41: drop
+hash 42:
+hash 43: tile
+hash 44:
+hash 45: jolt
+hash 46:
+hash 47:
+hash 48: fled kite
+hash 49:
+hash 50: gash kind
+hash 51:
+hash 52: pack
+hash 53:
+hash 54: lull
+hash 55:
+hash 56:
+hash 57: avid worm lent
+hash 58: fame
+hash 59: calm
+hash 60: upon
+hash 61: fold
+hash 62:
+add gull
+print
+hash 0: cull
+hash 1: rink
+hash 2:
+hash 3:
+hash 4: gait
+hash 5:
+hash 6:
+hash 7: burn
+hash 8:
+hash 9:
+hash 10:
+hash 11: edgy
+hash 12:
+hash 13:
+hash 14:
+hash 15:
+hash 16: roar that
+hash 17:
+hash 18: wood muss
+hash 19:
+hash 20: woof meow
+hash 21: slow
+hash 22: wrap
+hash 23:
+hash 24:
+hash 25: gulf
+hash 26:
+hash 27: nine deep
+hash 28: seek food
+hash 29:
+hash 30: claw goon
+hash 31: gull
+hash 32:
+hash 33: mane math
+hash 34:
+hash 35:
+hash 36:
+hash 37: born
+hash 38:
+hash 39:
+hash 40:
+hash 41: drop
+hash 42:
+hash 43: tile
+hash 44:
+hash 45: jolt
+hash 46:
+hash 47:
+hash 48: fled kite
+hash 49:
+hash 50: gash kind
+hash 51:
+hash 52: pack
+hash 53:
+hash 54: lull
+hash 55:
+hash 56:
+hash 57: avid worm lent
+hash 58: fame
+hash 59: calm
+hash 60: upon
+hash 61: fold
+hash 62:
+remove avid
+print
+hash 0: cull
+hash 1: rink
+hash 2:
+hash 3:
+hash 4: gait
+hash 5:
+hash 6:
+hash 7: burn
+hash 8:
+hash 9:
+hash 10:
+hash 11: edgy
+hash 12:
+hash 13:
+hash 14:
+hash 15:
+hash 16: roar that
+hash 17:
+hash 18: wood muss
+hash 19:
+hash 20: woof meow
+hash 21: slow
+hash 22: wrap
+hash 23:
+hash 24:
+hash 25: gulf
+hash 26:
+hash 27: nine deep
+hash 28: seek food
+hash 29:
+hash 30: claw goon
+hash 31: gull
+hash 32:
+hash 33: mane math
+hash 34:
+hash 35:
+hash 36:
+hash 37: born
+hash 38:
+hash 39:
+hash 40:
+hash 41: drop
+hash 42:
+hash 43: tile
+hash 44:
+hash 45: jolt
+hash 46:
+hash 47:
+hash 48: fled kite
+hash 49:
+hash 50: gash kind
+hash 51:
+hash 52: pack
+hash 53:
+hash 54: lull
+hash 55:
+hash 56:
+hash 57: worm lent
+hash 58: fame
+hash 59: calm
+hash 60: upon
+hash 61: fold
+hash 62:
+remove born
+print
+hash 0: cull
+hash 1: rink
+hash 2:
+hash 3:
+hash 4: gait
+hash 5:
+hash 6:
+hash 7: burn
+hash 8:
+hash 9:
+hash 10:
+hash 11: edgy
+hash 12:
+hash 13:
+hash 14:
+hash 15:
+hash 16: roar that
+hash 17:
+hash 18: wood muss
+hash 19:
+hash 20: woof meow
+hash 21: slow
+hash 22: wrap
+hash 23:
+hash 24:
+hash 25: gulf
+hash 26:
+hash 27: nine deep
+hash 28: seek food
+hash 29:
+hash 30: claw goon
+hash 31: gull
+hash 32:
+hash 33: mane math
+hash 34:
+hash 35:
+hash 36:
+hash 37:
+hash 38:
+hash 39:
+hash 40:
+hash 41: drop
+hash 42:
+hash 43: tile
+hash 44:
+hash 45: jolt
+hash 46:
+hash 47:
+hash 48: fled kite
+hash 49:
+hash 50: gash kind
+hash 51:
+hash 52: pack
+hash 53:
+hash 54: lull
+hash 55:
+hash 56:
+hash 57: worm lent
+hash 58: fame
+hash 59: calm
+hash 60: upon
+hash 61: fold
+hash 62:
+remove burn
+print
+hash 0: cull
+hash 1: rink
+hash 2:
+hash 3:
+hash 4: gait
+hash 5:
+hash 6:
+hash 7:
+hash 8:
+hash 9:
+hash 10:
+hash 11: edgy
+hash 12:
+hash 13:
+hash 14:
+hash 15:
+hash 16: roar that
+hash 17:
+hash 18: wood muss
+hash 19:
+hash 20: woof meow
+hash 21: slow
+hash 22: wrap
+hash 23:
+hash 24:
+hash 25: gulf
+hash 26:
+hash 27: nine deep
+hash 28: seek food
+hash 29:
+hash 30: claw goon
+hash 31: gull
+hash 32:
+hash 33: mane math
+hash 34:
+hash 35:
+hash 36:
+hash 37:
+hash 38:
+hash 39:
+hash 40:
+hash 41: drop
+hash 42:
+hash 43: tile
+hash 44:
+hash 45: jolt
+hash 46:
+hash 47:
+hash 48: fled kite
+hash 49:
+hash 50: gash kind
+hash 51:
+hash 52: pack
+hash 53:
+hash 54: lull
+hash 55:
+hash 56:
+hash 57: worm lent
+hash 58: fame
+hash 59: calm
+hash 60: upon
+hash 61: fold
+hash 62:
+remove wrap
+print
+hash 0: cull
+hash 1: rink
+hash 2:
+hash 3:
+hash 4: gait
+hash 5:
+hash 6:
+hash 7:
+hash 8:
+hash 9:
+hash 10:
+hash 11: edgy
+hash 12:
+hash 13:
+hash 14:
+hash 15:
+hash 16: roar that
+hash 17:
+hash 18: wood muss
+hash 19:
+hash 20: woof meow
+hash 21: slow
+hash 22:
+hash 23:
+hash 24:
+hash 25: gulf
+hash 26:
+hash 27: nine deep
+hash 28: seek food
+hash 29:
+hash 30: claw goon
+hash 31: gull
+hash 32:
+hash 33: mane math
+hash 34:
+hash 35:
+hash 36:
+hash 37:
+hash 38:
+hash 39:
+hash 40:
+hash 41: drop
+hash 42:
+hash 43: tile
+hash 44:
+hash 45: jolt
+hash 46:
+hash 47:
+hash 48: fled kite
+hash 49:
+hash 50: gash kind
+hash 51:
+hash 52: pack
+hash 53:
+hash 54: lull
+hash 55:
+hash 56:
+hash 57: worm lent
+hash 58: fame
+hash 59: calm
+hash 60: upon
+hash 61: fold
+hash 62:
+remove calm
+print
+hash 0: cull
+hash 1: rink
+hash 2:
+hash 3:
+hash 4: gait
+hash 5:
+hash 6:
+hash 7:
+hash 8:
+hash 9:
+hash 10:
+hash 11: edgy
+hash 12:
+hash 13:
+hash 14:
+hash 15:
+hash 16: roar that
+hash 17:
+hash 18: wood muss
+hash 19:
+hash 20: woof meow
+hash 21: slow
+hash 22:
+hash 23:
+hash 24:
+hash 25: gulf
+hash 26:
+hash 27: nine deep
+hash 28: seek food
+hash 29:
+hash 30: claw goon
+hash 31: gull
+hash 32:
+hash 33: mane math
+hash 34:
+hash 35:
+hash 36:
+hash 37:
+hash 38:
+hash 39:
+hash 40:
+hash 41: drop
+hash 42:
+hash 43: tile
+hash 44:
+hash 45: jolt
+hash 46:
+hash 47:
+hash 48: fled kite
+hash 49:
+hash 50: gash kind
+hash 51:
+hash 52: pack
+hash 53:
+hash 54: lull
+hash 55:
+hash 56:
+hash 57: worm lent
+hash 58: fame
+hash 59:
+hash 60: upon
+hash 61: fold
+hash 62:
+remove worm
+print
+hash 0: cull
+hash 1: rink
+hash 2:
+hash 3:
+hash 4: gait
+hash 5:
+hash 6:
+hash 7:
+hash 8:
+hash 9:
+hash 10:
+hash 11: edgy
+hash 12:
+hash 13:
+hash 14:
+hash 15:
+hash 16: roar that
+hash 17:
+hash 18: wood muss
+hash 19:
+hash 20: woof meow
+hash 21: slow
+hash 22:
+hash 23:
+hash 24:
+hash 25: gulf
+hash 26:
+hash 27: nine deep
+hash 28: seek food
+hash 29:
+hash 30: claw goon
+hash 31: gull
+hash 32:
+hash 33: mane math
+hash 34:
+hash 35:
+hash 36:
+hash 37:
+hash 38:
+hash 39:
+hash 40:
+hash 41: drop
+hash 42:
+hash 43: tile
+hash 44:
+hash 45: jolt
+hash 46:
+hash 47:
+hash 48: fled kite
+hash 49:
+hash 50: gash kind
+hash 51:
+hash 52: pack
+hash 53:
+hash 54: lull
+hash 55:
+hash 56:
+hash 57: lent
+hash 58: fame
+hash 59:
+hash 60: upon
+hash 61: fold
+hash 62:
+remove woof
+print
+hash 0: cull
+hash 1: rink
+hash 2:
+hash 3:
+hash 4: gait
+hash 5:
+hash 6:
+hash 7:
+hash 8:
+hash 9:
+hash 10:
+hash 11: edgy
+hash 12:
+hash 13:
+hash 14:
+hash 15:
+hash 16: roar that
+hash 17:
+hash 18: wood muss
+hash 19:
+hash 20: meow
+hash 21: slow
+hash 22:
+hash 23:
+hash 24:
+hash 25: gulf
+hash 26:
+hash 27: nine deep
+hash 28: seek food
+hash 29:
+hash 30: claw goon
+hash 31: gull
+hash 32:
+hash 33: mane math
+hash 34:
+hash 35:
+hash 36:
+hash 37:
+hash 38:
+hash 39:
+hash 40:
+hash 41: drop
+hash 42:
+hash 43: tile
+hash 44:
+hash 45: jolt
+hash 46:
+hash 47:
+hash 48: fled kite
+hash 49:
+hash 50: gash kind
+hash 51:
+hash 52: pack
+hash 53:
+hash 54: lull
+hash 55:
+hash 56:
+hash 57: lent
+hash 58: fame
+hash 59:
+hash 60: upon
+hash 61: fold
+hash 62:
+remove wood
+print
+hash 0: cull
+hash 1: rink
+hash 2:
+hash 3:
+hash 4: gait
+hash 5:
+hash 6:
+hash 7:
+hash 8:
+hash 9:
+hash 10:
+hash 11: edgy
+hash 12:
+hash 13:
+hash 14:
+hash 15:
+hash 16: roar that
+hash 17:
+hash 18: muss
+hash 19:
+hash 20: meow
+hash 21: slow
+hash 22:
+hash 23:
+hash 24:
+hash 25: gulf
+hash 26:
+hash 27: nine deep
+hash 28: seek food
+hash 29:
+hash 30: claw goon
+hash 31: gull
+hash 32:
+hash 33: mane math
+hash 34:
+hash 35:
+hash 36:
+hash 37:
+hash 38:
+hash 39:
+hash 40:
+hash 41: drop
+hash 42:
+hash 43: tile
+hash 44:
+hash 45: jolt
+hash 46:
+hash 47:
+hash 48: fled kite
+hash 49:
+hash 50: gash kind
+hash 51:
+hash 52: pack
+hash 53:
+hash 54: lull
+hash 55:
+hash 56:
+hash 57: lent
+hash 58: fame
+hash 59:
+hash 60: upon
+hash 61: fold
+hash 62:
+remove claw
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: food fled kind fold
+hash 8: nine mane tile kite fame
+hash 9: gulf
+hash 10:
+hash 11: math gash
+hash 12:
+hash 13:
+hash 14: rink seek pack
+hash 15: cull gull lull
+hash 16:
+hash 17: goon upon
+hash 18:
+hash 19: deep drop
+hash 20:
+hash 21: roar
+hash 22: muss
+hash 23: gait that jolt lent
+hash 24:
+hash 25:
+hash 26: meow slow
+hash 27:
+hash 28: edgy
+hash 29:
+hash 30:
+remove cull
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: food fled kind fold
+hash 8: nine mane tile kite fame
+hash 9: gulf
+hash 10:
+hash 11: math gash
+hash 12:
+hash 13:
+hash 14: rink seek pack
+hash 15: gull lull
+hash 16:
+hash 17: goon upon
+hash 18:
+hash 19: deep drop
+hash 20:
+hash 21: roar
+hash 22: muss
+hash 23: gait that jolt lent
+hash 24:
+hash 25:
+hash 26: meow slow
+hash 27:
+hash 28: edgy
+hash 29:
+hash 30:
+remove deep
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: food fled kind fold
+hash 8: nine mane tile kite fame
+hash 9: gulf
+hash 10:
+hash 11: math gash
+hash 12:
+hash 13:
+hash 14: rink seek pack
+hash 15: gull lull
+hash 16:
+hash 17: goon upon
+hash 18:
+hash 19: drop
+hash 20:
+hash 21: roar
+hash 22: muss
+hash 23: gait that jolt lent
+hash 24:
+hash 25:
+hash 26: meow slow
+hash 27:
+hash 28: edgy
+hash 29:
+hash 30:
+remove upon
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: food fled kind fold
+hash 8: nine mane tile kite fame
+hash 9: gulf
+hash 10:
+hash 11: math gash
+hash 12:
+hash 13:
+hash 14: rink seek pack
+hash 15: gull lull
+hash 16:
+hash 17: goon
+hash 18:
+hash 19: drop
+hash 20:
+hash 21: roar
+hash 22: muss
+hash 23: gait that jolt lent
+hash 24:
+hash 25:
+hash 26: meow slow
+hash 27:
+hash 28: edgy
+hash 29:
+hash 30:
+remove tile
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: food fled kind fold
+hash 8: nine mane kite fame
+hash 9: gulf
+hash 10:
+hash 11: math gash
+hash 12:
+hash 13:
+hash 14: rink seek pack
+hash 15: gull lull
+hash 16:
+hash 17: goon
+hash 18:
+hash 19: drop
+hash 20:
+hash 21: roar
+hash 22: muss
+hash 23: gait that jolt lent
+hash 24:
+hash 25:
+hash 26: meow slow
+hash 27:
+hash 28: edgy
+hash 29:
+hash 30:
+remove that
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: food fled kind fold
+hash 8: nine mane kite fame
+hash 9: gulf
+hash 10:
+hash 11: math gash
+hash 12:
+hash 13:
+hash 14: rink seek pack
+hash 15: gull lull
+hash 16:
+hash 17: goon
+hash 18:
+hash 19: drop
+hash 20:
+hash 21: roar
+hash 22: muss
+hash 23: gait jolt lent
+hash 24:
+hash 25:
+hash 26: meow slow
+hash 27:
+hash 28: edgy
+hash 29:
+hash 30:
+remove slow
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: food fled kind fold
+hash 8: nine mane kite fame
+hash 9: gulf
+hash 10:
+hash 11: math gash
+hash 12:
+hash 13:
+hash 14: rink seek pack
+hash 15: gull lull
+hash 16:
+hash 17: goon
+hash 18:
+hash 19: drop
+hash 20:
+hash 21: roar
+hash 22: muss
+hash 23: gait jolt lent
+hash 24:
+hash 25:
+hash 26: meow
+hash 27:
+hash 28: edgy
+hash 29:
+hash 30:
+remove drop
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: food fled kind fold
+hash 8: nine mane kite fame
+hash 9: gulf
+hash 10:
+hash 11: math gash
+hash 12:
+hash 13:
+hash 14: rink seek pack
+hash 15: gull lull
+hash 16:
+hash 17: goon
+hash 18:
+hash 19:
+hash 20:
+hash 21: roar
+hash 22: muss
+hash 23: gait jolt lent
+hash 24:
+hash 25:
+hash 26: meow
+hash 27:
+hash 28: edgy
+hash 29:
+hash 30:
+remove edgy
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: food fled kind fold
+hash 8: nine mane kite fame
+hash 9: gulf
+hash 10:
+hash 11: math gash
+hash 12:
+hash 13:
+hash 14: rink seek pack
+hash 15: gull lull
+hash 16:
+hash 17: goon
+hash 18:
+hash 19:
+hash 20:
+hash 21: roar
+hash 22: muss
+hash 23: gait jolt lent
+hash 24:
+hash 25:
+hash 26: meow
+hash 27:
+hash 28:
+hash 29:
+hash 30:
+remove seek
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: food fled kind fold
+hash 8: nine mane kite fame
+hash 9: gulf
+hash 10:
+hash 11: math gash
+hash 12:
+hash 13:
+hash 14: rink pack
+hash 15: gull lull
+hash 16:
+hash 17: goon
+hash 18:
+hash 19:
+hash 20:
+hash 21: roar
+hash 22: muss
+hash 23: gait jolt lent
+hash 24:
+hash 25:
+hash 26: meow
+hash 27:
+hash 28:
+hash 29:
+hash 30:
+remove roar
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: food fled kind fold
+hash 8: nine mane kite fame
+hash 9: gulf
+hash 10:
+hash 11: math gash
+hash 12:
+hash 13:
+hash 14: rink pack
+hash 15: gull lull
+hash 16:
+hash 17: goon
+hash 18:
+hash 19:
+hash 20:
+hash 21:
+hash 22: muss
+hash 23: gait jolt lent
+hash 24:
+hash 25:
+hash 26: meow
+hash 27:
+hash 28:
+hash 29:
+hash 30:
+remove fame
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: food fled kind fold
+hash 8: nine mane kite
+hash 9: gulf
+hash 10:
+hash 11: math gash
+hash 12:
+hash 13:
+hash 14: rink pack
+hash 15: gull lull
+hash 16:
+hash 17: goon
+hash 18:
+hash 19:
+hash 20:
+hash 21:
+hash 22: muss
+hash 23: gait jolt lent
+hash 24:
+hash 25:
+hash 26: meow
+hash 27:
+hash 28:
+hash 29:
+hash 30:
+remove rink
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: food fled kind fold
+hash 8: nine mane kite
+hash 9: gulf
+hash 10:
+hash 11: math gash
+hash 12:
+hash 13:
+hash 14: pack
+hash 15: gull lull
+hash 16:
+hash 17: goon
+hash 18:
+hash 19:
+hash 20:
+hash 21:
+hash 22: muss
+hash 23: gait jolt lent
+hash 24:
+hash 25:
+hash 26: meow
+hash 27:
+hash 28:
+hash 29:
+hash 30:
+remove fled
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: food kind fold
+hash 8: nine mane kite
+hash 9: gulf
+hash 10:
+hash 11: math gash
+hash 12:
+hash 13:
+hash 14: pack
+hash 15: gull lull
+hash 16:
+hash 17: goon
+hash 18:
+hash 19:
+hash 20:
+hash 21:
+hash 22: muss
+hash 23: gait jolt lent
+hash 24:
+hash 25:
+hash 26: meow
+hash 27:
+hash 28:
+hash 29:
+hash 30:
+remove fold
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: food kind
+hash 8: nine mane kite
+hash 9: gulf
+hash 10:
+hash 11: math gash
+hash 12:
+hash 13:
+hash 14: pack
+hash 15: gull lull
+hash 16:
+hash 17: goon
+hash 18:
+hash 19:
+hash 20:
+hash 21:
+hash 22: muss
+hash 23: gait jolt lent
+hash 24:
+hash 25:
+hash 26: meow
+hash 27:
+hash 28:
+hash 29:
+hash 30:
+remove pack
+print
+hash 0:
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5:
+hash 6:
+hash 7: food kind
+hash 8: nine mane kite
+hash 9: gulf
+hash 10:
+hash 11: math gash
+hash 12:
+hash 13:
+hash 14:
+hash 15: gull lull
+hash 16:
+hash 17: goon
+hash 18:
+hash 19:
+hash 20:
+hash 21:
+hash 22: muss
+hash 23: gait jolt lent
+hash 24:
+hash 25:
+hash 26: meow
+hash 27:
+hash 28:
+hash 29:
+hash 30:
+remove food
+print
+hash 0: goon lent
+hash 1: gull gait
+hash 2: kind
+hash 3:
+hash 4:
+hash 5: meow
+hash 6: nine math lull muss jolt
+hash 7:
+hash 8:
+hash 9: kite
+hash 10: gulf
+hash 11:
+hash 12: mane
+hash 13:
+hash 14: gash
+remove nine
+print
+hash 0: goon lent
+hash 1: gull gait
+hash 2: kind
+hash 3:
+hash 4:
+hash 5: meow
+hash 6: math lull muss jolt
+hash 7:
+hash 8:
+hash 9: kite
+hash 10: gulf
+hash 11:
+hash 12: mane
+hash 13:
+hash 14: gash
+remove muss
+print
+hash 0: goon lent
+hash 1: gull gait
+hash 2: kind
+hash 3:
+hash 4:
+hash 5: meow
+hash 6: math lull jolt
+hash 7:
+hash 8:
+hash 9: kite
+hash 10: gulf
+hash 11:
+hash 12: mane
+hash 13:
+hash 14: gash
+remove gait
+print
+hash 0: goon lent
+hash 1: gull
+hash 2: kind
+hash 3:
+hash 4:
+hash 5: meow
+hash 6: math lull jolt
+hash 7:
+hash 8:
+hash 9: kite
+hash 10: gulf
+hash 11:
+hash 12: mane
+hash 13:
+hash 14: gash
+remove meow
+print
+hash 0: goon lent
+hash 1: gull
+hash 2: kind
+hash 3:
+hash 4:
+hash 5:
+hash 6: math lull jolt
+hash 7:
+hash 8:
+hash 9: kite
+hash 10: gulf
+hash 11:
+hash 12: mane
+hash 13:
+hash 14: gash
+remove gash
+print
+hash 0: goon lent
+hash 1: gull
+hash 2: kind
+hash 3:
+hash 4:
+hash 5:
+hash 6: math lull jolt
+hash 7:
+hash 8:
+hash 9: kite
+hash 10: gulf
+hash 11:
+hash 12: mane
+hash 13:
+hash 14:
+remove math
+print
+hash 0: goon lent
+hash 1: gull
+hash 2: kind
+hash 3:
+hash 4:
+hash 5:
+hash 6: lull jolt
+hash 7:
+hash 8:
+hash 9: kite
+hash 10: gulf
+hash 11:
+hash 12: mane
+hash 13:
+hash 14:
+remove goon
+print
+hash 0: lent
+hash 1: gull
+hash 2: kind
+hash 3:
+hash 4:
+hash 5:
+hash 6: lull jolt
+hash 7:
+hash 8:
+hash 9: kite
+hash 10: gulf
+hash 11:
+hash 12: mane
+hash 13:
+hash 14:
+remove mane
+print
+hash 0:
+hash 1: lent kind
+hash 2:
+hash 3: gull jolt
+hash 4: gulf
+hash 5: lull
+hash 6: kite
+remove gulf
+print
+hash 0:
+hash 1: lent kind
+hash 2:
+hash 3: gull jolt
+hash 4:
+hash 5: lull
+hash 6: kite
+remove gull
+print
+hash 0:
+hash 1: lent kind
+hash 2:
+hash 3: jolt
+hash 4:
+hash 5: lull
+hash 6: kite
+remove jolt
+print
+hash 0:
+hash 1: lent kind
+hash 2:
+hash 3:
+hash 4:
+hash 5: lull
+hash 6: kite
+remove kind
+print
+hash 0: lent lull kite
+hash 1:
+hash 2:
+remove kite
+print
+hash 0: lent lull
+hash 1:
+hash 2:
+remove lent
+print
+hash 0: lull
+remove lull
+print

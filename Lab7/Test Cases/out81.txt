@@ -1,0 +1,186 @@
+clear
+add bale
+print
+hash 0: bale
+add tuft
+print
+hash 0:
+hash 1: tuft
+hash 2: bale
+add done
+print
+hash 0:
+hash 1: tuft
+hash 2: bale done
+add toga
+print
+hash 0: done
+hash 1: tuft toga
+hash 2:
+hash 3: bale
+hash 4:
+hash 5:
+hash 6:
+add toad
+print
+hash 0: done toad
+hash 1: tuft toga
+hash 2:
+hash 3: bale
+hash 4:
+hash 5:
+hash 6:
+add slot
+print
+hash 0: done toad
+hash 1: tuft toga
+hash 2:
+hash 3: bale
+hash 4: slot
+hash 5:
+hash 6:
+add road
+print
+hash 0: done toad
+hash 1: tuft toga
+hash 2: road
+hash 3: bale
+hash 4: slot
+hash 5:
+hash 6:
+add lush
+print
+hash 0: slot
+hash 1: tuft
+hash 2: done road
+hash 3:
+hash 4: toad
+hash 5:
+hash 6:
+hash 7: toga
+hash 8:
+hash 9: lush
+hash 10:
+hash 11:
+hash 12:
+hash 13:
+hash 14: bale
+add gate
+print
+hash 0: slot
+hash 1: tuft
+hash 2: done road
+hash 3:
+hash 4: toad
+hash 5:
+hash 6:
+hash 7: toga
+hash 8:
+hash 9: lush
+hash 10:
+hash 11:
+hash 12: gate
+hash 13:
+hash 14: bale
+add feud
+print
+hash 0: slot feud
+hash 1: tuft
+hash 2: done road
+hash 3:
+hash 4: toad
+hash 5:
+hash 6:
+hash 7: toga
+hash 8:
+hash 9: lush
+hash 10:
+hash 11:
+hash 12: gate
+hash 13:
+hash 14: bale
+remove tuft
+print
+hash 0: slot feud
+hash 1:
+hash 2: done road
+hash 3:
+hash 4: toad
+hash 5:
+hash 6:
+hash 7: toga
+hash 8:
+hash 9: lush
+hash 10:
+hash 11:
+hash 12: gate
+hash 13:
+hash 14: bale
+remove bale
+print
+hash 0: slot feud
+hash 1:
+hash 2: done road
+hash 3:
+hash 4: toad
+hash 5:
+hash 6:
+hash 7: toga
+hash 8:
+hash 9: lush
+hash 10:
+hash 11:
+hash 12: gate
+hash 13:
+hash 14:
+remove toga
+print
+hash 0: done toad
+hash 1: lush gate
+hash 2: road
+hash 3:
+hash 4: slot
+hash 5: feud
+hash 6:
+remove toad
+print
+hash 0: done
+hash 1: lush gate
+hash 2: road
+hash 3:
+hash 4: slot
+hash 5: feud
+hash 6:
+remove done
+print
+hash 0:
+hash 1: lush gate
+hash 2: road
+hash 3:
+hash 4: slot
+hash 5: feud
+hash 6:
+remove feud
+print
+hash 0:
+hash 1: lush gate
+hash 2: road
+hash 3:
+hash 4: slot
+hash 5:
+hash 6:
+remove gate
+print
+hash 0: lush slot
+hash 1:
+hash 2: road
+remove slot
+print
+hash 0: lush
+hash 1:
+hash 2: road
+remove lush
+print
+hash 0: road
+remove road
+print

@@ -1,0 +1,363 @@
+clear
+print
+insert 0 scorn
+print
+node 0: scorn
+insert 0 hope
+print
+node 0: hope
+node 1: scorn
+remove 0 hope
+print
+node 0: scorn
+insert 0 liter
+print
+node 0: liter
+node 1: scorn
+insert 0 goat
+print
+node 0: goat
+node 1: liter
+node 2: scorn
+insert 1 NOD
+print
+node 0: goat
+node 1: NOD
+node 2: liter
+node 3: scorn
+insert 0 pony
+print
+node 0: pony
+node 1: goat
+node 2: NOD
+node 3: liter
+node 4: scorn
+remove 2 NOD
+print
+node 0: pony
+node 1: goat
+node 2: liter
+node 3: scorn
+remove 3 scorn
+print
+node 0: pony
+node 1: goat
+node 2: liter
+insert 0 pundit
+print
+node 0: pundit
+node 1: pony
+node 2: goat
+node 3: liter
+insert 1 beetle
+print
+node 0: pundit
+node 1: beetle
+node 2: pony
+node 3: goat
+node 4: liter
+insert 4 beetle
+print
+node 0: pundit
+node 1: beetle
+node 2: pony
+node 3: goat
+node 4: beetle
+node 5: liter
+find slab -1
+insert 3 came
+print
+node 0: pundit
+node 1: beetle
+node 2: pony
+node 3: came
+node 4: goat
+node 5: beetle
+node 6: liter
+insert 0 SOUR
+print
+node 0: SOUR
+node 1: pundit
+node 2: beetle
+node 3: pony
+node 4: came
+node 5: goat
+node 6: beetle
+node 7: liter
+remove 0 SOUR
+print
+node 0: pundit
+node 1: beetle
+node 2: pony
+node 3: came
+node 4: goat
+node 5: beetle
+node 6: liter
+remove 1 beetle
+print
+node 0: pundit
+node 1: pony
+node 2: came
+node 3: goat
+node 4: beetle
+node 5: liter
+insert 6 goat
+print
+node 0: pundit
+node 1: pony
+node 2: came
+node 3: goat
+node 4: beetle
+node 5: liter
+node 6: goat
+remove 6 goat
+print
+node 0: pundit
+node 1: pony
+node 2: came
+node 3: goat
+node 4: beetle
+node 5: liter
+insert 6 mince
+print
+node 0: pundit
+node 1: pony
+node 2: came
+node 3: goat
+node 4: beetle
+node 5: liter
+node 6: mince
+insert 7 spinal
+print
+node 0: pundit
+node 1: pony
+node 2: came
+node 3: goat
+node 4: beetle
+node 5: liter
+node 6: mince
+node 7: spinal
+insert 0 spinal
+print
+node 0: spinal
+node 1: pundit
+node 2: pony
+node 3: came
+node 4: goat
+node 5: beetle
+node 6: liter
+node 7: mince
+node 8: spinal
+find pony 2
+insert 7 grill
+print
+node 0: spinal
+node 1: pundit
+node 2: pony
+node 3: came
+node 4: goat
+node 5: beetle
+node 6: liter
+node 7: grill
+node 8: mince
+node 9: spinal
+insert 4 wooden
+print
+node 0: spinal
+node 1: pundit
+node 2: pony
+node 3: came
+node 4: wooden
+node 5: goat
+node 6: beetle
+node 7: liter
+node 8: grill
+node 9: mince
+node 10: spinal
+insert 4 papal
+print
+node 0: spinal
+node 1: pundit
+node 2: pony
+node 3: came
+node 4: papal
+node 5: wooden
+node 6: goat
+node 7: beetle
+node 8: liter
+node 9: grill
+node 10: mince
+node 11: spinal
+insert 10 lining
+print
+node 0: spinal
+node 1: pundit
+node 2: pony
+node 3: came
+node 4: papal
+node 5: wooden
+node 6: goat
+node 7: beetle
+node 8: liter
+node 9: grill
+node 10: lining
+node 11: mince
+node 12: spinal
+insert 4 NOPE
+print
+node 0: spinal
+node 1: pundit
+node 2: pony
+node 3: came
+node 4: NOPE
+node 5: papal
+node 6: wooden
+node 7: goat
+node 8: beetle
+node 9: liter
+node 10: grill
+node 11: lining
+node 12: mince
+node 13: spinal
+remove 11 lining
+print
+node 0: spinal
+node 1: pundit
+node 2: pony
+node 3: came
+node 4: NOPE
+node 5: papal
+node 6: wooden
+node 7: goat
+node 8: beetle
+node 9: liter
+node 10: grill
+node 11: mince
+node 12: spinal
+insert 4 digest
+print
+node 0: spinal
+node 1: pundit
+node 2: pony
+node 3: came
+node 4: digest
+node 5: NOPE
+node 6: papal
+node 7: wooden
+node 8: goat
+node 9: beetle
+node 10: liter
+node 11: grill
+node 12: mince
+node 13: spinal
+find NOPE 5
+insert 6 double
+print
+node 0: spinal
+node 1: pundit
+node 2: pony
+node 3: came
+node 4: digest
+node 5: NOPE
+node 6: double
+node 7: papal
+node 8: wooden
+node 9: goat
+node 10: beetle
+node 11: liter
+node 12: grill
+node 13: mince
+node 14: spinal
+remove 3 came
+print
+node 0: spinal
+node 1: pundit
+node 2: pony
+node 3: digest
+node 4: NOPE
+node 5: double
+node 6: papal
+node 7: wooden
+node 8: goat
+node 9: beetle
+node 10: liter
+node 11: grill
+node 12: mince
+node 13: spinal
+insert 2 refuse
+print
+node 0: spinal
+node 1: pundit
+node 2: refuse
+node 3: pony
+node 4: digest
+node 5: NOPE
+node 6: double
+node 7: papal
+node 8: wooden
+node 9: goat
+node 10: beetle
+node 11: liter
+node 12: grill
+node 13: mince
+node 14: spinal
+insert 1 wooden
+print
+node 0: spinal
+node 1: wooden
+node 2: pundit
+node 3: refuse
+node 4: pony
+node 5: digest
+node 6: NOPE
+node 7: double
+node 8: papal
+node 9: wooden
+node 10: goat
+node 11: beetle
+node 12: liter
+node 13: grill
+node 14: mince
+node 15: spinal
+find NOPE 6
+find pundit 2
+insert 3 fillet
+print
+node 0: spinal
+node 1: wooden
+node 2: pundit
+node 3: fillet
+node 4: refuse
+node 5: pony
+node 6: digest
+node 7: NOPE
+node 8: double
+node 9: papal
+node 10: wooden
+node 11: goat
+node 12: beetle
+node 13: liter
+node 14: grill
+node 15: mince
+node 16: spinal
+find pundit 2
+insert 3 orange
+print
+node 0: spinal
+node 1: wooden
+node 2: pundit
+node 3: orange
+node 4: fillet
+node 5: refuse
+node 6: pony
+node 7: digest
+node 8: NOPE
+node 9: double
+node 10: papal
+node 11: wooden
+node 12: goat
+node 13: beetle
+node 14: liter
+node 15: grill
+node 16: mince
+node 17: spinal

@@ -1,0 +1,363 @@
+clear
+add mush
+print
+hash 0: mush
+find mush true
+find mush true
+add raid
+print
+hash 0:
+hash 1: mush
+hash 2: raid
+add pact
+print
+hash 0:
+hash 1: mush pact
+hash 2: raid
+find pact true
+add yelp
+print
+hash 0: mush
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5: pact raid
+hash 6: yelp
+remove yelp
+print
+hash 0:
+hash 1: mush pact
+hash 2: raid
+add liar
+print
+hash 0: mush
+hash 1:
+hash 2:
+hash 3: liar
+hash 4:
+hash 5: pact raid
+hash 6:
+remove pact
+print
+hash 0:
+hash 1: mush liar
+hash 2: raid
+find raid true
+remove liar
+print
+hash 0:
+hash 1: mush
+hash 2: raid
+add wary
+print
+hash 0:
+hash 1: mush wary
+hash 2: raid
+remove wary
+print
+hash 0:
+hash 1: mush
+hash 2: raid
+find mush true
+add lacy
+print
+hash 0:
+hash 1: mush
+hash 2: raid lacy
+remove mush
+print
+hash 0:
+hash 1:
+hash 2: raid lacy
+add wise
+print
+hash 0:
+hash 1:
+hash 2: raid lacy wise
+add lite
+print
+hash 0: lacy
+hash 1:
+hash 2:
+hash 3:
+hash 4:
+hash 5: raid wise lite
+hash 6:
+add fogy
+print
+hash 0: lacy
+hash 1:
+hash 2:
+hash 3:
+hash 4: fogy
+hash 5: raid wise lite
+hash 6:
+add raid
+print
+hash 0: lacy
+hash 1:
+hash 2:
+hash 3:
+hash 4: fogy
+hash 5: raid wise lite
+hash 6:
+add sort
+print
+hash 0: lacy
+hash 1:
+hash 2:
+hash 3:
+hash 4: fogy
+hash 5: raid wise lite sort
+hash 6:
+add wisp
+print
+hash 0: lacy
+hash 1:
+hash 2: wisp
+hash 3:
+hash 4: fogy
+hash 5: raid wise lite sort
+hash 6:
+add glee
+print
+hash 0:
+hash 1: wisp
+hash 2: fogy
+hash 3:
+hash 4:
+hash 5: lacy wise
+hash 6: sort
+hash 7:
+hash 8: glee
+hash 9:
+hash 10: lite
+hash 11: raid
+hash 12:
+hash 13:
+hash 14:
+add roll
+print
+hash 0:
+hash 1: wisp
+hash 2: fogy
+hash 3:
+hash 4:
+hash 5: lacy wise
+hash 6: sort roll
+hash 7:
+hash 8: glee
+hash 9:
+hash 10: lite
+hash 11: raid
+hash 12:
+hash 13:
+hash 14:
+add baby
+print
+hash 0:
+hash 1: wisp
+hash 2: fogy
+hash 3:
+hash 4:
+hash 5: lacy wise
+hash 6: sort roll
+hash 7:
+hash 8: glee
+hash 9: baby
+hash 10: lite
+hash 11: raid
+hash 12:
+hash 13:
+hash 14:
+add brim
+print
+hash 0:
+hash 1: wisp
+hash 2: fogy
+hash 3:
+hash 4:
+hash 5: lacy wise
+hash 6: sort roll brim
+hash 7:
+hash 8: glee
+hash 9: baby
+hash 10: lite
+hash 11: raid
+hash 12:
+hash 13:
+hash 14:
+add also
+print
+hash 0:
+hash 1: wisp
+hash 2: fogy
+hash 3:
+hash 4:
+hash 5: lacy wise
+hash 6: sort roll brim
+hash 7:
+hash 8: glee
+hash 9: baby
+hash 10: lite
+hash 11: raid also
+hash 12:
+hash 13:
+hash 14:
+find brim true
+find raid true
+find brim true
+remove lacy
+print
+hash 0:
+hash 1: wisp
+hash 2: fogy
+hash 3:
+hash 4:
+hash 5: wise
+hash 6: sort roll brim
+hash 7:
+hash 8: glee
+hash 9: baby
+hash 10: lite
+hash 11: raid also
+hash 12:
+hash 13:
+hash 14:
+remove sort
+print
+hash 0:
+hash 1: wisp
+hash 2: fogy
+hash 3:
+hash 4:
+hash 5: wise
+hash 6: roll brim
+hash 7:
+hash 8: glee
+hash 9: baby
+hash 10: lite
+hash 11: raid also
+hash 12:
+hash 13:
+hash 14:
+add trim
+print
+hash 0:
+hash 1: wisp
+hash 2: fogy
+hash 3:
+hash 4:
+hash 5: wise
+hash 6: roll brim
+hash 7:
+hash 8: glee
+hash 9: baby trim
+hash 10: lite
+hash 11: raid also
+hash 12:
+hash 13:
+hash 14:
+remove fogy
+print
+hash 0:
+hash 1: wisp
+hash 2:
+hash 3:
+hash 4:
+hash 5: wise
+hash 6: roll brim
+hash 7:
+hash 8: glee
+hash 9: baby trim
+hash 10: lite
+hash 11: raid also
+hash 12:
+hash 13:
+hash 14:
+add tofu
+print
+hash 0:
+hash 1: wisp
+hash 2:
+hash 3:
+hash 4:
+hash 5: wise
+hash 6: roll brim
+hash 7:
+hash 8: glee
+hash 9: baby trim
+hash 10: lite
+hash 11: raid also tofu
+hash 12:
+hash 13:
+hash 14:
+add hive
+print
+hash 0:
+hash 1: wisp
+hash 2:
+hash 3:
+hash 4:
+hash 5: wise
+hash 6: roll brim
+hash 7:
+hash 8: glee hive
+hash 9: baby trim
+hash 10: lite
+hash 11: raid also tofu
+hash 12:
+hash 13:
+hash 14:
+remove baby
+print
+hash 0:
+hash 1: wisp
+hash 2:
+hash 3:
+hash 4:
+hash 5: wise
+hash 6: roll brim
+hash 7:
+hash 8: glee hive
+hash 9: trim
+hash 10: lite
+hash 11: raid also tofu
+hash 12:
+hash 13:
+hash 14:
+add noun
+print
+hash 0:
+hash 1: wisp
+hash 2:
+hash 3:
+hash 4:
+hash 5: wise
+hash 6: roll brim
+hash 7:
+hash 8: glee hive
+hash 9: trim
+hash 10: lite
+hash 11: raid also tofu
+hash 12:
+hash 13: noun
+hash 14:
+add fail
+print
+hash 0:
+hash 1: wisp
+hash 2:
+hash 3:
+hash 4:
+hash 5: wise
+hash 6: roll brim
+hash 7: fail
+hash 8: glee hive
+hash 9: trim
+hash 10: lite
+hash 11: raid also tofu
+hash 12:
+hash 13: noun
+hash 14:

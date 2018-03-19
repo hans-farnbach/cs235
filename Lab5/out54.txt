@@ -1,0 +1,141 @@
+clear
+insert 0 albeit
+print
+node 0: albeit
+insert 0 hew
+print
+node 0: hew
+node 1: albeit
+insert 1 snap
+print
+node 0: hew
+node 1: snap
+node 2: albeit
+insert 2 quaver
+print
+node 0: hew
+node 1: snap
+node 2: quaver
+node 3: albeit
+insert 1 busing
+print
+node 0: hew
+node 1: busing
+node 2: snap
+node 3: quaver
+node 4: albeit
+insert 4 RAMBLE
+print
+node 0: hew
+node 1: busing
+node 2: snap
+node 3: quaver
+node 4: RAMBLE
+node 5: albeit
+insert 3 BOLD
+print
+node 0: hew
+node 1: busing
+node 2: snap
+node 3: BOLD
+node 4: quaver
+node 5: RAMBLE
+node 6: albeit
+insert 6 reveal
+print
+node 0: hew
+node 1: busing
+node 2: snap
+node 3: BOLD
+node 4: quaver
+node 5: RAMBLE
+node 6: reveal
+node 7: albeit
+insert 4 fabric
+print
+node 0: hew
+node 1: busing
+node 2: snap
+node 3: BOLD
+node 4: fabric
+node 5: quaver
+node 6: RAMBLE
+node 7: reveal
+node 8: albeit
+insert 5 mirage
+print
+node 0: hew
+node 1: busing
+node 2: snap
+node 3: BOLD
+node 4: fabric
+node 5: mirage
+node 6: quaver
+node 7: RAMBLE
+node 8: reveal
+node 9: albeit
+remove 2 snap
+print
+node 0: hew
+node 1: busing
+node 2: BOLD
+node 3: fabric
+node 4: mirage
+node 5: quaver
+node 6: RAMBLE
+node 7: reveal
+node 8: albeit
+remove 1 busing
+print
+node 0: hew
+node 1: BOLD
+node 2: fabric
+node 3: mirage
+node 4: quaver
+node 5: RAMBLE
+node 6: reveal
+node 7: albeit
+remove 6 reveal
+print
+node 0: hew
+node 1: BOLD
+node 2: fabric
+node 3: mirage
+node 4: quaver
+node 5: RAMBLE
+node 6: albeit
+remove 2 fabric
+print
+node 0: hew
+node 1: BOLD
+node 2: mirage
+node 3: quaver
+node 4: RAMBLE
+node 5: albeit
+remove 4 RAMBLE
+print
+node 0: hew
+node 1: BOLD
+node 2: mirage
+node 3: quaver
+node 4: albeit
+remove 1 BOLD
+print
+node 0: hew
+node 1: mirage
+node 2: quaver
+node 3: albeit
+remove 1 mirage
+print
+node 0: hew
+node 1: quaver
+node 2: albeit
+remove 2 albeit
+print
+node 0: hew
+node 1: quaver
+remove 0 hew
+print
+node 0: quaver
+remove 0 quaver
+print
