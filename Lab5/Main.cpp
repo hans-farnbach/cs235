@@ -1,8 +1,7 @@
+// Implentation of a linked list, accepting additions and deletions from queries in a file
 #include "LinkedList.h"
 #include <fstream>
 #include <sstream>
-
-
 
 int main(int argc, const char* argv[]) {
 	ifstream commandReader;
@@ -11,9 +10,10 @@ int main(int argc, const char* argv[]) {
 	string command = "";
 	LinkedList<string> list;
 
-	commandReader.open(argv[1]);
-	resultWriter.open(argv[2]);
+	commandReader.open(argv[1]);	// Queries
+	resultWriter.open(argv[2]);	// Results
 
+	// Go through each query and execute commands
 	while (getline(commandReader, commandLine)) {
 		istringstream commandSplitter(commandLine);
 		commandSplitter >> command;
