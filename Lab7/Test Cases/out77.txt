@@ -1,8 +1,0 @@
-clear
-add enigma
-add epiphany
-add tautology
-print
-hash 0: epiphany
-hash 1: enigma
-hash 2: tautology

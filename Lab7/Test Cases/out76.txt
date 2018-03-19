@@ -1,7 +1,0 @@
-clear
-add bob
-print
-hash 0: bob
-add bob
-print
-hash 0: bob
