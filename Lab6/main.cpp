@@ -1,3 +1,4 @@
+// Implementation of an AVL tree, accepting queries from a file to execute on such a structure
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -8,8 +9,8 @@
 using namespace std;
 
 int main(int argc, const char * argv[]){
-    ifstream reader(argv[1]);
-    ofstream writer(argv[2]);
+    ifstream reader(argv[1]);	// query file
+    ofstream writer(argv[2]);	// output file
     
     string input;
     
@@ -28,8 +29,7 @@ int main(int argc, const char * argv[]){
         else if (input == "find"){
             string target;
             reader >> target;
-            
-			writer << "find " << target << " " << boolalpha << tree.find(target) << endl;
+            writer << "find " << target << " " << boolalpha << tree.find(target) << endl;
         }
         
         else if (input == "add") {            
@@ -52,6 +52,6 @@ int main(int argc, const char * argv[]){
         }
     }
     reader.close();
-	writer.close();
+    writer.close();
     return 0;
 }
