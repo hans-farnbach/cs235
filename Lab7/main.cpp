@@ -1,17 +1,14 @@
+// Implementation of a hash table; reads queries from a file
 #include <iostream>
 #include <string>
-
 #include "HashSet.h"
 #include "LinkedList.h"
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // const char* inputFile = argv[1];
-    // const char* outputFile = argv[2];
-    
-    ifstream reader(argv[1]);
-    ofstream writer(argv[2]);
+    ifstream reader(argv[1]);	// query file
+    ofstream writer(argv[2]);	// output file
     
     string command;
     
