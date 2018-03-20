@@ -7,19 +7,15 @@ using namespace std;
 template <typename T>	// Allow linked lists for any data type
 
 class LinkedList {
-    
     struct Node {
         Node(){
             next = NULL;
             prev = NULL;
-        }
-        
+        }     
         T value;
         Node* next;
         Node* prev;
     };
-    
-    
     Node* head;
     Node* tail;
     int size;
@@ -53,8 +49,7 @@ public:
         else if (index >= size){
             tail->next = newNode;
             newNode->prev = tail;
-            tail = newNode;
-            
+            tail = newNode;   
         }
         
 	// insert somewhere in the middle
@@ -67,8 +62,7 @@ public:
 	    newNode->prev = node;		// previous of new node is the current node
 	    newNode->next->prev = newNode;	// the previous of the next node is the new node
 	    node->next = newNode;		// the next of the current node is the new node
-        }
-        
+        }  
         size++;
     }
     // delete from the linked list at [index]
@@ -119,11 +113,9 @@ public:
     }
     // get the element at [index]
     T at(int index){
-        Node* node = head;
-        
+        Node* node = head;   
         for (int i = 0; i < index; i++)
             node = node->next;
-        
         return node->value;
     }
     // constructor
